@@ -223,17 +223,6 @@
 	)
 	(polyline
 		(pts
-			(xy 129.54 152.4) (xy 132.08 150.495)
-		)
-		(stroke
-			(width 0.635)
-			(type solid)
-			(color 200 0 0 1)
-		)
-		(uuid "2eaab3f5-c3f3-4d7e-8462-e8e8ea6f2995")
-	)
-	(polyline
-		(pts
 			(xy 85.09 57.15) (xy 87.63 59.055)
 		)
 		(stroke
@@ -242,16 +231,6 @@
 			(color 200 0 0 1)
 		)
 		(uuid "3c5c8c46-f7b1-480b-b3ed-400cdba62ee0")
-	)
-	(polyline
-		(pts
-			(xy 97.79 114.3) (xy 97.79 152.4)
-		)
-		(stroke
-			(width 0.635)
-			(type solid)
-		)
-		(uuid "3f7a6ee7-d7ab-461d-bc72-4900f3e314f8")
 	)
 	(polyline
 		(pts
@@ -357,17 +336,6 @@
 	)
 	(polyline
 		(pts
-			(xy 148.59 63.5) (xy 148.59 152.4)
-		)
-		(stroke
-			(width 0.635)
-			(type solid)
-			(color 200 0 0 1)
-		)
-		(uuid "709119c3-d5e8-40a4-8443-ba44a3f6a86a")
-	)
-	(polyline
-		(pts
 			(xy 116.205 107.95) (xy 113.665 109.855)
 		)
 		(stroke
@@ -375,16 +343,6 @@
 			(type solid)
 		)
 		(uuid "7304f160-dec2-4dc3-920b-82c343622685")
-	)
-	(polyline
-		(pts
-			(xy 116.84 152.4) (xy 114.3 150.495)
-		)
-		(stroke
-			(width 0.635)
-			(type solid)
-		)
-		(uuid "7a1e7f84-4481-4fa5-a17a-af27c95aafe0")
 	)
 	(polyline
 		(pts
@@ -429,16 +387,6 @@
 	)
 	(polyline
 		(pts
-			(xy 116.84 152.4) (xy 114.3 154.305)
-		)
-		(stroke
-			(width 0.635)
-			(type solid)
-		)
-		(uuid "9df98161-7b6b-4df8-916c-f4a856f97f3c")
-	)
-	(polyline
-		(pts
 			(xy 72.39 107.95) (xy 69.85 106.045)
 		)
 		(stroke
@@ -457,16 +405,6 @@
 			(color 200 0 0 1)
 		)
 		(uuid "a9ff4042-ed04-4e88-8abe-7a76ae691ea5")
-	)
-	(polyline
-		(pts
-			(xy 97.79 107.95) (xy 97.79 114.3)
-		)
-		(stroke
-			(width 0.635)
-			(type solid)
-		)
-		(uuid "b5e87b9d-780f-4570-bbe5-0418bb7f75fe")
 	)
 	(polyline
 		(pts
@@ -512,27 +450,6 @@
 	)
 	(polyline
 		(pts
-			(xy 129.54 152.4) (xy 148.59 152.4)
-		)
-		(stroke
-			(width 0.635)
-			(type solid)
-			(color 200 0 0 1)
-		)
-		(uuid "cc0548fc-4bd0-46d3-90d3-0e6645b339f3")
-	)
-	(polyline
-		(pts
-			(xy 97.79 152.4) (xy 116.84 152.4)
-		)
-		(stroke
-			(width 0.635)
-			(type solid)
-		)
-		(uuid "d545b2a7-f45d-4d3c-b22c-6fbf9daf5ea4")
-	)
-	(polyline
-		(pts
 			(xy 84.455 107.95) (xy 116.205 107.95)
 		)
 		(stroke
@@ -554,17 +471,6 @@
 	)
 	(polyline
 		(pts
-			(xy 142.24 63.5) (xy 148.59 63.5)
-		)
-		(stroke
-			(width 0.635)
-			(type solid)
-			(color 200 0 0 1)
-		)
-		(uuid "ef296cb3-c7a7-4b50-aacd-1501e2ae0136")
-	)
-	(polyline
-		(pts
 			(xy 129.54 107.95) (xy 142.24 107.95)
 		)
 		(stroke
@@ -573,59 +479,6 @@
 			(color 200 0 0 1)
 		)
 		(uuid "f8ed24bf-dd59-4002-b80c-57d3da9fac10")
-	)
-	(polyline
-		(pts
-			(xy 129.54 152.4) (xy 132.08 154.305)
-		)
-		(stroke
-			(width 0.635)
-			(type solid)
-			(color 200 0 0 1)
-		)
-		(uuid "fd45426a-6508-4edf-8fc2-9addc7427b5e")
-	)
-	(sheet
-		(at 110.49 139.7)
-		(size 25.4 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "332d9bf9-35ac-4edb-b5f5-f6d149b8299e")
-		(property "Sheetname" "400_RF_Peripherals"
-			(at 110.49 138.9884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "RF_Peripherals.kicad_sch"
-			(at 110.49 165.6846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Summer2025"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71"
-					(page "5")
-				)
-			)
-		)
 	)
 	(sheet
 		(at 110.49 95.25)
@@ -661,7 +514,7 @@
 			)
 		)
 		(instances
-			(project "Summer2025"
+			(project "MCU_AURA"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71"
 					(page "4")
 				)
@@ -703,7 +556,7 @@
 			)
 		)
 		(instances
-			(project "Summer2025"
+			(project "MCU_AURA"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71"
 					(page "3")
 				)
@@ -726,7 +579,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bf94e7c9-9821-4c41-aadb-9bb6d92f20f0")
-		(property "Sheetname" "500_Actuation Control"
+		(property "Sheetname" "400_Actuation Control"
 			(at 65.405 50.0884 0)
 			(effects
 				(font
@@ -745,7 +598,7 @@
 			)
 		)
 		(instances
-			(project "Summer2025"
+			(project "MCU_AURA"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71"
 					(page "6")
 				)
@@ -787,7 +640,7 @@
 			)
 		)
 		(instances
-			(project "Summer2025"
+			(project "MCU_AURA"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71"
 					(page "2")
 				)

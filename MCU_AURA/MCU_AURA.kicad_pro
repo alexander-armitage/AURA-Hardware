@@ -724,12 +724,8 @@
       "300_Digital_Peripherals"
     ],
     [
-      "332d9bf9-35ac-4edb-b5f5-f6d149b8299e",
-      "400_RF_Peripherals"
-    ],
-    [
       "bf94e7c9-9821-4c41-aadb-9bb6d92f20f0",
-      "500_Actuation Control"
+      "400_Actuation Control"
     ]
   ],
   "text_variables": {}
