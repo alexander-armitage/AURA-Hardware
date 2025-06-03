@@ -3,11 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "L100"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "7026243e-a572-4445-b388-93a4f4041ab0")
+		(uuid "53a4a1d1-5fd9-4201-8a21-39b59441c5d7")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "CKST0603-1.5uHM"
+	(property "Value" "1u8"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e706c6c4-b8a1-4719-84ed-e6c4a63526d3")
+		(uuid "406b6846-280b-4dbf-a818-3aedeeea225e")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d193efc2-586e-46b6-a614-25fbb9b409e0")
+		(uuid "78a43eed-324f-4288-b5e7-d75680dbdff1")
 		(effects
 			(font
 				(size 1 1)
@@ -40,12 +40,25 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Inductor with iron core"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b15f46e2-b6e4-48f6-aa2f-3f0223edef38")
+		(uuid "39fefefb-ec2c-4e16-8c1d-03443581878a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part" "YSPIT0630A-1R8M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01bab81a-90af-4c3a-bfff-084d47aaa69f")
 		(effects
 			(font
 				(size 1 1)
@@ -63,13 +76,13 @@
 		)
 		(fill no)
 		(layer "Margin")
-		(uuid "fdb1cf17-7550-41c2-9258-9f19882daa18")
+		(uuid "5f4011bd-c701-4e93-9b84-3af710351de5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "360a3fef-df95-4f4a-b564-c66247a2ae5c")
+		(uuid "d958c789-9c8b-4b5e-81ea-944f31bed97c")
 		(effects
 			(font
 				(size 1 1)
@@ -83,7 +96,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "d4fb3065-dbe5-4e7b-a25e-8c2ac66060d9")
+		(uuid "720f2633-783a-49c5-b005-d98a8a73c627")
 	)
 	(pad "2" smd roundrect
 		(at 6.05 0)
@@ -91,10 +104,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "c81d6703-97c7-4649-9fc6-337fceea2d57")
+		(uuid "44f0e523-0539-48ec-ab13-83e30e886698")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/alexs/Downloads/0630CDMCCDS_1R5MC/IND_0630CDMCCDS_SUM.step"
+	(model "${KIPRJMOD}/Libraries/Models/IND_0630CDMCCDS_SUM.stp"
 		(offset
 			(xyz 3 0 0)
 		)

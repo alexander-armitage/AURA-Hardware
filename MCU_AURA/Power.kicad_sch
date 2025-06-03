@@ -6840,16 +6840,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 130.81) (xy 147.32 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92f1a071-1c6e-4d74-a1df-b0394d131c04")
-	)
-	(wire
-		(pts
 			(xy 185.42 85.09) (xy 185.42 87.63)
 		)
 		(stroke
@@ -7167,6 +7157,16 @@
 			(type default)
 		)
 		(uuid "ae7c7af1-42ce-4328-a231-9768680dd18f")
+	)
+	(wire
+		(pts
+			(xy 156.21 130.81) (xy 156.21 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0aa50d-cc5c-4dfd-b0d6-d55434c8c302")
 	)
 	(wire
 		(pts
@@ -7547,6 +7547,16 @@
 			(type default)
 		)
 		(uuid "d43e747e-c2bb-4571-bd39-f9a0b6bb20a7")
+	)
+	(wire
+		(pts
+			(xy 146.05 130.81) (xy 156.21 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d04d34-43e8-4654-99af-53a44ad68d84")
 	)
 	(wire
 		(pts
@@ -7958,6 +7968,16 @@
 		)
 		(uuid "5f02cc6e-f784-4dec-a2bf-d7a10f899b96")
 	)
+	(label "STAT_5V_SW"
+		(at 146.05 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b3f3eab-a87f-462e-b88f-d4b401f42cd4")
+	)
 	(label "CC2"
 		(at 90.17 45.72 0)
 		(effects
@@ -8027,6 +8047,16 @@
 			(justify left bottom)
 		)
 		(uuid "cfbddd37-f90f-4d87-b672-70605447926d")
+	)
+	(label "ILIM_5V_SW"
+		(at 102.87 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd987a1b-ff5d-4b65-affd-acc3c99aea6b")
 	)
 	(label "PGOOD"
 		(at 149.86 55.88 0)
@@ -10206,25 +10236,24 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 130.81 270)
+		(at 156.21 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e73d897-8677-4f7f-a6fa-e206df8c571b")
 		(property "Reference" "TP107"
-			(at 152.4 130.8099 90)
+			(at 149.606 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 149.3521 133.35 0)
+			(at 153.67 134.1121 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10234,7 +10263,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 147.32 135.89 0)
+			(at 151.13 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10243,7 +10272,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 135.89 0)
+			(at 151.13 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10252,7 +10281,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 147.32 130.81 0)
+			(at 156.21 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14439,10 +14468,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c1d25993-9b94-4a15-a9c6-83a0558312a4")
 		(property "Reference" "U2"
-			(at 201.93 46.9198 0)
+			(at 203.2 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14450,7 +14478,7 @@
 			)
 		)
 		(property "Value" "TPS56C230RJER"
-			(at 201.93 49.4598 0)
+			(at 203.2 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)

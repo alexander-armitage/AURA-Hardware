@@ -1,41 +1,358 @@
-(module "SOIC127P600X170-8N" (layer F.Cu)
-  (descr "SO-8 -")
-  (tags "Integrated Circuit")
-  (attr smd)
-  (fp_text reference IC** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "SOIC127P600X170-8N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -3.7 -2.725) (end 3.7 -2.725) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 3.7 -2.725) (end 3.7 2.725) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 3.7 2.725) (end -3.7 2.725) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -3.7 2.725) (end -3.7 -2.725) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.95 -2.45) (end 1.95 -2.45) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.95 -2.45) (end 1.95 2.45) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.95 2.45) (end -1.95 2.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.95 2.45) (end -1.95 -2.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.95 -1.18) (end -0.68 -2.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.6 -2.45) (end 1.6 -2.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start 1.6 -2.45) (end 1.6 2.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start 1.6 2.45) (end -1.6 2.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1.6 2.45) (end -1.6 -2.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start -3.45 -2.58) (end -1.95 -2.58) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -2.7 -1.905 90) (size 0.65 1.5) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -2.7 -0.635 90) (size 0.65 1.5) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at -2.7 0.635 90) (size 0.65 1.5) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd rect (at -2.7 1.905 90) (size 0.65 1.5) (layers F.Cu F.Paste F.Mask))
-  (pad 5 smd rect (at 2.7 1.905 90) (size 0.65 1.5) (layers F.Cu F.Paste F.Mask))
-  (pad 6 smd rect (at 2.7 0.635 90) (size 0.65 1.5) (layers F.Cu F.Paste F.Mask))
-  (pad 7 smd rect (at 2.7 -0.635 90) (size 0.65 1.5) (layers F.Cu F.Paste F.Mask))
-  (pad 8 smd rect (at 2.7 -1.905 90) (size 0.65 1.5) (layers F.Cu F.Paste F.Mask))
-  (model DMN6040SSD-13.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SOIC127P600X170-8N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SO-8 -")
+	(tags "Integrated Circuit")
+	(property "Reference" "U1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "3f4f6b59-d557-44d5-be26-ebdc5ed0032e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DMN6040SSD-13"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f1734b89-6725-43fa-bfed-66a2d3490ac7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN6040SSD.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36210f0f-82e1-459f-81c4-dbba085c7d84")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Diodes Inc DMN6040SSD-13 Dual N-channel MOSFET Transistor, 6.6 A, 60 V, 8-Pin SOIC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c79365fb-a1a7-45da-a45c-9ba685d495bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70ceadc4-8d56-43be-83d2-77254a4ee30e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Diodes Incorporated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "697301ae-7a4b-4b7a-a497-7600761474b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "DMN6040SSD-13"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08f45dd3-75d7-4a54-904a-8ad623986764")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "621-DMN6040SSD-13"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc641a1f-a4bb-43dd-8027-0bf9181f97b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN6040SSD-13?qs=gfe7vQ8txpVPCHiSTl%252BfEQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b788c46-fa93-4b7f-bd44-073f403ab326")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "DMN6040SSD-13"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65a5d52b-eebb-4c52-984b-d36d5d60930b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmn6040ssd-13/diodes-incorporated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67419c5b-02c2-4476-b831-cc310f3aba7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.45 -2.58)
+		(end -1.95 -2.58)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec9ed3a1-62ba-4ded-a869-39e938f4bd3b")
+	)
+	(fp_line
+		(start -1.6 -2.45)
+		(end 1.6 -2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0917f845-41d6-4044-b40a-b6b5d2ab1b75")
+	)
+	(fp_line
+		(start -1.6 2.45)
+		(end -1.6 -2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62e08c8a-acfe-43e3-97aa-8fb1f05de84d")
+	)
+	(fp_line
+		(start 1.6 -2.45)
+		(end 1.6 2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89e6a59a-28d3-4849-963a-7740bf1cd8be")
+	)
+	(fp_line
+		(start 1.6 2.45)
+		(end -1.6 2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b91c08c-5c07-4c48-8842-991192fd35fd")
+	)
+	(fp_line
+		(start -3.7 -2.725)
+		(end 3.7 -2.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b5375ab-5f16-434b-bf96-1625651bf757")
+	)
+	(fp_line
+		(start -3.7 2.725)
+		(end -3.7 -2.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "67de8bcc-ad58-40b1-91a6-20a7e0adba6d")
+	)
+	(fp_line
+		(start 3.7 -2.725)
+		(end 3.7 2.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ccdeee5-41d3-4dfd-b29b-285c732eea46")
+	)
+	(fp_line
+		(start 3.7 2.725)
+		(end -3.7 2.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3828d319-aea9-4516-9ed8-f0e9d4756916")
+	)
+	(fp_line
+		(start -1.95 -2.45)
+		(end 1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb3cb733-7be6-4671-b056-7fa12ea148d2")
+	)
+	(fp_line
+		(start -1.95 -1.18)
+		(end -0.68 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3afcb59-2458-4ce8-bd10-4ceffeb775f8")
+	)
+	(fp_line
+		(start -1.95 2.45)
+		(end -1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b126a4e1-f2f3-45a9-b1f6-29956183ef20")
+	)
+	(fp_line
+		(start 1.95 -2.45)
+		(end 1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64b22c68-5e17-467d-ac31-3e46ff6e3436")
+	)
+	(fp_line
+		(start 1.95 2.45)
+		(end -1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49058349-bfde-49d7-9249-0fc422824401")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a62e8af3-7e0e-43f8-aaef-4f7a64b24380")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.7 -1.905 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1d787c07-7a4b-4e00-889d-795394813045")
+	)
+	(pad "2" smd rect
+		(at -2.7 -0.635 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2c13aa69-fd95-429f-8ec0-f1494c0bd5e7")
+	)
+	(pad "3" smd rect
+		(at -2.7 0.635 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a1824694-d783-4682-98fd-60465e16607e")
+	)
+	(pad "4" smd rect
+		(at -2.7 1.905 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a9a2666f-e73f-4307-9e14-eeaf0f32592d")
+	)
+	(pad "5" smd rect
+		(at 2.7 1.905 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7fd2a764-81ea-48dd-8dcc-8758cf4310db")
+	)
+	(pad "6" smd rect
+		(at 2.7 0.635 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2521adde-6c8e-43f9-889d-d4af948440ef")
+	)
+	(pad "7" smd rect
+		(at 2.7 -0.635 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "53dd192c-01dd-42f8-86e4-8f77375bf984")
+	)
+	(pad "8" smd rect
+		(at 2.7 -1.905 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "de6e2c08-561b-48e8-99c7-629429b281da")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Models/DMN6040SSD-13.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
