@@ -3469,15 +3469,15 @@
 			(uuid "fa961821-7e5c-4792-8543-c08464a98313")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type086_RT03404HBLC_1x04_P3.81mm_Horizontal.step"
+		(model "${KIPRJMOD}/Libraries/Models/1727036.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2 -3.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -13139,6 +13139,17 @@
 			(layer "F.SilkS")
 			(uuid "e634e276-7dcc-41c6-8fd5-05693795dafb")
 		)
+		(fp_circle
+			(center -2.75 -1.75)
+			(end -2.75 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "5413042b-f0ab-41e3-840c-8b2c0f3e0c5a")
+		)
 		(fp_rect
 			(start -2.75 -3.6)
 			(end 2.75 3.5)
@@ -13251,7 +13262,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -14506,7 +14517,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-24_3x3mm_P0.4mm_EP1.7x1.54mm.step"
+		(model "${KIPRJMOD}/Libraries/Models/ICM-20948.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14514,7 +14525,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -15809,7 +15820,7 @@
 			(uuid "5c96fef9-48a9-4e2b-a2a6-22747ed9d77d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/alexs/Downloads/0630CDMCCDS_1R5MC/IND_0630CDMCCDS_SUM.step"
+		(model "${KIPRJMOD}/Libraries/Models/IND_0630CDMCCDS_SUM.stp"
 			(offset
 				(xyz 3 0 0)
 			)
@@ -17111,10 +17122,10 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/Libraries/Models/MMSZ5252B.stp"
 			(offset
-				(xyz 0 5 0)
+				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 3.5 1 1)
+				(xyz 1 1 1)
 			)
 			(rotate
 				(xyz -0 -0 -0)

@@ -1,35 +1,324 @@
-(module "MMSZ5252B" (layer F.Cu)
-  (descr "SOD-123")
-  (tags "Zener Diode")
-  (attr smd)
-  (fp_text reference Z** (at 0.000 -0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "MMSZ5252B" (at 0.000 -0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.325 -0.8) (end 1.325 -0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.325 -0.8) (end 1.325 0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.325 0.8) (end -1.325 0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.325 0.8) (end -1.325 -0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start -3.125 -1.8) (end 3.125 -1.8) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 3.125 -1.8) (end 3.125 1.8) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 3.125 1.8) (end -3.125 1.8) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -3.125 1.8) (end -3.125 -1.8) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -2.6 -0) (end -2.6 -0) (layer F.SilkS) (width 0.1))
-  (fp_line (start -2.5 -0) (end -2.5 -0) (layer F.SilkS) (width 0.1))
-  (fp_line (start -1 -0.8) (end 1 -0.8) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1 0.8) (end 1 0.8) (layer F.SilkS) (width 0.2))
-  (fp_arc (start -2.55 -0) (end -2.600 -0) (angle -180) (layer F.SilkS) (width 0.1))
-  (fp_arc (start -2.55 -0) (end -2.500 -0) (angle -180) (layer F.SilkS) (width 0.1))
-  (pad 1 smd rect (at -1.640 -0 0) (size 0.970 1.220) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.640 -0 0) (size 0.970 1.220) (layers F.Cu F.Paste F.Mask))
-  (model MMSZ5252B.stp
-    (at (xyz -0.9299212928832 -19.887795035295 0.020866140605896))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "MMSZ5252B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOD-123")
+	(tags "Zener Diode")
+	(property "Reference" "D1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "584e4124-733e-474c-b348-218f0d6b2e54")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MMSZ5242B"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "05eae2c6-aa82-46c1-92fc-337d4703e935")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.panjit.com.tw/en/Product/downloadPDF/MMSZ5242B"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf1bffe9-7b20-4995-9646-805eedab8b1b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Zener Diodes - MMSZ5242B , 500mW, 5V, 1211, SOD-123"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb8a4d65-8de9-4621-bc72-520efb12a8ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.35"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55ee2f0b-9875-4f74-a3ef-d6204fde01b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "PANJIT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5189ca5d-6dfc-45c4-89d8-49234b1cc8b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "MMSZ5242B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ef86809-ee43-4a7e-ab8d-7a15bdc27971")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6851fa7-bddc-4837-ae89-ca25a2f9da52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7732a5b7-196a-415f-9b4e-ea1c5015da9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bb63f24-6c52-4c31-8532-b449f975e08f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65f82df7-658e-44b6-9252-aa6bd8f3809f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 0)
+		(end -2.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aaa57f51-1476-494f-84ee-c361acb7903a")
+	)
+	(fp_line
+		(start -2.5 0)
+		(end -2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10836ad1-181a-42cf-a46f-5ddc8015fcd1")
+	)
+	(fp_line
+		(start -1 -0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c3b61a9-a962-43ad-b83b-0f4557b0db63")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e47c2f56-3439-493e-8667-3f94d1c5172b")
+	)
+	(fp_arc
+		(start -2.6 0)
+		(mid -2.55 -0.05)
+		(end -2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc701c7c-0bac-4b09-bace-d8a4b0892df1")
+	)
+	(fp_arc
+		(start -2.5 0)
+		(mid -2.55 0.05)
+		(end -2.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44067f7c-201e-4de7-b940-3e7358b30a43")
+	)
+	(fp_line
+		(start -3.125 -1.8)
+		(end 3.125 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e53f9f24-d713-47b6-badf-41bea6063f68")
+	)
+	(fp_line
+		(start -3.125 1.8)
+		(end -3.125 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d39a1590-b99b-4d6f-81ec-85d2be2342c4")
+	)
+	(fp_line
+		(start 3.125 -1.8)
+		(end 3.125 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3082ee11-0d56-46da-9021-58ae67f2784e")
+	)
+	(fp_line
+		(start 3.125 1.8)
+		(end -3.125 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf1ebb07-dfc9-49d6-9436-f6c5f6c92c6f")
+	)
+	(fp_line
+		(start -1.325 -0.8)
+		(end 1.325 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49410c26-c909-4286-a2ec-0d51f9671118")
+	)
+	(fp_line
+		(start -1.325 0.8)
+		(end -1.325 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31ff7669-c73c-4171-843a-70bde8ccb9a3")
+	)
+	(fp_line
+		(start 1.325 -0.8)
+		(end 1.325 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3bbaad1-6edc-4c12-abca-6c66ec68d6d3")
+	)
+	(fp_line
+		(start 1.325 0.8)
+		(end -1.325 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55b87308-b2b8-4179-993f-a54fdf59f603")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ac6ca7e9-3b84-443b-b97e-e122d843b82f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.64 0)
+		(size 0.97 1.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "86297668-1a2c-4c89-a2e1-e72d8251f65f")
+	)
+	(pad "2" smd rect
+		(at 1.64 0)
+		(size 0.97 1.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8366309d-5056-46dc-8226-c971b5407898")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Models/MMSZ5252B.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
