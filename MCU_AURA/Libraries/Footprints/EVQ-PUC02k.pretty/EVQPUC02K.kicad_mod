@@ -1,44 +1,410 @@
-(module "EVQPUC02K" (layer F.Cu)
-  (descr "EVQ-PUC02K-3")
-  (tags "Switch")
-  (fp_text reference S** (at 0.000 0.5) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 0.5) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "EVQPUC02K" (at 0.000 0.5) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -2.35 -1.75) (end 2.35 -1.75) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.35 -1.75) (end 2.35 1.75) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.35 1.75) (end -2.35 1.75) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.35 1.75) (end -2.35 -1.75) (layer F.Fab) (width 0.1))
-  (fp_line (start -4.4 -2.75) (end 4.4 -2.75) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 4.4 -2.75) (end 4.4 3.75) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 4.4 3.75) (end -4.4 3.75) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -4.4 3.75) (end -4.4 -2.75) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -1.3 1.75) (end -1.3 2.75) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.3 2.75) (end 1.3 2.75) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.3 2.75) (end 1.3 1.75) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.35 1.75) (end -1.3 1.75) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1.3 1.75) (end -1.3 2.75) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1.3 2.75) (end 1.3 2.75) (layer F.SilkS) (width 0.2))
-  (fp_line (start 1.3 2.75) (end 1.3 1.75) (layer F.SilkS) (width 0.2))
-  (fp_line (start 1.3 1.75) (end 2.35 1.75) (layer F.SilkS) (width 0.2))
-  (fp_line (start 3.8 -0.85) (end 3.8 -0.85) (layer F.SilkS) (width 0.1))
-  (fp_line (start 3.9 -0.85) (end 3.9 -0.85) (layer F.SilkS) (width 0.1))
-  (fp_arc (start 3.85 -0.85) (end 3.800 -0.85) (angle -180) (layer F.SilkS) (width 0.1))
-  (fp_arc (start 3.85 -0.85) (end 3.900 -0.85) (angle -180) (layer F.SilkS) (width 0.1))
-  (pad 1 smd rect (at 2.625 -0.85 90) (size 1.000 1.550) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2.625 0.85 90) (size 1.000 1.550) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at -2.625 -0.85 90) (size 1.000 1.550) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd rect (at -2.625 0.85 90) (size 1.000 1.550) (layers F.Cu F.Paste F.Mask))
-  (pad MH1 np_thru_hole circle (at 0.000 -1.375) (size 0.75 0.75) (drill 0.75) (layers *.Cu *.Mask))
-  (pad MH2 np_thru_hole circle (at 0.000 1.375) (size 0.75 0.75) (drill 0.75) (layers *.Cu *.Mask))
-  (model EVQ-PUC02K.stp
-    (at (xyz 0 -0.019291338958139 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "EVQPUC02K"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "EVQ-PUC02K-3")
+	(tags "Switch")
+	(property "Reference" "S2"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(uuid "77d1f96a-790d-49f2-9c50-8091bc622b08")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "EVQ-PUC02K"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4d552d39-4fc4-4c9e-b550-8dcf9e9d71a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_smalls_side.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70bc3917-86b4-4446-bee8-279e89a08a82")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a85766f7-fb45-42f3-a406-2f780bddb49e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.95"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d936ddf9-57c7-4723-b92a-cd3e525c4b20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Panasonic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31cb97e6-e6c1-4e07-bfd8-b4663676e73d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "EVQ-PUC02K"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f471437-8956-4354-8929-7441262ae65d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "667-EVQ-PUC02K"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ad542d8-6718-4a6b-9ccc-753299cc5010")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-PUC02K?qs=whhzBCqEXCul2KyreRT2SA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc6191ee-8764-4917-a721-93a729b9665a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "EVQ-PUC02K"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4f635d4-16ac-4385-977b-172a854d30c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/evq-puc02k/panasonic?utm_currency=USD&region=europe"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a936f5cd-2998-4d1e-95d5-44bd72218e00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.35 1.75)
+		(end -1.3 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1caf7a02-e375-4efd-ab7f-91d4dac1040d")
+	)
+	(fp_line
+		(start -1.3 1.75)
+		(end -1.3 2.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8b1fc4e-1065-417b-a047-a4f8e67ef642")
+	)
+	(fp_line
+		(start -1.3 2.75)
+		(end 1.3 2.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82d2be36-0507-4519-b48e-8eece3874f0c")
+	)
+	(fp_line
+		(start 1.3 1.75)
+		(end 2.35 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2575a1cd-6c12-49d0-9eb2-481229ecf088")
+	)
+	(fp_line
+		(start 1.3 2.75)
+		(end 1.3 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a7afb1d-27bb-42f8-afa9-50b3e738fcf0")
+	)
+	(fp_line
+		(start 3.8 -0.85)
+		(end 3.8 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db379d89-474f-46be-b64b-bee4428548ae")
+	)
+	(fp_line
+		(start 3.9 -0.85)
+		(end 3.9 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "747396d0-0ff8-4c11-b932-6beb6b3e9df5")
+	)
+	(fp_arc
+		(start 3.8 -0.85)
+		(mid 3.85 -0.9)
+		(end 3.9 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3dccc7e-36c2-4af0-89c4-193f989a2ab3")
+	)
+	(fp_arc
+		(start 3.9 -0.85)
+		(mid 3.85 -0.8)
+		(end 3.8 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d4e606b-c618-4245-bd6f-2f81ae199237")
+	)
+	(fp_line
+		(start -4.4 -2.75)
+		(end 4.4 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "67000321-8b20-4cf6-b3e9-854a3220880b")
+	)
+	(fp_line
+		(start -4.4 3.75)
+		(end -4.4 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66c176b1-f874-41c5-a13d-30d9be001fc1")
+	)
+	(fp_line
+		(start 4.4 -2.75)
+		(end 4.4 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aacb3b94-6251-486d-b7a5-f6df2d71822f")
+	)
+	(fp_line
+		(start 4.4 3.75)
+		(end -4.4 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "05353a7b-c524-4a0e-bc77-0faa095ea4a7")
+	)
+	(fp_line
+		(start -2.35 -1.75)
+		(end 2.35 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cf0eeff-4423-4666-b5d6-ad5af6a9843f")
+	)
+	(fp_line
+		(start -2.35 1.75)
+		(end -2.35 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8737ad80-7d0b-4af8-bd6b-49fb373b01db")
+	)
+	(fp_line
+		(start -1.3 1.75)
+		(end -1.3 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb653c78-db36-4437-a5a1-c46710650dc6")
+	)
+	(fp_line
+		(start -1.3 2.75)
+		(end 1.3 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2c4b7dc-f0e7-49c0-8158-aad6c99ec815")
+	)
+	(fp_line
+		(start 1.3 2.75)
+		(end 1.3 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39d4fed0-6e59-42ae-ab8b-37f3a60f4a1e")
+	)
+	(fp_line
+		(start 2.35 -1.75)
+		(end 2.35 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60a112bb-607d-4e65-95d2-718932a12058")
+	)
+	(fp_line
+		(start 2.35 1.75)
+		(end -2.35 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ddb88fc-bf71-484b-95ec-b78cec82a5f0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.5 0)
+		(layer "F.Fab")
+		(uuid "5acc0d1f-35b4-474b-9b07-d82692acb3cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -1.375)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "aab729f3-8600-47c0-9e51-cd5879c5d003")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 1.375)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ea17feb6-2758-4b1e-927a-a15caf085f6d")
+	)
+	(pad "1" smd rect
+		(at 2.625 -0.85 90)
+		(size 1 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7e3385c7-5172-4c04-b4c9-dbe36669fb72")
+	)
+	(pad "2" smd rect
+		(at 2.625 0.85 90)
+		(size 1 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eaf47108-4c12-4bdf-8862-32b0fedfeef9")
+	)
+	(pad "3" smd rect
+		(at -2.625 -0.85 90)
+		(size 1 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c5df45fe-4492-42f9-8b9c-1b8926824cdf")
+	)
+	(pad "4" smd rect
+		(at -2.625 0.85 90)
+		(size 1 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d36b9acb-7d88-4ffc-b13c-a3ea4a35aa1f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Models/EVQ-PUC02K.stp"
+		(offset
+			(xyz 0 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

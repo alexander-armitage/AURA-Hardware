@@ -1,38 +1,340 @@
-(module "SOT95P280X145-5N" (layer F.Cu)
-  (descr "DBV0005A  HEIGHT 1.45")
-  (tags "Integrated Circuit")
-  (attr smd)
-  (fp_text reference IC** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "SOT95P280X145-5N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -2.1 -1.775) (end 2.1 -1.775) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.1 -1.775) (end 2.1 1.775) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.1 1.775) (end -2.1 1.775) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.1 1.775) (end -2.1 -1.775) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.8 -1.45) (end 0.8 -1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 -1.45) (end 0.8 1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 1.45) (end -0.8 1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 1.45) (end -0.8 -1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 -0.5) (end 0.15 -1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.3 -1.45) (end 0.3 -1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.3 -1.45) (end 0.3 1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.3 1.45) (end -0.3 1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.3 1.45) (end -0.3 -1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1.85 -1.5) (end -0.65 -1.5) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.25 -0.95 90) (size 0.6 1.2) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -1.25 0 90) (size 0.6 1.2) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at -1.25 0.95 90) (size 0.6 1.2) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd rect (at 1.25 0.95 90) (size 0.6 1.2) (layers F.Cu F.Paste F.Mask))
-  (pad 5 smd rect (at 1.25 -0.95 90) (size 0.6 1.2) (layers F.Cu F.Paste F.Mask))
-  (model TLV62566DBVR.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SOT95P280X145-5N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DBV0005A  HEIGHT 1.45")
+	(tags "Integrated Circuit")
+	(property "Reference" "U4"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "8f4ff83a-f837-4e45-8d37-c594ea0149d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TLV62566DBVR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7c775c35-8516-491c-a2d2-62bcc9bf2bb1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.ti.com/lit/gpn/TLV62566"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fee65ee-1502-4284-97a6-f6177ba19c3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1.5A Buck Converter with Power Good, in SOT23 Package"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96df06e0-be1f-4725-9797-511d450509e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.45"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4385c39c-b34a-45ae-98ea-e46f6e694b1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f32089f-77fb-4f47-a77c-9dd0b68d6480")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TLV62566DBVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75ef4bd9-2029-4824-ae79-0f4520d0e73d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-TLV62566DBVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97c9b28c-4b06-4ae0-89f1-9b450d0a877c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV62566DBVR?qs=gNSudQoqUYCT87S7uZ8t%2Fw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1f6d563-0ee1-4f47-aac7-9e307940115b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "TLV62566DBVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbd3fc01-91be-4a7f-93c0-2ac7a2a51b2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlv62566dbvr/texas-instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a36cf6f0-66e4-4d86-9b0c-2a984fc58b79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.85 -1.5)
+		(end -0.65 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6700c0a6-7fc5-4232-8e66-6e9c8bec85ae")
+	)
+	(fp_line
+		(start -0.3 -1.45)
+		(end 0.3 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d7cf2fd-0e17-4250-9628-cf18be7ec9a3")
+	)
+	(fp_line
+		(start -0.3 1.45)
+		(end -0.3 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3517256f-745a-4407-94da-82a73dd59184")
+	)
+	(fp_line
+		(start 0.3 -1.45)
+		(end 0.3 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "567a75cd-b514-465a-9cc8-02f244e621a1")
+	)
+	(fp_line
+		(start 0.3 1.45)
+		(end -0.3 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afa790df-b737-4a9b-aa7e-a09afc8411b8")
+	)
+	(fp_line
+		(start -2.1 -1.775)
+		(end 2.1 -1.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a0fe0880-e5c7-431d-aad0-4dc9d910b37b")
+	)
+	(fp_line
+		(start -2.1 1.775)
+		(end -2.1 -1.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b8b55dec-588c-42f4-b684-ff24aa19f9ee")
+	)
+	(fp_line
+		(start 2.1 -1.775)
+		(end 2.1 1.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "42b0c297-7c18-4be6-bbf5-0a674da4e4d9")
+	)
+	(fp_line
+		(start 2.1 1.775)
+		(end -2.1 1.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "739888e8-676d-494a-9252-f6b1b86d6604")
+	)
+	(fp_line
+		(start -0.8 -1.45)
+		(end 0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "684791ef-9878-4dc0-9884-eb44edfb0c3b")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end 0.15 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc6e3f25-b4ec-40c6-a0c4-66eab3b6abd4")
+	)
+	(fp_line
+		(start -0.8 1.45)
+		(end -0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da0403da-7445-4eb2-960c-870eeeb19107")
+	)
+	(fp_line
+		(start 0.8 -1.45)
+		(end 0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59072fc6-d193-4343-a471-33d76b215b38")
+	)
+	(fp_line
+		(start 0.8 1.45)
+		(end -0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "821dabfa-59da-4374-980d-7e4609ed8366")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "30d8ec07-f121-42da-aa0a-230991863068")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 -0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0ec18fc5-6f03-40b8-91fe-3e5df2de6338")
+	)
+	(pad "2" smd rect
+		(at -1.25 0 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8627e0c7-f631-4af7-a650-5ec34eedf368")
+	)
+	(pad "3" smd rect
+		(at -1.25 0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7dabe72c-0067-437b-a7d1-45067cf87871")
+	)
+	(pad "4" smd rect
+		(at 1.25 0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "41623481-dd07-4b36-8ea8-8e6eb2d9c369")
+	)
+	(pad "5" smd rect
+		(at 1.25 -0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9af3e9b0-813d-446a-8b7e-3823e7a67190")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Models/TLV62566DBVR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

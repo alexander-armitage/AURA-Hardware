@@ -3582,7 +3582,7 @@
 		)
 		(uuid "f32975f0-187f-442a-bdb2-77fab5abd609")
 	)
-	(global_label "AUX_CS_LED"
+	(global_label "LED"
 		(shape passive)
 		(at 222.25 140.97 0)
 		(fields_autoplaced yes)
@@ -3594,7 +3594,7 @@
 		)
 		(uuid "018cb56e-c30c-464d-b2b4-05663c86571f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.6143 140.97 0)
+			(at 227.571 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)

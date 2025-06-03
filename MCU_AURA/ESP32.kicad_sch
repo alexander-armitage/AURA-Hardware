@@ -3644,7 +3644,7 @@
 			)
 		)
 	)
-	(global_label "TX"
+	(global_label "GPS_TX"
 		(shape output)
 		(at 171.45 83.82 0)
 		(fields_autoplaced yes)
@@ -3656,7 +3656,7 @@
 		)
 		(uuid "0b6b2c47-8889-4853-8ff3-910037af5656")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.6123 83.82 0)
+			(at 181.3294 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +3820,7 @@
 			)
 		)
 	)
-	(global_label "RX"
+	(global_label "GPS_RX"
 		(shape input)
 		(at 171.45 86.36 0)
 		(fields_autoplaced yes)
@@ -3832,7 +3832,7 @@
 		)
 		(uuid "5f37bd27-1bed-4a5a-aa71-54e77f9b6a67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.9147 86.36 0)
+			(at 181.6318 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
