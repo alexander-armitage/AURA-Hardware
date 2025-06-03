@@ -1805,6 +1805,218 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MMSZ5252B:MMSZ5242B"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D101"
+				(at 2.286 -3.302 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "MMSZ5242B"
+				(at 4.826 -3.302 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "MMSZ5252B:MMSZ5252B"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.panjit.com.tw/en/Product/downloadPDF/MMSZ5242B"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener Diodes - MMSZ5242B , 500mW, 5V, 1211, SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.35"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "PANJIT"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MMSZ5242B"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 10.16 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 10.16 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MMSZ5242B_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 1.27) (xy 5.08 -1.27) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -2465,246 +2677,35 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:MMSZ5242B"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "TLV62566DBVR:TLV62566DBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D101"
-				(at 2.54 2.54 90)
+			(property "Reference" "U103"
+				(at 11.0333 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-				)
-			)
-			(property "Value" "MMSZ5242B"
-				(at 5.08 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "SamacSys_Parts:MMSZ5252B"
-				(at 10.16 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.panjit.com.tw/en/Product/downloadPDF/MMSZ5242B"
-				(at 10.16 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener Diodes - MMSZ5242B , 500mW, 5V, 1211, SOD-123"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.35"
-				(at 10.16 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "PANJIT"
-				(at 10.16 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "MMSZ5242B"
-				(at 10.16 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 10.16 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 10.16 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 10.16 -893.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 10.16 -993.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "MMSZ5242B_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 1.27) (xy 5.08 -1.27) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_Parts:TLV62566DBVR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U?"
-				(at 17.018 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "Value" "TLV62566DBVR"
-				(at 17.018 1.778 0)
+				(at 11.0333 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "SOT95P280X145-5N"
+			(property "Footprint" "TLV62566DBVR:SOT95P280X145-5N"
 				(at 24.13 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/gpn/TLV62566"
@@ -2901,11 +2902,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:TPS2115ADRBR"
+		(symbol "TPS2115ADRBR:TPS2115ADRBR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U101"
+			(property "Reference" "U102"
 				(at 13.335 7.62 0)
 				(effects
 					(font
@@ -2921,7 +2922,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SamacSys_Parts:SON65P300X300X100-9N-D"
+			(property "Footprint" "TPS2115ADRBR:SON65P300X300X100-9N-D"
 				(at 26.67 -94.92 0)
 				(effects
 					(font
@@ -3197,11 +3198,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:TPS56C230RJER"
+		(symbol "TPS56C230RJER:TPS56C230RJER"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U3"
+			(property "Reference" "U100"
 				(at 43.18 -25.908 0)
 				(effects
 					(font
@@ -3217,7 +3218,7 @@
 					)
 				)
 			)
-			(property "Footprint" "QFN45P300X300X100-21N-D"
+			(property "Footprint" "TPS56C230RJER:QFN45P300X300X100-21N-D"
 				(at 26.67 -84.76 0)
 				(effects
 					(font
@@ -8679,6 +8680,167 @@
 		)
 	)
 	(symbol
+		(lib_id "TPS2115ADRBR:TPS2115ADRBR")
+		(at 119.38 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19d006ae-e78d-467e-b920-e945af58c145")
+		(property "Reference" "U3"
+			(at 132.715 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS2115ADRBR"
+			(at 132.715 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS2115ADRBR:SON65P300X300X100-9N-D"
+			(at 146.05 216.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/tps2115a"
+			(at 146.05 316.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Autoswitching Power Mux"
+			(at 119.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 146.05 516.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 146.05 616.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS2115ADRBR"
+			(at 146.05 716.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TPS2115ADRBR"
+			(at 146.05 816.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2115ADRBR?qs=g%2FrhRe7LVpSXEuLZV5FMOQ%3D%3D"
+			(at 146.05 916.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TPS2115ADRBR"
+			(at 146.05 1016.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps2115adrbr/texas-instruments?utm_currency=USD&region=nac"
+			(at 146.05 1116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "81ea119f-8ff0-49c2-8018-d4d110862b3c")
+		)
+		(pin "6"
+			(uuid "79de9b70-bea6-4233-b4c7-3fedc83d4b49")
+		)
+		(pin "7"
+			(uuid "4d81839e-f695-4647-8794-71994c198cae")
+		)
+		(pin "2"
+			(uuid "b651a904-9b68-4bd6-8da7-e0b40316373d")
+		)
+		(pin "3"
+			(uuid "f02a12b1-faa3-4ba0-9ca6-986976e52660")
+		)
+		(pin "1"
+			(uuid "2378ed5d-4508-4ea2-bb0e-87d0e3dde987")
+		)
+		(pin "5"
+			(uuid "4b072cca-87a7-4f29-84c6-b21680902860")
+		)
+		(pin "4"
+			(uuid "f1cf1c62-2661-4e79-be90-49ca20e369b6")
+		)
+		(pin "8"
+			(uuid "56cb1f33-31e5-45c2-918b-573487bfdf61")
+		)
+		(instances
+			(project ""
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 212.09 144.78 0)
 		(unit 1)
@@ -9289,156 +9451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:TLV62566DBVR")
-		(at 203.2 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ff31837-df74-4623-a0ca-82d85f86f54b")
-		(property "Reference" "U103"
-			(at 214.2333 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TLV62566DBVR"
-			(at 214.2333 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TLV62566DBVR:SOT95P280X145-5N"
-			(at 227.33 215.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/TLV62566"
-			(at 227.33 315.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5A Buck Converter with Power Good, in SOT23 Package"
-			(at 203.2 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 227.33 515.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 227.33 615.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TLV62566DBVR"
-			(at 227.33 715.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TLV62566DBVR"
-			(at 227.33 815.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV62566DBVR?qs=gNSudQoqUYCT87S7uZ8t%2Fw%3D%3D"
-			(at 227.33 915.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TLV62566DBVR"
-			(at 227.33 1015.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlv62566dbvr/texas-instruments"
-			(at 227.33 1115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "3c4577a7-4cbb-407d-baa3-aa0578a4363a")
-		)
-		(pin "1"
-			(uuid "0b204415-2218-4246-96d0-585947da86df")
-		)
-		(pin "3"
-			(uuid "c39b4fba-ac75-4949-ad65-791f19894c46")
-		)
-		(pin "5"
-			(uuid "6639ada1-fee5-4c90-9ce7-b656295cb983")
-		)
-		(pin "2"
-			(uuid "4b20d78d-642e-4bcf-a15f-e8d57bae424e")
-		)
-		(instances
-			(project "Summer2025"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
-					(reference "U103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 237.49 125.73 90)
 		(unit 1)
@@ -9638,6 +9650,152 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
 					(reference "R109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XT30PW-M:XT30PW-M")
+		(at 30.48 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "349b484d-eedf-4b26-a58f-44b6c33dfc02")
+		(property "Reference" "J3"
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-M"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT30PWM:XT30PWM"
+			(at 46.99 145.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
+			(at 46.99 245.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "30A Low Temperature Rise Fire Retardant Plug"
+			(at 30.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5"
+			(at 46.99 445.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 46.99 545.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30PW-M"
+			(at 46.99 645.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 46.99 745.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 46.99 845.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 46.99 945.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 46.99 1045.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "805d3242-653f-4a90-9dcb-717374ab2921")
+		)
+		(pin "2"
+			(uuid "a5262c05-c1f6-4a7c-a2fe-901926708d05")
+		)
+		(pin "1"
+			(uuid "8b4f652c-6571-43e6-80fe-f8da76c5dacf")
+		)
+		(pin "4"
+			(uuid "936ab4c2-d218-4572-9414-14e7e810564b")
+		)
+		(instances
+			(project ""
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10795,202 +10953,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:TPS56C230RJER")
-		(at 160.02 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4eaebec8-dd02-4db9-9d5b-e92ac01f0cab")
-		(property "Reference" "U100"
-			(at 203.2 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS56C230RJER"
-			(at 203.2 79.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TPS56C230RJER:QFN45P300X300X100-21N-D"
-			(at 186.69 135.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/TPS56C230"
-			(at 186.69 235.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switching Voltage Regulators 4.5-V to 18-V, 12-A synchronous buck converter 20-VQFN-HR -40 to 125"
-			(at 160.02 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 186.69 435.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 186.69 535.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS56C230RJER"
-			(at 186.69 635.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS56C230RJER"
-			(at 186.69 735.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS56C230RJER?qs=B6kkDfuK7%2FDZws9l9ZFrjw%3D%3D"
-			(at 186.69 835.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TPS56C230RJER"
-			(at 186.69 935.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps56c230rjer/texas-instruments?utm_currency=USD&region=nac"
-			(at 186.69 1035.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "b2b262d7-018a-4ebb-a637-6b97c04779b7")
-		)
-		(pin "5"
-			(uuid "e13979bf-7c90-47d6-ab7a-8cb47059f5c0")
-		)
-		(pin "7"
-			(uuid "b8fdbb8c-141b-4bef-a6ea-3951539a0be8")
-		)
-		(pin "3"
-			(uuid "9d30542b-2a30-407e-b58e-6eb9879dc417")
-		)
-		(pin "4"
-			(uuid "e201828c-d8d3-4900-a2fc-0f2018e29f14")
-		)
-		(pin "21"
-			(uuid "95dd1187-de01-4cb3-8c07-9a97bbc260db")
-		)
-		(pin "20"
-			(uuid "811ccd37-a416-4b2c-b147-278b99d2466f")
-		)
-		(pin "1"
-			(uuid "fd3f7412-129b-4285-9f72-a86df7ca03b2")
-		)
-		(pin "2"
-			(uuid "ab7b6de6-32ee-49a9-85a0-278dbc140c12")
-		)
-		(pin "19"
-			(uuid "873c76b7-e486-47c5-b5bb-ace27cad6d2e")
-		)
-		(pin "17"
-			(uuid "92d5aaef-08af-46de-8540-a0266eb17576")
-		)
-		(pin "14"
-			(uuid "8a5141ab-4f8c-4fa0-85ab-193b535ffb02")
-		)
-		(pin "16"
-			(uuid "84f1d2e7-eefc-4be9-bfc5-6283201672f4")
-		)
-		(pin "12"
-			(uuid "a26295fc-cfcc-41c9-b9fc-9f57b3aa6cfc")
-		)
-		(pin "11"
-			(uuid "264c35f7-9958-4014-a37d-249861c5c658")
-		)
-		(pin "13"
-			(uuid "b558f2cf-f3a4-46e0-b3e8-d70dc57c1bbc")
-		)
-		(pin "9"
-			(uuid "92ae3b84-5eae-4740-924a-f8169403ccb1")
-		)
-		(pin "18"
-			(uuid "337f169b-02a7-4e2e-9ada-3788b2a9e020")
-		)
-		(pin "10"
-			(uuid "80ceb6e6-8bc0-4aff-8278-4842c2846e71")
-		)
-		(pin "15"
-			(uuid "86c69fab-80f2-461d-ac51-bdf769836ebf")
-		)
-		(pin "8"
-			(uuid "a86f83e9-5ee5-442c-a01c-372a25788197")
-		)
-		(instances
-			(project ""
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
-					(reference "U100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 143.51 76.2 0)
 		(unit 1)
@@ -11052,152 +11014,6 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XT30PW-M:XT30PW-M")
-		(at 30.48 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50b4ac03-b921-48f0-a25c-0d5b9e3c84c7")
-		(property "Reference" "J100"
-			(at 40.64 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT30PW-M"
-			(at 40.64 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT30PWM"
-			(at 46.99 145.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
-			(at 46.99 245.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "30A Low Temperature Rise Fire Retardant Plug"
-			(at 30.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "5"
-			(at 46.99 445.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 46.99 545.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT30PW-M"
-			(at 46.99 645.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 46.99 745.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 46.99 845.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 46.99 945.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 46.99 1045.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "127d4fff-b92c-459b-8945-cd008c0541f6")
-		)
-		(pin "3"
-			(uuid "7ccbbbd0-e8a5-402d-a635-e9846abb2cf8")
-		)
-		(pin "2"
-			(uuid "4bc21145-1413-4662-b938-58189a027e7e")
-		)
-		(pin "1"
-			(uuid "d570792f-245a-469c-bc0a-de234ef46de4")
-		)
-		(instances
-			(project "Summer2025"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
-					(reference "J100")
 					(unit 1)
 				)
 			)
@@ -12831,6 +12647,157 @@
 		)
 	)
 	(symbol
+		(lib_id "TLV62566DBVR:TLV62566DBVR")
+		(at 203.2 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85b6e82b-8eca-4b4e-9590-0a64e332e18b")
+		(property "Reference" "U4"
+			(at 214.2333 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV62566DBVR"
+			(at 214.2333 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TLV62566DBVR:SOT95P280X145-5N"
+			(at 214.2333 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/TLV62566"
+			(at 227.33 315.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5A Buck Converter with Power Good, in SOT23 Package"
+			(at 203.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 227.33 515.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 227.33 615.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV62566DBVR"
+			(at 227.33 715.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV62566DBVR"
+			(at 227.33 815.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV62566DBVR?qs=gNSudQoqUYCT87S7uZ8t%2Fw%3D%3D"
+			(at 227.33 915.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TLV62566DBVR"
+			(at 227.33 1015.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlv62566dbvr/texas-instruments"
+			(at 227.33 1115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3ad0c907-cfd2-4f04-8410-615eff99b7e2")
+		)
+		(pin "5"
+			(uuid "fd0f848c-9f36-41f4-b293-cf3b3b8ed915")
+		)
+		(pin "1"
+			(uuid "6ce16ac5-60c6-41be-99e2-e75a7c447b77")
+		)
+		(pin "4"
+			(uuid "e020d358-ccd5-484a-b8a2-0f6cb3655d6e")
+		)
+		(pin "2"
+			(uuid "2faf6a1b-2a45-4fb2-8653-bfaf9afd5b25")
+		)
+		(instances
+			(project ""
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 132.08 0)
 		(unit 1)
@@ -14197,147 +14164,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:MMSZ5242B")
-		(at 58.42 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4fe0938-a27e-4c94-b4f3-bd59ddaa1bfd")
-		(property "Reference" "D101"
-			(at 55.118 121.666 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MMSZ5242B"
-			(at 55.118 124.206 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MMSZ5252B:MMSZ5252B"
-			(at -35.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.panjit.com.tw/en/Product/downloadPDF/MMSZ5242B"
-			(at -135.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener Diodes - MMSZ5242B , 500mW, 5V, 1211, SOD-123"
-			(at 58.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.35"
-			(at -335.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "PANJIT"
-			(at -435.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MMSZ5242B"
-			(at -535.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -635.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -735.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -835.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -935.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "78d4ec34-96da-4610-af13-9b348a4af3b7")
-		)
-		(pin "1"
-			(uuid "d8afaada-1d68-4750-8d21-410be98026a3")
-		)
-		(instances
-			(project "Summer2025"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
-					(reference "D101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 64.77 170.18 0)
 		(unit 1)
@@ -14600,6 +14426,203 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
 					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPS56C230RJER:TPS56C230RJER")
+		(at 160.02 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1d25993-9b94-4a15-a9c6-83a0558312a4")
+		(property "Reference" "U2"
+			(at 201.93 46.9198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS56C230RJER"
+			(at 201.93 49.4598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS56C230RJER:QFN45P300X300X100-21N-D"
+			(at 186.69 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/TPS56C230"
+			(at 186.69 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators 4.5-V to 18-V, 12-A synchronous buck converter 20-VQFN-HR -40 to 125"
+			(at 160.02 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 186.69 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 186.69 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS56C230RJER"
+			(at 186.69 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TPS56C230RJER"
+			(at 186.69 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS56C230RJER?qs=B6kkDfuK7%2FDZws9l9ZFrjw%3D%3D"
+			(at 186.69 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TPS56C230RJER"
+			(at 186.69 935.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps56c230rjer/texas-instruments?utm_currency=USD&region=nac"
+			(at 186.69 1035.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "896d45f3-ab16-4aa4-a706-e1d0783e280a")
+		)
+		(pin "19"
+			(uuid "714189db-e255-47ea-ab83-66871e545a15")
+		)
+		(pin "16"
+			(uuid "68fa7574-16cf-42c7-ab02-0b028a4c0b4b")
+		)
+		(pin "9"
+			(uuid "00a83651-a4b1-4a37-a469-fb1e14405391")
+		)
+		(pin "20"
+			(uuid "a77160f1-423f-493e-99cf-833c9a8a407d")
+		)
+		(pin "21"
+			(uuid "15ebbc04-8572-4b2a-a423-24b0ea2a84f3")
+		)
+		(pin "4"
+			(uuid "550783c8-a4b9-4f31-b153-15fdfb23b375")
+		)
+		(pin "3"
+			(uuid "f2f4f4b0-7629-4d2f-b917-435f7548b880")
+		)
+		(pin "13"
+			(uuid "12b619d6-2797-4a2a-b578-9b241ba797c4")
+		)
+		(pin "7"
+			(uuid "bdae1cde-0303-42aa-aa40-4a14121a327a")
+		)
+		(pin "12"
+			(uuid "fa9d6f7e-cfb7-4c27-b6b0-2539313cb59e")
+		)
+		(pin "6"
+			(uuid "853a8f5b-6e32-426c-aae7-10746172163e")
+		)
+		(pin "5"
+			(uuid "850a5553-251f-4cdb-902d-1462f4a31c89")
+		)
+		(pin "1"
+			(uuid "72ae8bbf-0f30-4b69-bc5c-c28a3df5340b")
+		)
+		(pin "10"
+			(uuid "b0679fcb-9302-48de-a880-699f11a13d30")
+		)
+		(pin "2"
+			(uuid "e92bb264-5707-4a09-86a2-42a6b85b6324")
+		)
+		(pin "8"
+			(uuid "f6626f31-fa59-46ad-8624-debcbe0fbcb7")
+		)
+		(pin "14"
+			(uuid "3073d3c0-aefa-41a9-8874-934376cd84ec")
+		)
+		(pin "18"
+			(uuid "3ab6619a-7801-4e3d-956e-afcd20594e4d")
+		)
+		(pin "15"
+			(uuid "670a4025-9f2d-46af-98fb-d3114e8683ca")
+		)
+		(pin "17"
+			(uuid "474fc56e-1c5f-4dbc-bfc1-ef4d834a1c8d")
+		)
+		(instances
+			(project ""
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -15482,6 +15505,147 @@
 		)
 	)
 	(symbol
+		(lib_id "MMSZ5252B:MMSZ5242B")
+		(at 58.42 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db9888d0-79be-4445-8264-729528e04af6")
+		(property "Reference" "D1"
+			(at 50.546 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMSZ5242B"
+			(at 45.466 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MMSZ5252B:MMSZ5252B"
+			(at -35.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.panjit.com.tw/en/Product/downloadPDF/MMSZ5242B"
+			(at -135.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Diodes - MMSZ5242B , 500mW, 5V, 1211, SOD-123"
+			(at 58.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.35"
+			(at -335.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "PANJIT"
+			(at -435.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMSZ5242B"
+			(at -535.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at -635.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at -735.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -835.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -935.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0dc252b-9610-4924-bea9-9a6ef3826e07")
+		)
+		(pin "1"
+			(uuid "214b5460-f7bf-40e5-866b-44703c3853e9")
+		)
+		(instances
+			(project ""
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 128.27 72.39 0)
 		(unit 1)
@@ -15675,167 +15839,6 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
 					(reference "#PWR0141")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:TPS2115ADRBR")
-		(at 119.38 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e434bb0a-16e1-40f4-bd72-2b72b13787f5")
-		(property "Reference" "U102"
-			(at 132.715 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS2115ADRBR"
-			(at 132.715 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TPS2115ADRBR:SON65P300X300X100-9N-D"
-			(at 146.05 216.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/tps2115a"
-			(at 146.05 316.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Autoswitching Power Mux"
-			(at 119.38 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 146.05 516.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 146.05 616.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS2115ADRBR"
-			(at 146.05 716.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS2115ADRBR"
-			(at 146.05 816.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2115ADRBR?qs=g%2FrhRe7LVpSXEuLZV5FMOQ%3D%3D"
-			(at 146.05 916.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TPS2115ADRBR"
-			(at 146.05 1016.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps2115adrbr/texas-instruments?utm_currency=USD&region=nac"
-			(at 146.05 1116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "0fb536e0-ed42-4ecf-b3e3-f52e80a59ec4")
-		)
-		(pin "8"
-			(uuid "fb7b2810-a577-45b1-b465-ea79ed0b2f62")
-		)
-		(pin "3"
-			(uuid "c9c39fc8-4ddb-497a-b1f7-e95fdadfe263")
-		)
-		(pin "5"
-			(uuid "452ee1c8-8232-4bd6-a49d-85171a319478")
-		)
-		(pin "7"
-			(uuid "f42439fa-5e0f-4b8e-b790-40f93addbae9")
-		)
-		(pin "6"
-			(uuid "751f17e5-f055-47e8-99c1-4539b4dbad6d")
-		)
-		(pin "1"
-			(uuid "d9ee3c20-64e0-4443-bb3d-d3379ef42ef1")
-		)
-		(pin "2"
-			(uuid "c82c2e3a-322d-44ac-a7be-447f49e5b533")
-		)
-		(pin "4"
-			(uuid "7ed35fbe-5806-482a-8667-a0c9fcbb69f3")
-		)
-		(instances
-			(project "Summer2025"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
-					(reference "U102")
 					(unit 1)
 				)
 			)

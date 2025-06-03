@@ -273,6 +273,214 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EVQ-PUC02K:EVQ-PUC02K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "EVQ-PUC02K"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "EVQPUC02K"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_smalls_side.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.95"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "EVQ-PUC02K"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "667-EVQ-PUC02K"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-PUC02K?qs=whhzBCqEXCul2KyreRT2SA%3D%3D"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "EVQ-PUC02K"
+				(at 26.67 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/evq-puc02k/panasonic?utm_currency=USD&region=europe"
+				(at 26.67 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "EVQ-PUC02K_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COM_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "COM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
@@ -1566,234 +1774,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:EVQ-PUC02K"
+		(symbol "TC2050-IDC:TC2050-IDC-430"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "S"
-				(at 26.67 7.62 0)
+			(property "Reference" "J200"
+				(at 11.43 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
-				)
-			)
-			(property "Value" "EVQ-PUC02K"
-				(at 26.67 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "EVQPUC02K"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_smalls_side.pdf"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.95"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Panasonic"
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "EVQ-PUC02K"
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "667-EVQ-PUC02K"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-PUC02K?qs=whhzBCqEXCul2KyreRT2SA%3D%3D"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "EVQ-PUC02K"
-				(at 26.67 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/evq-puc02k/panasonic?utm_currency=USD&region=europe"
-				(at 26.67 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "EVQ-PUC02K_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 25.4 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "NO_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "COM_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "NO_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "COM_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_Parts:TC2050-IDC-430"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 19.05 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
 				)
 			)
 			(property "Value" "TC2050-IDC-430"
-				(at 19.05 5.08 0)
+				(at 11.43 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "TC2050-IDC"
@@ -4197,6 +4195,170 @@
 		)
 	)
 	(symbol
+		(lib_id "TC2050-IDC:TC2050-IDC-430")
+		(at 210.82 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02896fdd-5ec6-4993-bb54-d1c57933c534")
+		(property "Reference" "J2"
+			(at 222.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC2050-IDC-430"
+			(at 222.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TC2050-IDC:TC2050-IDC"
+			(at 229.87 202.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/8a7b9a42a753a5cbaca4256ee093e59c.pdf"
+			(at 229.87 302.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CBL PLUG-OF-NAILS MSP430 LEG TI"
+			(at 210.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 229.87 502.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Tag Connect"
+			(at 229.87 602.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TC2050-IDC-430"
+			(at 229.87 702.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 229.87 802.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 229.87 902.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 229.87 1002.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 229.87 1102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c490b8c-3dd4-4c16-af6e-f51ef19e04c7")
+		)
+		(pin "8"
+			(uuid "1788212b-80ab-4168-899a-cfdcb2380d2b")
+		)
+		(pin "4"
+			(uuid "07d50dc1-56c8-4937-b3eb-82871d15b211")
+		)
+		(pin "7"
+			(uuid "00276abd-9c1d-42be-9c69-ae006d214e36")
+		)
+		(pin "6"
+			(uuid "7d1e013d-bdd6-4747-904d-492c7da9e815")
+		)
+		(pin "1"
+			(uuid "a1d62fee-bf0e-4942-9918-c3273cb82725")
+		)
+		(pin "9"
+			(uuid "412723b4-56f4-44dd-958d-292553ad7be3")
+		)
+		(pin "10"
+			(uuid "db31d563-5385-47ea-bef7-7384af14c25f")
+		)
+		(pin "5"
+			(uuid "f918f687-15ee-4cee-90cc-79f75f1c0848")
+		)
+		(pin "3"
+			(uuid "a76464fa-4300-44ca-b112-cad4ef350030")
+		)
+		(instances
+			(project ""
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/b7286ff6-080d-4fe9-98ea-7dd25e1f4a61"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 129.54 68.58 0)
 		(unit 1)
@@ -4328,170 +4490,6 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/b7286ff6-080d-4fe9-98ea-7dd25e1f4a61"
 					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:TC2050-IDC-430")
-		(at 210.82 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "316227c5-a163-4854-932b-949afca66a6c")
-		(property "Reference" "J200"
-			(at 222.25 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TC2050-IDC-430"
-			(at 222.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TC2050-IDC"
-			(at 229.87 202.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/8a7b9a42a753a5cbaca4256ee093e59c.pdf"
-			(at 229.87 302.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "CBL PLUG-OF-NAILS MSP430 LEG TI"
-			(at 210.82 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 229.87 502.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Tag Connect"
-			(at 229.87 602.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TC2050-IDC-430"
-			(at 229.87 702.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 229.87 802.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 229.87 902.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 229.87 1002.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 229.87 1102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c2aec157-3c62-4979-9c6a-2c559a4cf57f")
-		)
-		(pin "3"
-			(uuid "ec02d4ad-1427-4545-8ebc-530c3ea65c3b")
-		)
-		(pin "10"
-			(uuid "7558bd8c-9071-4384-8a63-4ce98c76bfb2")
-		)
-		(pin "1"
-			(uuid "caf27c8d-c540-4a52-9edb-2b90287a012a")
-		)
-		(pin "2"
-			(uuid "8b18799a-e799-4f6a-ab29-cd645d391c00")
-		)
-		(pin "9"
-			(uuid "c8727a83-27ba-4bb7-9e4e-64a1c0122be5")
-		)
-		(pin "7"
-			(uuid "608c2391-0341-4295-b5af-8d9b667e8e6c")
-		)
-		(pin "6"
-			(uuid "355cb8b2-77c3-4725-989c-b8981de15c4c")
-		)
-		(pin "5"
-			(uuid "a80631e4-9748-42ea-9f52-57567cb21927")
-		)
-		(pin "8"
-			(uuid "458502e9-eef4-4076-81f5-6972eb525825")
-		)
-		(instances
-			(project ""
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/b7286ff6-080d-4fe9-98ea-7dd25e1f4a61"
-					(reference "J200")
 					(unit 1)
 				)
 			)
@@ -4976,17 +4974,17 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:EVQ-PUC02K")
-		(at 92.71 116.84 180)
+		(lib_id "EVQ-PUC02K:EVQ-PUC02K")
+		(at 62.23 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5ba5ec08-1f14-480e-ac89-85a541a4667a")
-		(property "Reference" "S201"
-			(at 77.47 106.68 0)
+		(uuid "6897a7f9-e8ae-490e-af16-e3e184c1d0d5")
+		(property "Reference" "S1"
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +4992,7 @@
 			)
 		)
 		(property "Value" "EVQ-PUC02K"
-			(at 77.47 109.22 0)
+			(at 77.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +5000,7 @@
 			)
 		)
 		(property "Footprint" "EVQ-PUC02k:EVQPUC02K"
-			(at 66.04 21.92 0)
+			(at 88.9 186.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +5010,7 @@
 			)
 		)
 		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_smalls_side.pdf"
-			(at 66.04 -78.08 0)
+			(at 88.9 286.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,7 +5020,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-			(at 92.71 116.84 0)
+			(at 62.23 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +5029,7 @@
 			)
 		)
 		(property "Height" "1.95"
-			(at 66.04 -278.08 0)
+			(at 88.9 486.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +5039,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 66.04 -378.08 0)
+			(at 88.9 586.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5049,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "EVQ-PUC02K"
-			(at 66.04 -478.08 0)
+			(at 88.9 686.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +5059,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-EVQ-PUC02K"
-			(at 66.04 -578.08 0)
+			(at 88.9 786.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +5069,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-PUC02K?qs=whhzBCqEXCul2KyreRT2SA%3D%3D"
-			(at 66.04 -678.08 0)
+			(at 88.9 886.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5079,7 @@
 			)
 		)
 		(property "Arrow Part Number" "EVQ-PUC02K"
-			(at 66.04 -778.08 0)
+			(at 88.9 986.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5089,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/evq-puc02k/panasonic?utm_currency=USD&region=europe"
-			(at 66.04 -878.08 0)
+			(at 88.9 1086.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,22 +5098,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "4368bd07-e5ef-40e5-9faa-9b1512234d6f")
-		)
-		(pin "4"
-			(uuid "0d58d572-450e-4fc7-a145-4a486f610168")
-		)
 		(pin "2"
-			(uuid "dfba3185-d004-48fb-9d01-88a341a5e34a")
+			(uuid "cb083b56-c0e3-4145-ae97-d9c91c439a5f")
+		)
+		(pin "1"
+			(uuid "dbb202f7-da72-4b8c-a9bb-113cc5ab7e63")
 		)
 		(pin "3"
-			(uuid "56a01524-b5c1-4e27-bb8a-42ca05393088")
+			(uuid "7a081e2c-10aa-4828-b915-5814e87fc727")
+		)
+		(pin "4"
+			(uuid "3b901856-9df6-4fdc-8ad6-093c9f216cb3")
 		)
 		(instances
-			(project "Summer2025"
+			(project ""
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/b7286ff6-080d-4fe9-98ea-7dd25e1f4a61"
-					(reference "S201")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -5921,6 +5919,152 @@
 		)
 	)
 	(symbol
+		(lib_id "EVQ-PUC02K:EVQ-PUC02K")
+		(at 62.23 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e14c24e5-584a-4e41-91ef-e1db4d88aef6")
+		(property "Reference" "S2"
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-PUC02K"
+			(at 77.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EVQ-PUC02k:EVQPUC02K"
+			(at 88.9 209.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_smalls_side.pdf"
+			(at 88.9 309.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
+			(at 62.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.95"
+			(at 88.9 509.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 88.9 609.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EVQ-PUC02K"
+			(at 88.9 709.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-EVQ-PUC02K"
+			(at 88.9 809.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-PUC02K?qs=whhzBCqEXCul2KyreRT2SA%3D%3D"
+			(at 88.9 909.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "EVQ-PUC02K"
+			(at 88.9 1009.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/evq-puc02k/panasonic?utm_currency=USD&region=europe"
+			(at 88.9 1109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14d7278d-ebf6-4e9d-ad74-de5b4b64b5d6")
+		)
+		(pin "1"
+			(uuid "f473af33-e52f-4c2e-9ee0-13e4f09e2723")
+		)
+		(pin "3"
+			(uuid "e0ec03c8-967f-46fe-92f8-cfb249b30685")
+		)
+		(pin "4"
+			(uuid "0ef58cbf-1e59-4c94-9eb7-e8a31c325194")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/b7286ff6-080d-4fe9-98ea-7dd25e1f4a61"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 93.98 105.41 0)
 		(unit 1)
@@ -6335,152 +6479,6 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/b7286ff6-080d-4fe9-98ea-7dd25e1f4a61"
 					(reference "R202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:EVQ-PUC02K")
-		(at 92.71 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "faee93c2-72de-438d-9158-a51ce0664764")
-		(property "Reference" "S200"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EVQ-PUC02K"
-			(at 77.47 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EVQ-PUC02k:EVQPUC02K"
-			(at 66.04 -0.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_smalls_side.pdf"
-			(at 66.04 -100.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-			(at 92.71 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.95"
-			(at 66.04 -300.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 66.04 -400.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EVQ-PUC02K"
-			(at 66.04 -500.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-EVQ-PUC02K"
-			(at 66.04 -600.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-PUC02K?qs=whhzBCqEXCul2KyreRT2SA%3D%3D"
-			(at 66.04 -700.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "EVQ-PUC02K"
-			(at 66.04 -800.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/evq-puc02k/panasonic?utm_currency=USD&region=europe"
-			(at 66.04 -900.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "920823fe-d471-4403-a800-dbcce4e6288a")
-		)
-		(pin "4"
-			(uuid "189240fe-4ecf-4827-b080-bed5dd43582c")
-		)
-		(pin "2"
-			(uuid "2ab43359-960b-488c-85f4-8c8f00bc2602")
-		)
-		(pin "3"
-			(uuid "3998bbe3-f88d-4bea-b376-ec2c826afe23")
-		)
-		(instances
-			(project "Summer2025"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/b7286ff6-080d-4fe9-98ea-7dd25e1f4a61"
-					(reference "S200")
 					(unit 1)
 				)
 			)

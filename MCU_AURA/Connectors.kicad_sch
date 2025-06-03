@@ -10,29 +10,29 @@
 		(rev "0.0.1")
 	)
 	(lib_symbols
-		(symbol "532617004_1"
+		(symbol "532617004:532617004"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J?"
-				(at 12.7 -2.54 0)
+			(property "Reference" "J504"
+				(at 8.382 6.604 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "532617004"
-				(at 12.7 -5.08 0)
+				(at 8.382 4.064 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "532617004"
+			(property "Footprint" "532617004:532617004"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -131,7 +131,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "532617004_1_1_1"
+			(symbol "532617004_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 11.43 -10.16)
@@ -208,6 +208,249 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "532617006:532617006"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J502"
+				(at 8.128 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "532617006"
+				(at 2.54 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "532617006:532617006"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/532617002_sd.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Friction Lock, 6 Circuits, Tape and Reel"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "3.4"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "532617006"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/532617006/?qs=IS%252B4QmGtzzrtB%2F0vctWtxQ%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "532617006_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 11.43 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -514,393 +757,29 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "DMN6040SSD-13:DMN6040SSD-13"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "U500"
+				(at 14.224 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_Parts:532617006"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J?"
-				(at 10.16 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "532617006"
-				(at 10.16 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "532617006"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/532617002_sd.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Friction Lock, 6 Circuits, Tape and Reel"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "3.4"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Molex"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "532617006"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "N/A"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/532617006/?qs=IS%252B4QmGtzzrtB%2F0vctWtxQ%3D%3D"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 16.51 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 16.51 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "532617006_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 11.43 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_Parts:DMN6040SSD-13"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U?"
-				(at 16.51 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify left)
 				)
 			)
 			(property "Value" "DMN6040SSD-13"
-				(at 16.51 1.27 0)
+				(at 7.62 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "SOIC127P600X170-8N"
+			(property "Footprint" "DMN6040SSD-13:SOIC127P600X170-8N"
 				(at 21.59 -94.92 0)
 				(effects
 					(font
@@ -1381,6 +1260,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1732,107 +1735,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 53.34 24.13)
@@ -1891,7 +1793,7 @@
 	)
 	(text "SPI"
 		(exclude_from_sim no)
-		(at 147.828 148.59 0)
+		(at 132.588 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1918,7 +1820,7 @@
 		(uuid "12d2de2e-f36c-49fa-9459-60a17763735d")
 	)
 	(junction
-		(at 119.38 140.97)
+		(at 104.14 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c91cfe8-85b7-4ced-a9dd-ce22da714b02")
@@ -1940,12 +1842,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a218491b-7ae9-4e2a-ac35-cbc3d353d73a")
-	)
-	(junction
-		(at 115.57 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3586b27-49a5-4811-82b8-7f0efe15eecd")
 	)
 	(junction
 		(at 91.44 55.88)
@@ -1975,7 +1871,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 140.97) (xy 139.7 140.97)
+			(xy 104.14 139.7) (xy 124.46 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +1941,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 144.78) (xy 137.16 143.51)
+			(xy 121.92 143.51) (xy 121.92 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2175,7 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 119.38 130.81)
+			(xy 104.14 128.27) (xy 104.14 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2195,7 +2091,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 130.81) (xy 139.7 130.81)
+			(xy 121.92 129.54) (xy 124.46 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2205,7 +2101,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 133.35) (xy 139.7 133.35)
+			(xy 121.92 132.08) (xy 124.46 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2295,7 +2191,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 135.89) (xy 139.7 135.89)
+			(xy 121.92 134.62) (xy 124.46 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2425,7 +2321,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 129.54) (xy 137.16 130.81)
+			(xy 121.92 128.27) (xy 121.92 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2445,7 +2341,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 86.36) (xy 115.57 88.9)
+			(xy 115.57 86.36) (xy 115.57 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2455,23 +2351,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 138.43) (xy 139.7 138.43)
+			(xy 121.92 137.16) (xy 124.46 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d5b2cb1c-4da8-4298-b313-3e1b9cdcddfd")
-	)
-	(wire
-		(pts
-			(xy 115.57 88.9) (xy 115.57 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d682cff1-706c-4581-b312-2c9469e44025")
 	)
 	(wire
 		(pts
@@ -2482,16 +2368,6 @@
 			(type default)
 		)
 		(uuid "d7d32066-7f46-4cf5-baa3-5294b3549d35")
-	)
-	(wire
-		(pts
-			(xy 115.57 88.9) (xy 124.46 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db297baf-dc1d-42ee-8644-8a901b6d80a1")
 	)
 	(wire
 		(pts
@@ -2515,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 143.51) (xy 139.7 143.51)
+			(xy 121.92 142.24) (xy 124.46 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2525,7 +2401,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 140.97) (xy 119.38 140.97)
+			(xy 101.6 139.7) (xy 104.14 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2555,23 +2431,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 138.43) (xy 119.38 140.97)
+			(xy 104.14 137.16) (xy 104.14 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f743879d-5ae2-4bed-8291-7a5e50cd372c")
-	)
-	(wire
-		(pts
-			(xy 124.46 88.9) (xy 124.46 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc696b7f-f460-48fe-8471-e49e2755b920")
 	)
 	(label "GND_PY1"
 		(at 64.77 39.37 0)
@@ -2615,7 +2481,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 137.16 138.43 180)
+		(at 121.92 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2625,7 +2491,7 @@
 		)
 		(uuid "2f6f5fc7-28dd-4f80-b42c-76b33e0f514a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.4253 138.43 0)
+			(at 115.1853 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2613,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 137.16 133.35 180)
+		(at 121.92 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2757,7 +2623,7 @@
 		)
 		(uuid "b7f06bdb-3d98-4ecb-971b-5d4df177dde0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.5786 133.35 0)
+			(at 114.3386 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2701,7 @@
 	)
 	(global_label "AUX_CS_LED"
 		(shape passive)
-		(at 116.84 140.97 180)
+		(at 101.6 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2845,7 +2711,7 @@
 		)
 		(uuid "e49a413e-4be3-4ed1-9ff4-1d17877f8165")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.4757 140.97 0)
+			(at 88.2357 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +2723,7 @@
 	)
 	(global_label "MISO"
 		(shape output)
-		(at 137.16 135.89 180)
+		(at 121.92 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2867,7 +2733,7 @@
 		)
 		(uuid "ee4e393e-36b4-492c-ad3f-e9c7da7d6b6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.5786 135.89 0)
+			(at 114.3386 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +2745,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 137.16 129.54 0)
+		(at 121.92 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2888,7 +2754,7 @@
 		(fields_autoplaced yes)
 		(uuid "00e43f84-72c7-4681-9b31-64ab1a14c5f8")
 		(property "Reference" "#PWR014"
-			(at 137.16 133.35 0)
+			(at 121.92 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +2763,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 137.16 124.46 0)
+			(at 121.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +2771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 129.54 0)
+			(at 121.92 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,7 +2780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 129.54 0)
+			(at 121.92 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +2789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 137.16 129.54 0)
+			(at 121.92 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +2947,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 119.38 134.62 180)
+		(at 104.14 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3090,7 +2956,7 @@
 		(fields_autoplaced yes)
 		(uuid "29edc7b5-a8c6-4f75-80db-6a359308e558")
 		(property "Reference" "R506"
-			(at 121.92 133.3499 0)
+			(at 106.68 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +2965,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 121.92 135.8899 0)
+			(at 106.68 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +2974,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 121.158 134.62 90)
+			(at 105.918 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +2983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 134.62 0)
+			(at 104.14 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,7 +2992,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 134.62 0)
+			(at 104.14 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,169 +3149,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:DMN6040SSD-13")
-		(at 83.82 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4211e4e2-f484-41f6-9df6-2f3f3eb0debf")
-		(property "Reference" "U500"
-			(at 98.044 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMN6040SSD-13"
-			(at 91.44 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DMN6040SSD-13:SOIC127P600X170-8N"
-			(at 105.41 168.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN6040SSD.pdf"
-			(at 105.41 268.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes Inc DMN6040SSD-13 Dual N-channel MOSFET Transistor, 6.6 A, 60 V, 8-Pin SOIC"
-			(at 83.82 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.7"
-			(at 105.41 468.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 105.41 568.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DMN6040SSD-13"
-			(at 105.41 668.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-DMN6040SSD-13"
-			(at 105.41 768.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN6040SSD-13?qs=gfe7vQ8txpVPCHiSTl%252BfEQ%3D%3D"
-			(at 105.41 868.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "DMN6040SSD-13"
-			(at 105.41 968.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmn6040ssd-13/diodes-incorporated"
-			(at 105.41 1068.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18d3b2f3-dc44-438d-b6b4-903399e5a0a7")
-		)
-		(pin "3"
-			(uuid "aec50320-7250-48d6-a54c-ea774576ce0e")
-		)
-		(pin "4"
-			(uuid "f06024d7-1032-47c6-a4e9-2a003e37535e")
-		)
-		(pin "8"
-			(uuid "3ebe25c8-f793-4885-a5a1-7c43a1d00e60")
-		)
-		(pin "7"
-			(uuid "c00f3a7d-bac3-431c-a3bb-e8ed5eb9875a")
-		)
-		(pin "2"
-			(uuid "2940715c-7c2d-4bdd-928b-96b876e59551")
-		)
-		(pin "6"
-			(uuid "89bf5cd7-5dc7-4f65-a131-d97008ee0cc0")
-		)
-		(pin "5"
-			(uuid "b5b614bf-0b91-40bf-bbcb-a9392e58225b")
-		)
-		(instances
-			(project ""
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "U500")
-					(unit 1)
-				)
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 91.44 50.8 180)
 		(unit 1)
@@ -3510,158 +3213,6 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
 					(reference "R500")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:532617006")
-		(at 139.7 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48847e2f-5a53-4352-96c2-b13bceb0bec1")
-		(property "Reference" "J502"
-			(at 147.828 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "532617006"
-			(at 142.24 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "532617006:532617006"
-			(at 156.21 225.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/532617002_sd.pdf"
-			(at 156.21 325.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Friction Lock, 6 Circuits, Tape and Reel"
-			(at 139.7 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "3.4"
-			(at 156.21 525.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 156.21 625.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "532617006"
-			(at 156.21 725.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "N/A"
-			(at 156.21 825.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/532617006/?qs=IS%252B4QmGtzzrtB%2F0vctWtxQ%3D%3D"
-			(at 156.21 925.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 156.21 1025.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 156.21 1125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9ebab1c2-ae61-43f1-a6db-fd1f7c34709c")
-		)
-		(pin "2"
-			(uuid "91504de3-82ea-441c-b49e-27b35349a1df")
-		)
-		(pin "4"
-			(uuid "c17b69a7-8f60-4973-ab5d-5aa1386e1b50")
-		)
-		(pin "6"
-			(uuid "29360710-5a90-44f0-8f04-c6d69379350c")
-		)
-		(pin "5"
-			(uuid "38cc0277-8660-4acb-8cab-a7cfa478e3e2")
-		)
-		(pin "1"
-			(uuid "1e5a2392-7db0-4303-adec-639ead22fdb2")
-		)
-		(instances
-			(project ""
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "J502")
 					(unit 1)
 				)
 			)
@@ -4008,6 +3559,159 @@
 		)
 	)
 	(symbol
+		(lib_id "532617006:532617006")
+		(at 124.46 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f82e379-2824-492d-aebb-4ba88809ee7b")
+		(property "Reference" "J4"
+			(at 127.254 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "532617006"
+			(at 127.254 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "532617006:532617006"
+			(at 140.97 224.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/532617002_sd.pdf"
+			(at 140.97 324.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Friction Lock, 6 Circuits, Tape and Reel"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3.4"
+			(at 140.97 524.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 140.97 624.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "532617006"
+			(at 140.97 724.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 140.97 824.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/532617006/?qs=IS%252B4QmGtzzrtB%2F0vctWtxQ%3D%3D"
+			(at 140.97 924.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 140.97 1024.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 140.97 1124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c32f013b-6bf8-434e-b444-ad1c0cf234cf")
+		)
+		(pin "1"
+			(uuid "22a56e4f-7113-4eba-b32e-59618841ef1c")
+		)
+		(pin "2"
+			(uuid "6137f978-c8a8-4bfa-b129-20a89c8af64b")
+		)
+		(pin "4"
+			(uuid "0c75fabc-f6a5-461d-acce-f5e530595b51")
+		)
+		(pin "6"
+			(uuid "e7be21d8-a7ef-452e-89f9-65c786c071a5")
+		)
+		(pin "3"
+			(uuid "7729d17b-298a-4933-afbe-53ea80c744d6")
+		)
+		(instances
+			(project ""
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
 		(at 78.74 36.83 0)
 		(unit 1)
@@ -4085,6 +3789,154 @@
 		)
 	)
 	(symbol
+		(lib_id "532617004:532617004")
+		(at 195.58 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e21c03f-1477-4f07-9264-17dce1d52098")
+		(property "Reference" "J6"
+			(at 203.962 126.746 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "532617004"
+			(at 203.962 129.286 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "532617004:532617004"
+			(at 212.09 228.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/532617002_sd.pdf"
+			(at 212.09 328.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Friction Lock, 4 Circuits, Tape and Reel"
+			(at 195.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3.4"
+			(at 212.09 528.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 212.09 628.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "532617004"
+			(at 212.09 728.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 212.09 828.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 212.09 928.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 212.09 1028.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 212.09 1128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2915a107-8de9-4053-b660-bbfb89991d8a")
+		)
+		(pin "4"
+			(uuid "f96c211e-cdb5-4aa7-b784-91658295fd44")
+		)
+		(pin "1"
+			(uuid "12c7bf3f-89e6-4770-8a34-fb38acb4ba05")
+		)
+		(pin "3"
+			(uuid "84781bfb-20cb-4867-985e-0e01bb2d6281")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 120.65 60.96 180)
 		(unit 1)
@@ -4156,7 +4008,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 144.78 0)
+		(at 121.92 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4165,7 +4017,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa20d1e8-7519-4c9d-b625-222b9891d81c")
 		(property "Reference" "#PWR015"
-			(at 137.16 151.13 0)
+			(at 121.92 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4026,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 149.86 0)
+			(at 121.92 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +4035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 144.78 0)
+			(at 121.92 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 144.78 0)
+			(at 121.92 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +4053,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 144.78 0)
+			(at 121.92 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +4075,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 119.38 129.54 0)
+		(at 104.14 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4232,7 +4084,7 @@
 		(fields_autoplaced yes)
 		(uuid "aeef6312-eda4-4b3a-bec9-03ac76092082")
 		(property "Reference" "#PWR0147"
-			(at 119.38 133.35 0)
+			(at 104.14 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4093,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 119.38 124.46 0)
+			(at 104.14 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4249,7 +4101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 129.54 0)
+			(at 104.14 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,7 +4110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 129.54 0)
+			(at 104.14 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,7 +4119,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 119.38 129.54 0)
+			(at 104.14 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,16 +4140,83 @@
 		)
 	)
 	(symbol
-		(lib_name "532617004_1")
-		(lib_id "SamacSys_Parts:532617004")
+		(lib_id "power:GND")
+		(at 104.14 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b78634cd-7f74-44eb-8bb4-ab601dfe573d")
+		(property "Reference" "#PWR05"
+			(at 104.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d893e546-58be-4c02-b1d3-105ac1f63cdc")
+		)
+		(instances
+			(project "Summer2025"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "532617004:532617004")
 		(at 166.37 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b48f9776-27cd-476b-bfd5-fd7282a0ef8b")
-		(property "Reference" "J504"
+		(fields_autoplaced yes)
+		(uuid "b8e46bee-13fe-46fd-9009-8a8312fd2de3")
+		(property "Reference" "J5"
 			(at 174.752 126.746 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4415,38 +4334,75 @@
 			)
 		)
 		(pin "2"
-			(uuid "e2021e62-12f8-4a5e-b0f0-f641508e9f30")
-		)
-		(pin "3"
-			(uuid "26e2a004-fdc6-4c62-8973-6972547d93f7")
+			(uuid "c9f366b3-72d4-4b2a-b75a-ebab5ba76e11")
 		)
 		(pin "4"
-			(uuid "645df059-8e31-4515-95f2-ff4a6c44949a")
+			(uuid "981a81d4-bd49-46ba-80b8-d59eb9968cf7")
 		)
 		(pin "1"
-			(uuid "c805a809-bef2-4a3d-b398-1d02cb3ff223")
+			(uuid "0307acde-3077-42b3-8833-3a4872832540")
+		)
+		(pin "3"
+			(uuid "3ef9d605-248b-47c9-ad70-5b9dbc51c1f6")
 		)
 		(instances
-			(project "Summer2025"
+			(project ""
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "J504")
+					(reference "J5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 104.14 90.17 0)
+		(lib_id "DMN6040SSD-13:DMN6040SSD-13")
+		(at 83.82 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b78634cd-7f74-44eb-8bb4-ab601dfe573d")
-		(property "Reference" "#PWR05"
-			(at 104.14 96.52 0)
+		(uuid "bc7eb135-61b6-474e-a8a9-88164100b75b")
+		(property "Reference" "U1"
+			(at 91.44 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN6040SSD-13"
+			(at 91.44 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DMN6040SSD-13:SOIC127P600X170-8N"
+			(at 105.41 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN6040SSD.pdf"
+			(at 105.41 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes Inc DMN6040SSD-13 Dual N-channel MOSFET Transistor, 6.6 A, 60 V, 8-Pin SOIC"
+			(at 83.82 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,49 +4410,104 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 104.14 95.25 0)
+		(property "Height" "1.7"
+			(at 105.41 468.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 104.14 90.17 0)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 105.41 568.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 104.14 90.17 0)
+		(property "Manufacturer_Part_Number" "DMN6040SSD-13"
+			(at 105.41 668.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 90.17 0)
+		(property "Mouser Part Number" "621-DMN6040SSD-13"
+			(at 105.41 768.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN6040SSD-13?qs=gfe7vQ8txpVPCHiSTl%252BfEQ%3D%3D"
+			(at 105.41 868.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "DMN6040SSD-13"
+			(at 105.41 968.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmn6040ssd-13/diodes-incorporated"
+			(at 105.41 1068.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a9373a94-bc9b-472e-b2ed-a17f82d676b8")
+		)
+		(pin "5"
+			(uuid "4c994811-9218-4859-ad7e-83075a5469d2")
+		)
+		(pin "7"
+			(uuid "cad3302c-2cbc-42d6-a36a-2320d22176b2")
 		)
 		(pin "1"
-			(uuid "d893e546-58be-4c02-b1d3-105ac1f63cdc")
+			(uuid "1a68e59c-57e7-46aa-bbe0-6ad3413278e6")
+		)
+		(pin "2"
+			(uuid "428e49e4-e813-4973-8e4e-435098bb2b43")
+		)
+		(pin "3"
+			(uuid "5fd695d2-dec7-45c6-a506-8b8cb92fa118")
+		)
+		(pin "6"
+			(uuid "d9180d96-c88f-47f7-a62a-d96eb577b7b3")
+		)
+		(pin "8"
+			(uuid "b469d286-3391-43b0-a973-2f91b25f32e6")
 		)
 		(instances
-			(project "Summer2025"
+			(project ""
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "#PWR05")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4703,154 +4714,6 @@
 		)
 	)
 	(symbol
-		(lib_name "532617004_1")
-		(lib_id "SamacSys_Parts:532617004")
-		(at 195.58 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da76a387-a878-45c7-9554-4569605f5fe0")
-		(property "Reference" "J505"
-			(at 203.962 126.746 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "532617004"
-			(at 203.962 129.286 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "532617004:532617004"
-			(at 212.09 228.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/532617002_sd.pdf"
-			(at 212.09 328.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Friction Lock, 4 Circuits, Tape and Reel"
-			(at 195.58 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "3.4"
-			(at 212.09 528.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 212.09 628.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "532617004"
-			(at 212.09 728.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 212.09 828.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 212.09 928.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 212.09 1028.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 212.09 1128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a4649f9-bf8a-4f4c-9deb-770c842fdf20")
-		)
-		(pin "3"
-			(uuid "b2ae0e7f-1fb8-48fb-b933-e0081d34f2ce")
-		)
-		(pin "4"
-			(uuid "b24c66ca-567d-4f75-be2d-4b0d87fcbf7a")
-		)
-		(pin "1"
-			(uuid "9b17530a-471f-42a7-889c-8b3ca0754dc7")
-		)
-		(instances
-			(project "MCU_AURA"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "J505")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 194.31 142.24 0)
 		(unit 1)
@@ -4912,72 +4775,6 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 124.46 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e53f0f00-2912-415f-b1a7-d50bc8a44c8d")
-		(property "Reference" "#FLG07"
-			(at 124.46 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa96962b-f74d-497b-bcba-261daaae58c1")
-		)
-		(instances
-			(project ""
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)
