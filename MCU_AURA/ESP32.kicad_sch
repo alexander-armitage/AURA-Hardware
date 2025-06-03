@@ -5001,7 +5001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:EVQPUC02K"
+		(property "Footprint" "EVQ-PUC02k:EVQPUC02K"
 			(at 66.04 21.92 0)
 			(effects
 				(font
@@ -6366,7 +6366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:EVQPUC02K"
+		(property "Footprint" "EVQ-PUC02k:EVQPUC02K"
 			(at 66.04 -0.94 0)
 			(effects
 				(font

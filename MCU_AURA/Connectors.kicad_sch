@@ -3309,7 +3309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOIC127P600X170-8N"
+		(property "Footprint" "DMN6040SSD-13:SOIC127P600X170-8N"
 			(at 105.41 168.58 0)
 			(effects
 				(font
@@ -3541,7 +3541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:532617006"
+		(property "Footprint" "532617006:532617006"
 			(at 156.21 225.73 0)
 			(effects
 				(font
@@ -4085,154 +4085,6 @@
 		)
 	)
 	(symbol
-		(lib_name "532617004_1")
-		(lib_id "SamacSys_Parts:532617004")
-		(at 195.58 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81a40082-c550-4ad5-9008-0ad80b312a5a")
-		(property "Reference" "J505"
-			(at 203.962 126.746 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "532617004"
-			(at 203.962 129.286 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:532617004"
-			(at 212.09 228.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/532617002_sd.pdf"
-			(at 212.09 328.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Friction Lock, 4 Circuits, Tape and Reel"
-			(at 195.58 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "3.4"
-			(at 212.09 528.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 212.09 628.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "532617004"
-			(at 212.09 728.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 212.09 828.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 212.09 928.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 212.09 1028.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 212.09 1128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a076e62c-0cc7-4859-98b1-5c31f0f7a8d0")
-		)
-		(pin "3"
-			(uuid "3913b7ae-4caa-4ac0-b424-ea0808d9ef2a")
-		)
-		(pin "4"
-			(uuid "b594e438-683c-4fdc-88bb-55f5528996d5")
-		)
-		(pin "1"
-			(uuid "8a454f38-79e1-4d88-ad5c-6a69c9bbc4d9")
-		)
-		(instances
-			(project "Summer2025"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "J505")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 120.65 60.96 180)
 		(unit 1)
@@ -4463,7 +4315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:532617004"
+		(property "Footprint" "532617004:532617004"
 			(at 182.88 228.27 0)
 			(effects
 				(font
@@ -4845,6 +4697,154 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "532617004_1")
+		(lib_id "SamacSys_Parts:532617004")
+		(at 195.58 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da76a387-a878-45c7-9554-4569605f5fe0")
+		(property "Reference" "J505"
+			(at 203.962 126.746 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "532617004"
+			(at 203.962 129.286 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "532617004:532617004"
+			(at 212.09 228.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/532617002_sd.pdf"
+			(at 212.09 328.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Friction Lock, 4 Circuits, Tape and Reel"
+			(at 195.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3.4"
+			(at 212.09 528.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 212.09 628.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "532617004"
+			(at 212.09 728.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 212.09 828.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 212.09 928.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 212.09 1028.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 212.09 1128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a4649f9-bf8a-4f4c-9deb-770c842fdf20")
+		)
+		(pin "3"
+			(uuid "b2ae0e7f-1fb8-48fb-b933-e0081d34f2ce")
+		)
+		(pin "4"
+			(uuid "b24c66ca-567d-4f75-be2d-4b0d87fcbf7a")
+		)
+		(pin "1"
+			(uuid "9b17530a-471f-42a7-889c-8b3ca0754dc7")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
+					(reference "J505")
 					(unit 1)
 				)
 			)

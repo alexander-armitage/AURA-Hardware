@@ -6531,7 +6531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TFCARDH18"
+		(property "Footprint" "TF-CARD_H1_8:TFCARDH18"
 			(at 114.3 251.13 0)
 			(effects
 				(font
