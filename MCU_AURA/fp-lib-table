@@ -11,4 +11,6 @@
   (lib (name "TLV62566DBVR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/TLV62566DBVR.pretty")(options "")(descr ""))
   (lib (name "TPS56C230RJER")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/TPS56C230RJER.pretty")(options "")(descr ""))
   (lib (name "DMN6040SSD-13")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/DMN6040SSD-13.pretty")(options "")(descr ""))
+  (lib (name "SI4825DDY-T1-GE3")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/SI4825DDY-T1-GE3.pretty")(options "")(descr ""))
+  (lib (name "CKST0603")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/CKST0603.pretty")(options "")(descr ""))
 )
