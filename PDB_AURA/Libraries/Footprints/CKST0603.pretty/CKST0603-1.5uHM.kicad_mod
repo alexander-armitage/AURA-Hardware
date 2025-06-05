@@ -1,0 +1,121 @@
+(footprint "CKST0603-1.5uHM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "L100"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "53a4a1d1-5fd9-4201-8a21-39b59441c5d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1u8"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "406b6846-280b-4dbf-a818-3aedeeea225e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78a43eed-324f-4288-b5e7-d75680dbdff1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor with iron core"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39fefefb-ec2c-4e16-8c1d-03443581878a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part" "YSPIT0630A-1R8M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01bab81a-90af-4c3a-bfff-084d47aaa69f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2 -5)
+		(end 8.05 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "5f4011bd-c701-4e93-9b84-3af710351de5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d958c789-9c8b-4b5e-81ea-944f31bed97c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 2.35 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "720f2633-783a-49c5-b005-d98a8a73c627")
+	)
+	(pad "2" smd roundrect
+		(at 6.05 0)
+		(size 2.35 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "44f0e523-0539-48ec-ab13-83e30e886698")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Models/IND_0630CDMCCDS_SUM.stp"
+		(offset
+			(xyz 3 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)

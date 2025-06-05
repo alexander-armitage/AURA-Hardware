@@ -5,14 +5,26 @@
 	(uuid "c0b09de1-c640-438f-9ef5-dda14a6aac71")
 	(paper "A4")
 	(title_block
-		(title "Project Outline")
+		(title "MCU AURA")
 		(date "25-05-2025")
 		(rev "0.0.1")
 	)
 	(lib_symbols)
 	(rectangle
-		(start 190.5 76.2)
-		(end 266.7 125.73)
+		(start 190.5 101.6)
+		(end 266.7 151.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 042c719f-3521-4d3d-9c16-433954618e02)
+	)
+	(rectangle
+		(start 190.5 38.1)
+		(end 266.7 87.63)
 		(stroke
 			(width 0)
 			(type default)
@@ -70,6 +82,19 @@
 		)
 		(uuid e95c808f-9af3-411b-b5e1-738920894a40)
 	)
+	(text "ToDos:"
+		(exclude_from_sim no)
+		(at 198.12 110.744 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "081ae805-07d1-491f-b480-74d2a46aa85e")
+	)
 	(text "3V3"
 		(exclude_from_sim no)
 		(at 93.472 106.68 0)
@@ -90,9 +115,9 @@
 		)
 		(uuid "1fe92bc1-b97b-46e6-b794-17ee6c102816")
 	)
-	(text "Be able to power 8 servos plus all on board electronics.\n\nHave power switching between USB and Battery. \n\nHave long range radio for communication.\n\nUse GPS, barometer, magnetometer, gyroscope, and acceleromter\nto perform sensor fusion.\n\nUse JTAG for debugging embedded software.\n\nBe programmable through the ESP-IDF programming framework.\n\nAble to be used in a variety of robotic systems e.g. a \nquadrupedal robot.\n\n"
+	(text "Be able to power 12 servos plus all on board electronics.\n\nHave power switching between USB and Battery. \n\nHave long range radio for communication.\n\nUse GPS, barometer, magnetometer, gyroscope, and acceleromter\nto perform sensor fusion.\n\nUse JTAG for debugging embedded software.\n\nBe programmable through the ESP-IDF programming framework.\n\nAble to be used in a variety of robotic systems: quadrupeds,\ndrones, rockets, and fixed wings.\n\n"
 		(exclude_from_sim no)
-		(at 198.12 88.9 0)
+		(at 198.12 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -133,6 +158,18 @@
 		)
 		(uuid "9427a58f-99ed-4de8-bea6-ed1cc935661c")
 	)
+	(text "Fix block diagram (it is outdated)"
+		(exclude_from_sim no)
+		(at 198.12 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left top)
+		)
+		(uuid "946cb259-ce20-44b4-ac2e-62322e084502")
+	)
 	(text "Project Block Diagram\n"
 		(exclude_from_sim no)
 		(at 27.94 32.004 0)
@@ -168,7 +205,7 @@
 	)
 	(text "Project Goals:\n"
 		(exclude_from_sim no)
-		(at 198.12 85.09 0)
+		(at 198.12 46.99 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -600,7 +637,7 @@
 		(instances
 			(project "MCU_AURA"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71"
-					(page "6")
+					(page "5")
 				)
 			)
 		)

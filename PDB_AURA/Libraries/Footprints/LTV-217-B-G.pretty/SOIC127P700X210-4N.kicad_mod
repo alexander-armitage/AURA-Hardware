@@ -1,0 +1,219 @@
+(footprint "SOIC127P700X210-4N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U3"
+		(at -0.645 -2.312 0)
+		(layer "F.SilkS")
+		(uuid "c2b89bcb-781a-4656-abb1-406de299f14d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LTV-217-B-G"
+		(at 7.61 2.312 0)
+		(layer "F.Fab")
+		(uuid "5ff3038a-e88c-4c1e-8465-e01d761d248d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586197836349755392"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "838d6f8a-10db-4e81-ad02-bf2d3f26bd1f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39caa9c7-8e2d-40ae-90b7-84805113e0d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 -1.5)
+		(end 2.2 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2595778-fc43-4a04-8418-4da59398efe2")
+	)
+	(fp_line
+		(start -2.2 1.5)
+		(end 2.2 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ade763d-7d16-41b7-96b9-72d4e652660c")
+	)
+	(fp_circle
+		(center -4.815 -1.225)
+		(end -4.715 -1.225)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "08ce4c91-8d7b-49ee-a64f-718cdff1e995")
+	)
+	(fp_line
+		(start -4.255 -1.75)
+		(end -4.255 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f6ea4fe-bd96-4518-bfa9-a6714262cf3e")
+	)
+	(fp_line
+		(start -4.255 -1.75)
+		(end 4.255 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13ac670a-2f47-4902-8838-b3057e4e5468")
+	)
+	(fp_line
+		(start -4.255 1.75)
+		(end 4.255 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc469100-7a09-4084-b9fa-14660eeb2f54")
+	)
+	(fp_line
+		(start 4.255 -1.75)
+		(end 4.255 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4a5be84-9e1d-4cf1-8f97-2fb64bac8b8c")
+	)
+	(fp_line
+		(start -2.2 -1.5)
+		(end -2.2 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "41801bc3-13dc-4104-9375-0ff9f35c1427")
+	)
+	(fp_line
+		(start -2.2 -1.5)
+		(end 2.2 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b43c2372-993a-43d9-aed5-825b5a74c06b")
+	)
+	(fp_line
+		(start -2.2 1.5)
+		(end 2.2 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "815062aa-c74e-482f-8704-b3a5e2e87617")
+	)
+	(fp_line
+		(start 2.2 -1.5)
+		(end 2.2 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "698ced01-7f28-4d30-99e8-1925003be3ea")
+	)
+	(fp_circle
+		(center -4.815 -1.225)
+		(end -4.715 -1.225)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a0778141-e58e-421c-a51b-c16ba0e2d85a")
+	)
+	(pad "1" smd roundrect
+		(at -3.195 -0.635)
+		(size 1.62 0.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "fb42ed62-8f7e-4efb-b478-e1d828aaa1fd")
+	)
+	(pad "2" smd roundrect
+		(at -3.195 0.635)
+		(size 1.62 0.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "1d8f3e88-fbd9-4889-a945-c464507be1f9")
+	)
+	(pad "3" smd roundrect
+		(at 3.195 0.635)
+		(size 1.62 0.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "db033a18-97de-4ecc-976f-ecf0c2682537")
+	)
+	(pad "4" smd roundrect
+		(at 3.195 -0.635)
+		(size 1.62 0.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "7b320745-9a00-4703-a2f4-9b7b7c49b4dd")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Models/LTV-217-B-G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,323 @@
+(footprint "XT30PWF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "XT30PW-F-2")
+	(tags "Connector")
+	(property "Reference" "J11"
+		(at 2.5 -6.862 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8d257e06-4c42-48d9-8f1a-db6720699ac1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "XT30PW-F"
+		(at 2.5 -6.862 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e48ebc62-1944-4b5b-b81d-ac6af990c140")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a737ec7-36c4-44d3-a55c-080bee82dfc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30a42939-2edf-4084-aa8e-3cdea673a5f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "544dac13-f418-4b56-a96d-7c1f274e8c84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Amass"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6835218-ff3e-44c0-8ea0-da584d7d72f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "XT30PW-F"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f54ae221-6235-436d-b801-15bd91f76b7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4973b5d4-1186-43ac-8ac3-f4a4f491486c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d916d4aa-88a4-4e1c-aaff-a66b4ac242b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d21a574-b991-46e9-9b50-e0352ea40e49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e84beab-9929-4448-9d4f-148d436f293f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.15 -8)
+		(end 9.15 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a399f6bf-fd95-4e86-94e8-64ea2c5ff309")
+	)
+	(fp_line
+		(start -4.15 -3)
+		(end -4.15 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f3b4596-e3df-4fa2-a93c-a28ec0309ea5")
+	)
+	(fp_line
+		(start 9.15 -8)
+		(end 9.15 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60ec13dd-07af-45ff-a78c-aa4619dfeaea")
+	)
+	(fp_line
+		(start 9.15 -3)
+		(end -4.15 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9772e051-fd4e-4f13-ba66-b64777f8b6c0")
+	)
+	(fp_line
+		(start -5.15 -16)
+		(end 10.15 -16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e42f3e7a-5d05-4e44-ba76-4eac85285bd2")
+	)
+	(fp_line
+		(start -5.15 2.275)
+		(end -5.15 -16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70a4e666-2f1f-4914-aaa4-c1dcf53eb5bb")
+	)
+	(fp_line
+		(start 10.15 -16)
+		(end 10.15 2.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bac0ed78-2d10-4207-bd2f-3c0571308b73")
+	)
+	(fp_line
+		(start 10.15 2.275)
+		(end -5.15 2.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "627504a0-3ba0-4ebc-b95a-ba30c081bca4")
+	)
+	(fp_line
+		(start -4.15 -8)
+		(end 9.15 -8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8dad77c9-958a-4cf5-83d6-fc3af4823ffe")
+	)
+	(fp_line
+		(start -4.15 -3)
+		(end -4.15 -8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ce07d92-6f54-48f8-aa06-4e86c1f7579d")
+	)
+	(fp_line
+		(start 9.15 -8)
+		(end 9.15 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96cd1cef-ed58-45b5-a7b2-6c6bff516ccb")
+	)
+	(fp_line
+		(start 9.15 -3)
+		(end -4.15 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f38f927-a38b-4e22-9ea5-15a48b84d6f9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 -6.862 0)
+		(layer "F.Fab")
+		(uuid "7b6c0a48-6d58-4e9b-9b6b-b66694539eb1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a9b72b23-d53f-4aac-8d51-fee3c05ca761")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "42b730e0-7bc7-4bfc-8e9e-2a0309ee06ff")
+	)
+	(pad "3" thru_hole circle
+		(at -3 -5)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ba45ac3-1e2f-436d-b59b-9b55a8150493")
+	)
+	(pad "4" thru_hole circle
+		(at 8 -5)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef33ae07-b9b2-49a7-8d92-6651d9a77bdf")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Models/XT30PW-F.stp"
+		(offset
+			(xyz 2.5 8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

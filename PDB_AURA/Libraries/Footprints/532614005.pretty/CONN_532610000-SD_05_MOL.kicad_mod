@@ -1,0 +1,420 @@
+(footprint "CONN_532610000-SD_05_MOL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "J7"
+		(at -0.1016 2.8956 180)
+		(layer "F.SilkS")
+		(uuid "e1a939ba-97cf-4c22-9345-5542860bcb18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "532614005"
+		(at 13.5128 2.8956 180)
+		(layer "F.Fab")
+		(uuid "3df503ad-b180-47ea-ab1d-18192c681059")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45dd33f8-f293-41de-9bbb-5862264ca922")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2eb50dd-b564-4dad-888a-fe2796aacfaa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Molex"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50b792be-04a0-45fc-9e86-96dad4585a10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "Connector Header Surface Mount, Right Angle 5 position 0.049 (1.25mm)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f368cf4-8e76-49d9-92ae-7465e20de4f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21cdd2d6-bca8-4101-91a9-e2eeff69d45e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44207ed3-442f-4957-9c37-687b9025970c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/532614005/Molex/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8623bb5-35e5-471e-a43e-d0243830c351")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04d8c95f-1103-4c6d-ab1a-907024992b5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/532614005/Molex/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d2a6e69-0635-4e4e-bbd0-caf59535eb3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "532614005"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ed1144e-01a5-40fc-94af-20f334f4f15d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFR_NAME" "Molex Connector Corporation"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7652ca1d-6252-41af-8177-2a410b8fd92f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER_PART_NUMBER" "532614005"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e4563f7-34a7-41d5-84de-1dcec6a69641")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.6388 -2.2352)
+		(end -5.6388 -1.8796)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3fb41a16-d8b5-4cba-90d4-c1dfef5d17bc")
+	)
+	(fp_line
+		(start -5.6388 1.8796)
+		(end -5.6388 2.2352)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1ca789c-758e-4872-bd29-e45e12e40bbe")
+	)
+	(fp_line
+		(start -5.6388 2.2352)
+		(end -3.2512 2.2352)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ce437f3-9edf-40a6-b31f-5560a197acba")
+	)
+	(fp_line
+		(start 3.2512 2.2352)
+		(end 5.6388 2.2352)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64c40e9f-c252-423c-8b8b-872113f20c1b")
+	)
+	(fp_line
+		(start 5.6388 -2.2352)
+		(end -5.6388 -2.2352)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43a01f21-3e64-4549-95eb-509300d060d1")
+	)
+	(fp_line
+		(start 5.6388 -1.8796)
+		(end 5.6388 -2.2352)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8adc5b3f-8ee6-48d3-98f6-7c5bb679d1e2")
+	)
+	(fp_line
+		(start 5.6388 2.2352)
+		(end 5.6388 1.8796)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa5e02cd-e166-40c2-8c32-28899205973a")
+	)
+	(fp_arc
+		(start 5.8928 2.8956)
+		(mid 6.2738 2.5146)
+		(end 6.6548 2.8956)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "630a0e78-d2ce-44af-a625-26006d087356")
+	)
+	(fp_arc
+		(start 6.6548 2.8956)
+		(mid 6.2738 3.2766)
+		(end 5.8928 2.8956)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "edf7a68a-79f5-4e94-833d-862d37ae4aad")
+	)
+	(fp_arc
+		(start 5.8928 2.8956)
+		(mid 6.2738 2.5146)
+		(end 6.6548 2.8956)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "5cf98326-913e-4465-8e79-b21dc25749fa")
+	)
+	(fp_arc
+		(start 6.6548 2.8956)
+		(mid 6.2738 3.2766)
+		(end 5.8928 2.8956)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "97dc3d35-6302-4ab2-9441-b46c4d799487")
+	)
+	(fp_line
+		(start -5.4864 -2.0828)
+		(end -5.4864 2.1082)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0e4be64-9b72-4ae4-bd7a-e759130b9a8d")
+	)
+	(fp_line
+		(start -5.4864 2.1082)
+		(end 5.4864 2.1082)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36d232f2-1508-4ddd-97dc-5fdf65422d6f")
+	)
+	(fp_line
+		(start 5.4864 -2.0828)
+		(end -5.4864 -2.0828)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86f2edbb-7dc9-418c-9392-369f685337d8")
+	)
+	(fp_line
+		(start 5.4864 2.1082)
+		(end 5.4864 -2.0828)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67e4bd24-bdf3-4dde-a042-ebde286fd92e")
+	)
+	(fp_arc
+		(start 2.1082 4.8006)
+		(mid 2.4892 4.4196)
+		(end 2.8702 4.8006)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c1a0846-36e9-4bad-9fbe-d602aa803102")
+	)
+	(fp_arc
+		(start 2.8702 4.8006)
+		(mid 2.4892 5.1816)
+		(end 2.1082 4.8006)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56fdc8db-dd40-4555-9024-ed8007e1a8c2")
+	)
+	(pad "1" smd rect
+		(at 2.5 2.9045)
+		(size 0.8128 1.7018)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "bca69729-c270-40b8-a61d-5fc5c268741e")
+	)
+	(pad "2" smd rect
+		(at 1.25 2.9045)
+		(size 0.8128 1.7018)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c696db99-fd7b-4fac-87bc-46ab8d30acc0")
+	)
+	(pad "3" smd rect
+		(at 0 2.9045)
+		(size 0.8128 1.7018)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b0ae5a29-f9b0-44da-813c-464370a63fa1")
+	)
+	(pad "4" smd rect
+		(at -1.25 2.9045)
+		(size 0.8128 1.7018)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "a1cde995-a642-4433-95a2-b5741d49f3e4")
+	)
+	(pad "5" smd rect
+		(at -2.5 2.9045)
+		(size 0.8128 1.7018)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "a29389b6-bb36-47cd-b4af-6e13642f0af4")
+	)
+	(pad "6" smd rect
+		(at -5.05 0.0045)
+		(size 2.2098 3.0988)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b70226b2-11f1-4811-bf9f-27b96ba64697")
+	)
+	(pad "7" smd rect
+		(at 5.05 0.0045)
+		(size 2.2098 3.0988)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "94b6489e-1da9-480b-8136-1e68cff271e3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Models/0532614005.stp"
+		(offset
+			(xyz 0 3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

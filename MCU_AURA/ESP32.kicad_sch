@@ -2549,6 +2549,14 @@
 		(uuid "a26aa969-c389-4393-b4d4-6d11cd57f095")
 	)
 	(no_connect
+		(at 138.43 86.36)
+		(uuid "be074745-e830-4b20-abeb-180ead7cf17f")
+	)
+	(no_connect
+		(at 138.43 88.9)
+		(uuid "d3f1a43d-06fb-4bac-b7cd-ae44cb27ea36")
+	)
+	(no_connect
 		(at 168.91 119.38)
 		(uuid "d49bbdaa-fc37-49d7-b4c6-88679d71e22b")
 	)
@@ -2559,6 +2567,10 @@
 	(no_connect
 		(at 168.91 121.92)
 		(uuid "e488079c-15da-4b51-8439-fbc28962b9ff")
+	)
+	(no_connect
+		(at 138.43 91.44)
+		(uuid "ee9b6a9e-c378-4ca3-b677-23720676223e")
 	)
 	(no_connect
 		(at 168.91 104.14)
@@ -3170,16 +3182,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 91.44) (xy 138.43 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d2aacb4-6771-4fd8-acb8-013aba2d998a")
-	)
-	(wire
-		(pts
 			(xy 243.84 120.65) (xy 243.84 115.57)
 		)
 		(stroke
@@ -3237,26 +3239,6 @@
 			(type default)
 		)
 		(uuid "ba934724-3101-4926-81ea-54d2fff60c15")
-	)
-	(wire
-		(pts
-			(xy 135.89 86.36) (xy 138.43 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb17bef6-f414-4d3a-9df6-99e31639f65b")
-	)
-	(wire
-		(pts
-			(xy 135.89 88.9) (xy 138.43 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be674d4c-eef7-4261-a049-684afa0fb022")
 	)
 	(wire
 		(pts
@@ -3760,28 +3742,6 @@
 			)
 		)
 	)
-	(global_label "CONT_1"
-		(shape input)
-		(at 135.89 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "44061cfc-e63f-496c-917e-7c26f47796bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.8291 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "EXT_TX"
 		(shape output)
 		(at 171.45 78.74 0)
@@ -3949,50 +3909,6 @@
 		(uuid "8b03c9eb-308b-4290-9c70-b345e302046b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 127.2428 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 135.89 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "912a3a2c-5f9e-42e9-ac86-0fd1b061d721")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.49 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CONT_2"
-		(shape input)
-		(at 135.89 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91d27c41-06f3-4412-b8b6-bb47ded2cb0b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.8291 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02896fdd-5ec6-4993-bb54-d1c57933c534")
-		(property "Reference" "J2"
+		(property "Reference" "J200"
 			(at 222.25 100.33 0)
 			(effects
 				(font
@@ -4380,7 +4296,7 @@
 		(instances
 			(project ""
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/b7286ff6-080d-4fe9-98ea-7dd25e1f4a61"
-					(reference "J2")
+					(reference "J200")
 					(unit 1)
 				)
 			)
@@ -5011,7 +4927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6897a7f9-e8ae-490e-af16-e3e184c1d0d5")
-		(property "Reference" "S1"
+		(property "Reference" "S200"
 			(at 77.47 83.82 0)
 			(effects
 				(font
@@ -5141,7 +5057,7 @@
 		(instances
 			(project ""
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/b7286ff6-080d-4fe9-98ea-7dd25e1f4a61"
-					(reference "S1")
+					(reference "S200")
 					(unit 1)
 				)
 			)
@@ -5956,7 +5872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e14c24e5-584a-4e41-91ef-e1db4d88aef6")
-		(property "Reference" "S2"
+		(property "Reference" "S201"
 			(at 77.47 106.68 0)
 			(effects
 				(font
@@ -6086,7 +6002,7 @@
 		(instances
 			(project "MCU_AURA"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/b7286ff6-080d-4fe9-98ea-7dd25e1f4a61"
-					(reference "S2")
+					(reference "S201")
 					(unit 1)
 				)
 			)

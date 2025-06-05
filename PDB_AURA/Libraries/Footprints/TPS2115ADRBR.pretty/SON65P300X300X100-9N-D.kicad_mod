@@ -1,0 +1,325 @@
+(footprint "SON65P300X300X100-9N-D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DRB0008B")
+	(tags "Power Supply")
+	(property "Reference" "U3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "de95dce7-05b6-490d-8fad-a6ceff791289")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TPS2115ADRBR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9927d584-0fb8-4d46-b0bd-c270d9092f21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.ti.com/lit/gpn/tps2115a"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37d4a412-ecbe-49a6-95da-4c8ed66b6789")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Autoswitching Power Mux"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4beffb5b-02cb-4736-9b91-537917633998")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de08b4fa-529d-4ef7-ae95-c5478d16f23d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f95ae19-bf33-467e-918f-960a76346447")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TPS2115ADRBR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2960fa76-f52a-474e-930c-ef628d720696")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-TPS2115ADRBR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19da7e37-b987-41a9-8f7f-350295047a4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2115ADRBR?qs=g%2FrhRe7LVpSXEuLZV5FMOQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd36db20-9920-41e4-8c91-61904f9f6543")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "TPS2115ADRBR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7fa957d-1b7d-492d-906d-e78ce65836f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps2115adrbr/texas-instruments?utm_currency=USD&region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c802d7e7-5de9-430c-bf88-b7a18f4f0e00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.875 -1.65)
+		(end -1.875 -1.525)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fdb63243-ebb9-4ecb-8c72-9cff3ec04761")
+	)
+	(fp_line
+		(start -2.125 -1.8)
+		(end 2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6fe578f9-61f5-4155-b2b3-b3e245bbfc11")
+	)
+	(fp_line
+		(start -2.125 1.8)
+		(end -2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b256f9b-fb52-4c98-9c05-e7cb12e5ea3f")
+	)
+	(fp_line
+		(start 2.125 -1.8)
+		(end 2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "417dfaa4-5b73-40ca-b918-ab6890228786")
+	)
+	(fp_line
+		(start 2.125 1.8)
+		(end -2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b00d3c1a-d906-4e28-aa0a-ddded81b5907")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbfe4056-a876-473f-af99-12bff034b1e9")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "990e7cb8-ab40-4a29-97e8-12bceca79a68")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e6d6355-f135-4193-8f9a-1f4192b3661b")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50233e3c-5f2a-4fc8-bd9f-36479d32a300")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c107ca27-adba-44e8-bf00-d9115478e65b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7b6f2c12-b149-436c-8de3-f7af23589933")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.45 -0.975 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a35bbef2-1ca3-4216-bba7-51219f861704")
+	)
+	(pad "2" smd rect
+		(at -1.45 -0.325 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ab0e7039-7b82-4bb2-b8bc-189215fa2ba0")
+	)
+	(pad "3" smd rect
+		(at -1.45 0.325 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "95a4842f-85a4-4b1e-b0ef-85ae6eddb917")
+	)
+	(pad "4" smd rect
+		(at -1.45 0.975 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a93e40a8-e8e8-4c21-8d25-b23d839ae1f4")
+	)
+	(pad "5" smd rect
+		(at 1.45 0.975 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ec01b202-a4bf-4a4f-abe4-897f795bacde")
+	)
+	(pad "6" smd rect
+		(at 1.45 0.325 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "35a3b38c-5488-467a-8c40-5a9810cc6640")
+	)
+	(pad "7" smd rect
+		(at 1.45 -0.325 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "13b02d41-71b4-4f21-9937-9b9938da47c4")
+	)
+	(pad "8" smd rect
+		(at 1.45 -0.975 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d0674209-92e3-4bac-845e-4f4e661704af")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.7 2.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e43a6a45-0b8e-4e64-ab93-a864aca381f4")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Models/TPS2115ADRBR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

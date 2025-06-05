@@ -1,0 +1,380 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c0b09de1-c640-438f-9ef5-dda14a6aac71")
+	(paper "A4")
+	(title_block
+		(title "PDB AURA")
+		(date "25-05-2025")
+		(rev "0.0.1")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 190.5 101.6)
+		(end 266.7 151.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 042c719f-3521-4d3d-9c16-433954618e02)
+	)
+	(rectangle
+		(start 190.5 38.1)
+		(end 266.7 87.63)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4fdfd36e-619e-4e2a-a450-7c3631cceab2)
+	)
+	(rectangle
+		(start 21.59 24.13)
+		(end 170.18 176.53)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6c7b8737-5bd1-4416-9439-eb4fc63ca7cf)
+	)
+	(rectangle
+		(start 27.305 95.25)
+		(end 52.07 120.65)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d7e9adc5-b3a8-4843-8b70-014d0d9c015b)
+	)
+	(rectangle
+		(start 59.055 44.45)
+		(end 101.6 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e5358679-89bd-47a7-a7f9-8fd82dbbf6a7)
+	)
+	(rectangle
+		(start 27.94 50.8)
+		(end 52.705 76.2)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e95c808f-9af3-411b-b5e1-738920894a40)
+	)
+	(text "ToDos:"
+		(exclude_from_sim no)
+		(at 198.12 110.744 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "081ae805-07d1-491f-b480-74d2a46aa85e")
+	)
+	(text "Be able to power 12 servos plus all on board electronics.\n\nHave power switching between USB and Battery. \n\nHave long range radio for communication.\n\nUse GPS, barometer, magnetometer, gyroscope, and acceleromter\nto perform sensor fusion.\n\nUse JTAG for debugging embedded software.\n\nBe programmable through the ESP-IDF programming framework.\n\nAble to be used in a variety of robotic systems: quadrupeds,\ndrones, rockets, and fixed wings.\n\n"
+		(exclude_from_sim no)
+		(at 198.12 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left top)
+		)
+		(uuid "54568c30-a9d8-4f6a-9e2c-fe2f2e2d2a87")
+	)
+	(text "PCB"
+		(exclude_from_sim no)
+		(at 59.055 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67814f73-ba95-40d9-b6bb-a1ff0c021892")
+	)
+	(text "5V, PWM"
+		(exclude_from_sim no)
+		(at 59.69 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6975129d-d633-4677-b0ea-2dacfa86f367")
+	)
+	(text "Maybe switch regulator to SiC437/SiC431.\n\nConfirm power specifications.\n\nFix block diagram (it is outdated)."
+		(exclude_from_sim no)
+		(at 198.12 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left top)
+		)
+		(uuid "946cb259-ce20-44b4-ac2e-62322e084502")
+	)
+	(text "Project Block Diagram\n"
+		(exclude_from_sim no)
+		(at 27.94 32.004 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "97f2fcb2-e6cb-4181-8e57-cd9765dfbb58")
+	)
+	(text "USB or Battery (7V2 -> 16V8)\n"
+		(exclude_from_sim no)
+		(at 40.386 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9b13ddb-06ff-49bd-906e-50ce5ab276a6")
+	)
+	(text "Project Goals:\n"
+		(exclude_from_sim no)
+		(at 198.12 46.99 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "bbaf2613-c649-4332-bd37-883a28b2b15a")
+	)
+	(text "Servo Motors"
+		(exclude_from_sim no)
+		(at 27.94 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efb3ac08-9524-457f-8731-bff5a76ba401")
+	)
+	(polyline
+		(pts
+			(xy 40.64 63.5) (xy 43.18 61.595)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(uuid "1a2c1e9a-9e72-4c75-95e3-a0c3d0982a56")
+	)
+	(polyline
+		(pts
+			(xy 78.74 69.85) (xy 76.835 72.39)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(uuid "43e49af7-5ae8-4670-9971-abfb00210243")
+	)
+	(polyline
+		(pts
+			(xy 72.39 107.95) (xy 69.85 109.855)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(uuid "45937646-d58e-436f-93e3-97ac5ad89636")
+	)
+	(polyline
+		(pts
+			(xy 78.74 79.375) (xy 78.74 101.6)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(uuid "57cabaf0-3441-415e-b1e7-ddaa4471fa36")
+	)
+	(polyline
+		(pts
+			(xy 46.99 107.95) (xy 71.755 107.95)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(uuid "5b9ec63e-f369-4457-9335-12e37ea40187")
+	)
+	(polyline
+		(pts
+			(xy 40.64 63.5) (xy 72.39 63.5)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(uuid "5c49250e-2b8b-4613-ab3e-7f0ff017cf40")
+	)
+	(polyline
+		(pts
+			(xy 40.64 63.5) (xy 43.18 65.405)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(uuid "659edb08-998f-4227-b04b-7ab75364f9a0")
+	)
+	(polyline
+		(pts
+			(xy 78.74 69.85) (xy 78.74 75.565)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(uuid "810f4e01-f341-4651-9e61-c53ebb64eadd")
+	)
+	(polyline
+		(pts
+			(xy 72.39 107.95) (xy 69.85 106.045)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(uuid "9e3932f3-78e6-467a-a233-6f85d750c7a1")
+	)
+	(polyline
+		(pts
+			(xy 78.74 69.85) (xy 80.645 72.39)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(uuid "c14e336f-c132-4c17-b0f3-0f25e9cb1a1e")
+	)
+	(sheet
+		(at 65.405 50.8)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf94e7c9-9821-4c41-aadb-9bb6d92f20f0")
+		(property "Sheetname" "200_Connectors"
+			(at 65.405 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 65.405 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDB_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 65.405 95.25)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5906580-2f17-4557-899f-eb3151fe9c9e")
+		(property "Sheetname" "100_Power"
+			(at 65.405 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 65.405 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDB_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

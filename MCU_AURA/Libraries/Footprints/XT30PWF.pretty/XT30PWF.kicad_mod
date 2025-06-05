@@ -1,0 +1,231 @@
+(footprint "XT30PWF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "XT30PW-F-2")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 2.5 -6.862 0)
+		(layer "F.SilkS")
+		(uuid "141bcbdf-16c7-4362-821a-1d9cd1d4c499")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "XT30PWF"
+		(at 2.5 -6.862 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0165835d-3946-4e37-9742-0ea2c9da10a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db193ddb-c6d3-41d8-add5-9fce12f36faf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca169e14-59aa-445a-834d-59a2c49feda0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.15 -8)
+		(end 9.15 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1f2101f-ea03-4122-8dad-eb0c624cb186")
+	)
+	(fp_line
+		(start -4.15 -3)
+		(end -4.15 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17649c15-3375-4434-b7b0-c569fd146978")
+	)
+	(fp_line
+		(start 9.15 -8)
+		(end 9.15 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f97fe437-8589-4573-aa3d-d1de8adb7412")
+	)
+	(fp_line
+		(start 9.15 -3)
+		(end -4.15 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51293885-53e2-4412-b173-788d3aac09f0")
+	)
+	(fp_line
+		(start -5.15 -16)
+		(end 10.15 -16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d93b9189-180f-4e7c-a9c2-f336bd57105a")
+	)
+	(fp_line
+		(start -5.15 2.275)
+		(end -5.15 -16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2794f27f-228d-4047-a4c7-d5bcdc66ba3a")
+	)
+	(fp_line
+		(start 10.15 -16)
+		(end 10.15 2.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "493f753b-c955-4f7b-9b2f-717ea5b1b320")
+	)
+	(fp_line
+		(start 10.15 2.275)
+		(end -5.15 2.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b299504-e58f-4cdb-b103-6a7f57dfb6d7")
+	)
+	(fp_line
+		(start -4.15 -8)
+		(end 9.15 -8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d576d3de-0d6b-4543-80aa-b8eff4e9a2f8")
+	)
+	(fp_line
+		(start -4.15 -3)
+		(end -4.15 -8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87f02d9c-05bc-4851-aa61-69f72faf237c")
+	)
+	(fp_line
+		(start 9.15 -8)
+		(end 9.15 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5be936a3-cc5a-47df-9c79-444709ad2585")
+	)
+	(fp_line
+		(start 9.15 -3)
+		(end -4.15 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ea108fc-295d-45d1-8e90-62502ee958ad")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 -6.862 0)
+		(layer "F.Fab")
+		(uuid "ad712844-774c-4d6b-a29d-06cec4eea4a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c2d933de-43d9-47d0-805d-9bf98650d806")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ee95e8f4-93be-4fe4-915c-45e910a9af21")
+	)
+	(pad "3" thru_hole circle
+		(at -3 -5)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "95789ec7-68d6-4bbb-af31-81fa470e4723")
+	)
+	(pad "4" thru_hole circle
+		(at 8 -5)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0d05a360-1fa2-4e9b-90e1-3066b9601b01")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Models/XT30PW-F.stp"
+		(offset
+			(xyz 2.5 8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
