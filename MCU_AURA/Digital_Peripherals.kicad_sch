@@ -3460,7 +3460,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 91.44) (xy 175.26 90.17)
+			(xy 171.45 91.44) (xy 171.45 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4060,7 +4060,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 90.17) (xy 179.07 90.17)
+			(xy 171.45 90.17) (xy 179.07 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4240,7 +4240,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 99.06) (xy 175.26 101.6)
+			(xy 171.45 99.06) (xy 171.45 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4537,6 +4537,16 @@
 			(justify left bottom)
 		)
 		(uuid "f32975f0-187f-442a-bdb2-77fab5abd609")
+	)
+	(label "MUX_OE"
+		(at 171.45 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe4a6008-7519-4ea8-83e9-9a73c6005546")
 	)
 	(global_label "LED"
 		(shape passive)
@@ -5425,7 +5435,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 101.6 0)
+		(at 171.45 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5434,7 +5444,7 @@
 		(fields_autoplaced yes)
 		(uuid "2449f850-c7e0-4b7e-85bc-4874b1854bae")
 		(property "Reference" "#PWR06"
-			(at 175.26 107.95 0)
+			(at 171.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,7 +5453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 106.68 0)
+			(at 171.45 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 101.6 0)
+			(at 171.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,7 +5471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 101.6 0)
+			(at 171.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5480,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 101.6 0)
+			(at 171.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +8270,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 175.26 95.25 180)
+		(at 171.45 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8269,7 +8279,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcb926c3-5ec6-4007-ac23-b9329646accb")
 		(property "Reference" "R302"
-			(at 177.8 93.9799 0)
+			(at 173.99 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,16 +8288,17 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 177.8 96.5199 0)
+			(at 173.99 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 177.038 95.25 90)
+			(at 173.228 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8296,7 +8307,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 95.25 0)
+			(at 171.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +8316,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 175.26 95.25 0)
+			(at 171.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,7 +8344,7 @@
 		(at 110.49 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

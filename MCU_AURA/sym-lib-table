@@ -20,4 +20,6 @@
   (lib (name "532617010")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/532617010.kicad_sym")(options "")(descr ""))
   (lib (name "532617012")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/532617012.kicad_sym")(options "")(descr ""))
   (lib (name "PCA9685PW_118")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/PCA9685PW_118.kicad_sym")(options "")(descr ""))
+  (lib (name "ESDALC5_1BM2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/ESDALC5_1BM2.kicad_sym")(options "")(descr ""))
+  (lib (name "532617003")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/532617003.kicad_sym")(options "")(descr ""))
 )

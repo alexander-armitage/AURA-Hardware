@@ -158,7 +158,7 @@
 		)
 		(uuid "9427a58f-99ed-4de8-bea6-ed1cc935661c")
 	)
-	(text "Fix block diagram (it is outdated)"
+	(text "Fix block diagram (it is outdated)\nChange 4u7 to 0402 and 22u to 0805\nMark components as DNP for manufacturing"
 		(exclude_from_sim no)
 		(at 198.12 114.3 0)
 		(effects
