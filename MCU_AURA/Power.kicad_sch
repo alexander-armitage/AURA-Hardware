@@ -3817,28 +3817,12 @@
 		(uuid "07d5a0b0-0a4b-4720-9212-7852f2e047e4")
 	)
 	(no_connect
-		(at 215.9 111.76)
-		(uuid "12e0828f-21f0-4416-a57b-74e1f88a3c7c")
-	)
-	(no_connect
 		(at 57.15 69.85)
 		(uuid "b3072fe4-113b-4de8-b91b-b03780eeaae2")
 	)
 	(no_connect
 		(at 57.15 72.39)
 		(uuid "ba0224e6-88d3-4f7d-9061-8025422e3949")
-	)
-	(no_connect
-		(at 215.9 121.92)
-		(uuid "d2c4288c-6703-4094-ae90-4aac36bfad4d")
-	)
-	(no_connect
-		(at 234.95 111.76)
-		(uuid "df6acf20-02cb-4816-8b23-e1b5ab848938")
-	)
-	(no_connect
-		(at 234.95 121.92)
-		(uuid "ebc6054e-36bf-4cf9-b898-375262334b86")
 	)
 	(wire
 		(pts
@@ -4072,6 +4056,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 121.92) (xy 237.49 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a8527e-aa75-43bf-bde7-cd1dddef4d7e")
+	)
+	(wire
+		(pts
 			(xy 90.17 147.32) (xy 90.17 148.59)
 		)
 		(stroke
@@ -4129,6 +4123,16 @@
 			(type default)
 		)
 		(uuid "3c96d172-62fc-4bdc-83ed-6cdec6ca4353")
+	)
+	(wire
+		(pts
+			(xy 237.49 121.92) (xy 237.49 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca66137-d86e-4630-b225-2f65c015d6bd")
 	)
 	(wire
 		(pts
@@ -4219,6 +4223,16 @@
 			(type default)
 		)
 		(uuid "53275f6b-6e22-418f-9fb2-01ec9f4b4858")
+	)
+	(wire
+		(pts
+			(xy 218.44 111.76) (xy 218.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56685074-fe2e-446d-a446-b63968268c6b")
 	)
 	(wire
 		(pts
@@ -4522,6 +4536,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 111.76) (xy 218.44 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d074f9-5660-44ee-81aa-b31356f4aa23")
+	)
+	(wire
+		(pts
 			(xy 36.83 132.08) (xy 36.83 133.35)
 		)
 		(stroke
@@ -4812,6 +4836,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 121.92) (xy 218.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6dc98f7-066d-4152-9c1f-13854771785a")
+	)
+	(wire
+		(pts
 			(xy 95.25 128.27) (xy 90.17 128.27)
 		)
 		(stroke
@@ -4952,6 +4986,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 121.92) (xy 218.44 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb919dc-3d2f-43c0-a5ac-cf9a28b63f38")
+	)
+	(wire
+		(pts
 			(xy 96.52 46.99) (xy 106.68 46.99)
 		)
 		(stroke
@@ -5079,6 +5123,26 @@
 			(type default)
 		)
 		(uuid "e723de29-9334-4f3d-bd68-f2bf7d73fa57")
+	)
+	(wire
+		(pts
+			(xy 234.95 111.76) (xy 237.49 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7579903-1ea7-47b5-8adb-27b9801e56e0")
+	)
+	(wire
+		(pts
+			(xy 237.49 111.76) (xy 237.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e870ec7e-1e4d-42e4-bf1f-effbff4dd426")
 	)
 	(wire
 		(pts
@@ -6591,6 +6655,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 218.44 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39783684-1ae3-4155-8e61-c5484277058e")
+		(property "Reference" "#PWR050"
+			(at 218.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "640cbe1d-55d1-4e6f-be34-bac85cfc58a6")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 179.07 62.23 180)
 		(unit 1)
@@ -7195,6 +7326,73 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
 					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e6b9609-dbf8-4fdc-b5cf-f500025da70f")
+		(property "Reference" "#PWR049"
+			(at 218.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67e135fa-18ad-429c-8687-3b40a1a44e45")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7868,6 +8066,73 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74f8a748-dea1-4b3b-8a95-6601de683b9d")
+		(property "Reference" "#PWR051"
+			(at 237.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae560d84-d38a-4033-80cf-5faf4d864557")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8838,6 +9103,73 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d48b3d8-64bf-4c78-ace4-2f0dfeca55c1")
+		(property "Reference" "#PWR052"
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "040d130c-465c-4896-882e-22c371f0f479")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)

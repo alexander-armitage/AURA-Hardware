@@ -3155,6 +3155,12 @@
 		(uuid "26d74b11-cd39-4ef3-a9ac-febbf2eac85d")
 	)
 	(junction
+		(at 50.8 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47c72d90-f73c-4491-ab9a-d162f58e6d2c")
+	)
+	(junction
 		(at 34.29 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3189,6 +3195,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6df2c5d0-f56a-4275-ae9f-2faec83e390d")
+	)
+	(junction
+		(at 71.12 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "757f7a07-7c05-4516-9873-3b8a42824ff0")
 	)
 	(junction
 		(at 45.72 137.16)
@@ -3410,6 +3422,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 73.66) (xy 71.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5e6dac-0a0c-4967-af4d-7cb799bf0354")
+	)
+	(wire
+		(pts
 			(xy 128.27 179.07) (xy 130.81 179.07)
 		)
 		(stroke
@@ -3587,6 +3609,26 @@
 			(type default)
 		)
 		(uuid "4cd9fdd7-8af6-4a80-9c26-9bc3b17f75b0")
+	)
+	(wire
+		(pts
+			(xy 71.12 83.82) (xy 87.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "504109cb-07d0-4fde-b2f6-3b3d0d682bd4")
+	)
+	(wire
+		(pts
+			(xy 50.8 83.82) (xy 58.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517aedb2-80bf-4a68-a2ef-754cf2797db3")
 	)
 	(wire
 		(pts
@@ -3860,7 +3902,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 73.66) (xy 68.58 76.2)
+			(xy 63.5 73.66) (xy 63.5 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4010,7 +4052,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 83.82) (xy 87.63 83.82)
+			(xy 68.58 83.82) (xy 71.12 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4120,7 +4162,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 83.82) (xy 63.5 83.82)
+			(xy 38.1 83.82) (xy 50.8 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4217,6 +4259,26 @@
 			(type default)
 		)
 		(uuid "c8a37ae2-2d58-49b8-9f82-bf3274ffdfca")
+	)
+	(wire
+		(pts
+			(xy 50.8 82.55) (xy 50.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbbb5fee-0dec-4a64-9921-1f2b24fb8766")
+	)
+	(wire
+		(pts
+			(xy 50.8 73.66) (xy 50.8 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfd53ad-dfc6-4856-9bcb-45cb2c0d8625")
 	)
 	(wire
 		(pts
@@ -4427,6 +4489,16 @@
 			(type default)
 		)
 		(uuid "f43e2d69-07d5-4614-9dfa-73ce25374922")
+	)
+	(wire
+		(pts
+			(xy 71.12 82.55) (xy 71.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a50cf6-9adb-4565-aea7-493bc1e70084")
 	)
 	(wire
 		(pts
@@ -4836,7 +4908,7 @@
 	)
 	(global_label "ICM_INT"
 		(shape passive)
-		(at 57.15 83.82 180)
+		(at 38.1 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4846,7 +4918,7 @@
 		)
 		(uuid "663e91fa-50c8-4d99-9231-2ecbdcd62266")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.0794 83.82 0)
+			(at 29.0294 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,6 +6197,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 71.12 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48861ce4-a582-4589-8658-81b1633b8d4c")
+		(property "Reference" "#PWR047"
+			(at 71.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 71.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcf47fac-d409-4fe4-bec7-4cbc237e3cf9")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 82.55 76.2 0)
 		(unit 1)
@@ -6804,6 +6942,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 71.12 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ce19eb6-a9ee-4fb0-b043-2ea4e740f309")
+		(property "Reference" "R303"
+			(at 73.66 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 73.66 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 72.898 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7bfc92c-5159-4529-b2f2-848c74638586")
+		)
+		(pin "2"
+			(uuid "e1de72c3-71eb-4bd7-92e5-d88562321352")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
+					(reference "R303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 198.12 49.53 0)
 		(unit 1)
@@ -7149,9 +7357,9 @@
 		(at 143.51 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9c5fe4e1-8cf4-4777-a009-ac16c7f38fbb")
 		(property "Reference" "C306"
@@ -7341,6 +7549,72 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
 					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 50.8 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1b22f1b-9e43-4ba6-ac11-f2d81ffd97e6")
+		(property "Reference" "#PWR048"
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "035b7eef-e270-436e-b967-e26a4ac8b2fc")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7700,7 +7974,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 68.58 81.28 90)
+		(at 63.5 81.28 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7709,7 +7983,7 @@
 		(dnp no)
 		(uuid "c5b5a817-04cc-483d-933b-c75c03bed449")
 		(property "Reference" "Q302"
-			(at 68.58 87.63 90)
+			(at 63.5 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7717,7 +7991,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 68.58 90.17 90)
+			(at 63.5 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7726,7 +8000,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 70.485 86.36 0)
+			(at 65.405 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7737,7 +8011,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 72.39 86.36 0)
+			(at 67.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7747,7 +8021,7 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 68.58 81.28 0)
+			(at 63.5 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7912,7 +8186,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 68.58 73.66 0)
+		(at 63.5 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7921,7 +8195,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3670e62-a96a-4d69-a5a9-a49f47a11c0e")
 		(property "Reference" "#PWR0188"
-			(at 68.58 77.47 0)
+			(at 63.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,7 +8204,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 68.58 68.58 0)
+			(at 63.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,7 +8212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 73.66 0)
+			(at 63.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7947,7 +8221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 73.66 0)
+			(at 63.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,7 +8230,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 68.58 73.66 0)
+			(at 63.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,8 +8552,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcb926c3-5ec6-4007-ac23-b9329646accb")
-		(property "Reference" "R302"
-			(at 173.99 93.9799 0)
+		(property "Reference" "R304"
+			(at 173.99 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,7 +8607,7 @@
 		(instances
 			(project "MCU_AURA"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
-					(reference "R302")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -8517,6 +8791,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 50.8 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8f57310-90f1-4879-94f1-f58d02857e55")
+		(property "Reference" "R302"
+			(at 53.34 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 53.34 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 52.578 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2efde475-367b-44aa-8e9d-cbb19db07565")
+		)
+		(pin "2"
+			(uuid "c4fed3ab-cf40-420b-be76-943d27ceadba")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
+					(reference "R302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 104.14 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8525,7 +8869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fac6d2e3-be7e-4fa0-9d97-9df46a1b5d1b")
-		(property "Reference" "R303"
+		(property "Reference" "R306"
 			(at 106.68 148.5899 0)
 			(effects
 				(font
@@ -8579,7 +8923,7 @@
 		(instances
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
-					(reference "R303")
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -8662,7 +9006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe366b86-0838-4877-a3e6-d2808ebf7942")
-		(property "Reference" "R304"
+		(property "Reference" "R305"
 			(at 254 71.1199 0)
 			(effects
 				(font
@@ -8716,7 +9060,7 @@
 		(instances
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
-					(reference "R304")
+					(reference "R305")
 					(unit 1)
 				)
 			)
