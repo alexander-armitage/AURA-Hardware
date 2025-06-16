@@ -1325,6 +1325,149 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SOLDER_PAD:Power_Solder_Pad"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power_Solder_Pad_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -1.27)
+					(mid -2.168 -0.898)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -2.168 0.898)
+					(end -1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 1.27)
+					(mid 2.168 0.898)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 2.168 -0.898)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Power_Solder_Pad_1_1"
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers
 				(hide yes)
@@ -2202,8 +2345,8 @@
 		)
 	)
 	(rectangle
-		(start 177.8 101.6)
-		(end 254 127)
+		(start 81.28 165.1)
+		(end 157.48 190.5)
 		(stroke
 			(width 0)
 			(type default)
@@ -2238,8 +2381,8 @@
 		(uuid 2b8853be-f113-4a0b-9ca8-dd23d3a19f59)
 	)
 	(rectangle
-		(start 127 139.7)
-		(end 165.1 165.1)
+		(start 127 127)
+		(end 165.1 152.4)
 		(stroke
 			(width 0)
 			(type default)
@@ -2262,8 +2405,8 @@
 		(uuid aefd25e8-fa1e-4239-bf75-5689321c172c)
 	)
 	(rectangle
-		(start 76.2 139.7)
-		(end 114.3 165.1)
+		(start 76.2 127)
+		(end 114.3 152.4)
 		(stroke
 			(width 0)
 			(type default)
@@ -2275,7 +2418,7 @@
 	)
 	(text "High Power Outputs"
 		(exclude_from_sim no)
-		(at 177.8 99.06 0)
+		(at 81.28 162.56 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2288,7 +2431,7 @@
 	)
 	(text "Servo 5V"
 		(exclude_from_sim no)
-		(at 127 137.16 0)
+		(at 127 124.46 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2327,7 +2470,7 @@
 	)
 	(text "VBAT Pass Through"
 		(exclude_from_sim no)
-		(at 76.2 137.16 0)
+		(at 76.2 124.46 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2382,7 +2525,7 @@
 		(uuid "46f85637-5cb1-4ca1-921a-dd84cc9be11b")
 	)
 	(junction
-		(at 109.22 153.67)
+		(at 109.22 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bffeb4e-5980-4831-84fd-e132df731f86")
@@ -2394,7 +2537,7 @@
 		(uuid "55247459-5715-4c78-a194-a13f2071d21d")
 	)
 	(junction
-		(at 251.46 116.84)
+		(at 154.94 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5888c7c8-17aa-411b-b214-39f1a1cd1b2c")
@@ -2424,13 +2567,13 @@
 		(uuid "d6b4b7b1-21d3-4584-898f-5d30fcad4b07")
 	)
 	(junction
-		(at 160.02 153.67)
+		(at 160.02 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df525a7e-47d7-4654-b5d6-e06d8173eab2")
 	)
 	(junction
-		(at 213.36 116.84)
+		(at 116.84 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7d53592-1a07-4dba-ab53-5460c04487d1")
@@ -2487,7 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 151.13) (xy 157.48 151.13)
+			(xy 160.02 138.43) (xy 157.48 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2497,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 153.67) (xy 109.22 151.13)
+			(xy 109.22 140.97) (xy 109.22 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2527,7 +2670,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 153.67) (xy 160.02 153.67)
+			(xy 157.48 140.97) (xy 160.02 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2557,7 +2700,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 153.67) (xy 137.16 153.67)
+			(xy 134.62 140.97) (xy 137.16 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2607,7 +2750,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 114.3) (xy 228.6 114.3)
+			(xy 129.54 177.8) (xy 132.08 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2627,7 +2770,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 116.84) (xy 248.92 116.84)
+			(xy 154.94 180.34) (xy 152.4 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2677,7 +2820,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 153.67) (xy 160.02 151.13)
+			(xy 160.02 140.97) (xy 160.02 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2697,7 +2840,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 156.21) (xy 83.82 153.67)
+			(xy 83.82 143.51) (xy 83.82 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2707,7 +2850,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 156.21) (xy 134.62 153.67)
+			(xy 134.62 143.51) (xy 134.62 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2757,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 116.84) (xy 228.6 116.84)
+			(xy 121.92 180.34) (xy 132.08 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2767,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 111.76) (xy 187.96 114.3)
+			(xy 91.44 175.26) (xy 91.44 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2807,7 +2950,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 116.84) (xy 213.36 114.3)
+			(xy 116.84 180.34) (xy 116.84 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2897,7 +3040,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 111.76) (xy 226.06 114.3)
+			(xy 129.54 175.26) (xy 129.54 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2917,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 153.67) (xy 86.36 153.67)
+			(xy 83.82 140.97) (xy 86.36 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2937,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 151.13) (xy 106.68 151.13)
+			(xy 109.22 138.43) (xy 106.68 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2997,7 +3140,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 156.21) (xy 109.22 153.67)
+			(xy 109.22 143.51) (xy 109.22 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3017,7 +3160,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 116.84) (xy 251.46 114.3)
+			(xy 154.94 180.34) (xy 154.94 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3027,7 +3170,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 116.84) (xy 190.5 116.84)
+			(xy 83.82 180.34) (xy 93.98 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3067,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 148.59) (xy 83.82 151.13)
+			(xy 83.82 135.89) (xy 83.82 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3077,7 +3220,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 148.59) (xy 134.62 151.13)
+			(xy 134.62 135.89) (xy 134.62 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3097,7 +3240,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 116.84) (xy 210.82 116.84)
+			(xy 116.84 180.34) (xy 114.3 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3107,7 +3250,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 151.13) (xy 137.16 151.13)
+			(xy 134.62 138.43) (xy 137.16 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3137,7 +3280,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 151.13) (xy 86.36 151.13)
+			(xy 83.82 138.43) (xy 86.36 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3187,7 +3330,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 114.3) (xy 210.82 114.3)
+			(xy 116.84 177.8) (xy 114.3 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3217,7 +3360,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 114.3) (xy 248.92 114.3)
+			(xy 154.94 177.8) (xy 152.4 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3277,7 +3420,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 119.38) (xy 213.36 116.84)
+			(xy 116.84 182.88) (xy 116.84 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3307,7 +3450,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 156.21) (xy 160.02 153.67)
+			(xy 160.02 143.51) (xy 160.02 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3337,7 +3480,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 114.3) (xy 190.5 114.3)
+			(xy 91.44 177.8) (xy 93.98 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3347,7 +3490,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 153.67) (xy 109.22 153.67)
+			(xy 106.68 140.97) (xy 109.22 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3357,7 +3500,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 119.38) (xy 251.46 116.84)
+			(xy 154.94 182.88) (xy 154.94 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3366,7 +3509,7 @@
 		(uuid "fe5ff499-9338-43c7-99cf-d1c400f4841a")
 	)
 	(label "VBAT_CH2"
-		(at 218.44 116.84 0)
+		(at 121.92 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3456,7 +3599,7 @@
 		(uuid "ad7a6f6d-8e8b-4d1e-b13e-89d9cc87c4df")
 	)
 	(label "VBAT_CH1"
-		(at 180.34 116.84 0)
+		(at 83.82 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4267,7 +4410,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 156.21 0)
+		(at 134.62 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4276,7 +4419,7 @@
 		(fields_autoplaced yes)
 		(uuid "537a3dd5-0500-4d5b-b25f-549bb077e6d0")
 		(property "Reference" "#PWR027"
-			(at 134.62 162.56 0)
+			(at 134.62 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 161.29 0)
+			(at 134.62 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4437,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 156.21 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,7 +4446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 156.21 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,7 +4455,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 156.21 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +4830,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 187.96 111.76 0)
+		(at 91.44 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4696,7 +4839,7 @@
 		(fields_autoplaced yes)
 		(uuid "623ae774-d287-4c75-acd0-e903ef424de9")
 		(property "Reference" "#PWR033"
-			(at 187.96 115.57 0)
+			(at 91.44 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,7 +4848,7 @@
 			)
 		)
 		(property "Value" "+BATT_FILT"
-			(at 187.96 106.68 0)
+			(at 91.44 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,7 +4856,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 111.76 0)
+			(at 91.44 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4722,7 +4865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 111.76 0)
+			(at 91.44 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +4874,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 187.96 111.76 0)
+			(at 91.44 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4896,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 119.38 0)
+		(at 116.84 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4762,7 +4905,7 @@
 		(fields_autoplaced yes)
 		(uuid "62ff5593-ac89-4cff-b552-a47ba39fe3a5")
 		(property "Reference" "#PWR031"
-			(at 213.36 125.73 0)
+			(at 116.84 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +4914,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 124.46 0)
+			(at 116.84 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,7 +4923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 119.38 0)
+			(at 116.84 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,7 +4932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 119.38 0)
+			(at 116.84 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +4941,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 119.38 0)
+			(at 116.84 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +4963,7 @@
 	)
 	(symbol
 		(lib_id "XT30PW-F:XT30PW-F")
-		(at 190.5 114.3 0)
+		(at 93.98 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4829,7 +4972,7 @@
 		(fields_autoplaced yes)
 		(uuid "631b8f03-977f-4d18-af29-2e82a1a343ab")
 		(property "Reference" "J201"
-			(at 200.66 106.68 0)
+			(at 104.14 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +4980,7 @@
 			)
 		)
 		(property "Value" "XT30PW-F"
-			(at 200.66 109.22 0)
+			(at 104.14 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +4988,7 @@
 			)
 		)
 		(property "Footprint" "XT30PWF:XT30PWF"
-			(at 207.01 209.22 0)
+			(at 110.49 272.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +4998,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
-			(at 207.01 309.22 0)
+			(at 110.49 372.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +5008,7 @@
 			)
 		)
 		(property "Description" "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow"
-			(at 190.5 114.3 0)
+			(at 93.98 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +5017,7 @@
 			)
 		)
 		(property "Height" "5"
-			(at 207.01 509.22 0)
+			(at 110.49 572.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +5027,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amass"
-			(at 207.01 609.22 0)
+			(at 110.49 672.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,7 +5037,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XT30PW-F"
-			(at 207.01 709.22 0)
+			(at 110.49 772.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +5047,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 207.01 809.22 0)
+			(at 110.49 872.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4914,7 +5057,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 207.01 909.22 0)
+			(at 110.49 972.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,7 +5067,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 207.01 1009.22 0)
+			(at 110.49 1072.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +5077,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 207.01 1109.22 0)
+			(at 110.49 1172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +5109,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 134.62 148.59 0)
+		(at 134.62 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4975,7 +5118,7 @@
 		(fields_autoplaced yes)
 		(uuid "66358738-12bb-4aa5-81e1-05cdc9f27714")
 		(property "Reference" "#PWR035"
-			(at 134.62 152.4 0)
+			(at 134.62 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +5127,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 134.62 143.51 0)
+			(at 134.62 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +5135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 148.59 0)
+			(at 134.62 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +5144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 148.59 0)
+			(at 134.62 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5010,7 +5153,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 134.62 148.59 0)
+			(at 134.62 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,6 +5517,71 @@
 		)
 	)
 	(symbol
+		(lib_id "SOLDER_PAD:Power_Solder_Pad")
+		(at 209.55 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7258fc13-9319-48b0-9834-34895c26e920")
+		(property "Reference" "J1"
+			(at 209.55 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 209.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOLDER_PAD:PWR_SOLDER_PAD"
+			(at 209.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "552e9976-26b7-47a5-b58f-45c5ce123c48")
+		)
+		(instances
+			(project ""
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 200.66 64.77 0)
 		(unit 1)
@@ -5441,7 +5649,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 119.38 0)
+		(at 154.94 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5450,7 +5658,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a205e50-4d96-4fc0-9426-f2a3b2306449")
 		(property "Reference" "#PWR032"
-			(at 251.46 125.73 0)
+			(at 154.94 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5667,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 124.46 0)
+			(at 154.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 119.38 0)
+			(at 154.94 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 119.38 0)
+			(at 154.94 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5694,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 119.38 0)
+			(at 154.94 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5783,7 @@
 	)
 	(symbol
 		(lib_id "XT30PW-F:XT30PW-F")
-		(at 137.16 151.13 0)
+		(at 137.16 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5584,7 +5792,7 @@
 		(fields_autoplaced yes)
 		(uuid "8917569c-9327-48a8-a914-01e40d1a57f8")
 		(property "Reference" "J204"
-			(at 147.32 143.51 0)
+			(at 147.32 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +5800,7 @@
 			)
 		)
 		(property "Value" "XT30PW-F"
-			(at 147.32 146.05 0)
+			(at 147.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,7 +5808,7 @@
 			)
 		)
 		(property "Footprint" "XT30PWF:XT30PWF"
-			(at 153.67 246.05 0)
+			(at 153.67 233.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,7 +5818,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
-			(at 153.67 346.05 0)
+			(at 153.67 333.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +5828,7 @@
 			)
 		)
 		(property "Description" "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow"
-			(at 137.16 151.13 0)
+			(at 137.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,7 +5837,7 @@
 			)
 		)
 		(property "Height" "5"
-			(at 153.67 546.05 0)
+			(at 153.67 533.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,7 +5847,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amass"
-			(at 153.67 646.05 0)
+			(at 153.67 633.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +5857,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XT30PW-F"
-			(at 153.67 746.05 0)
+			(at 153.67 733.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,7 +5867,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 153.67 846.05 0)
+			(at 153.67 833.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +5877,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 153.67 946.05 0)
+			(at 153.67 933.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +5887,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 153.67 1046.05 0)
+			(at 153.67 1033.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +5897,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 153.67 1146.05 0)
+			(at 153.67 1133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5856,7 +6064,7 @@
 	)
 	(symbol
 		(lib_id "XT30PW-F:XT30PW-F")
-		(at 86.36 151.13 0)
+		(at 86.36 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5865,7 +6073,7 @@
 		(fields_autoplaced yes)
 		(uuid "93bd97b6-b7ac-4318-beb9-a97cc27ac0bd")
 		(property "Reference" "J203"
-			(at 96.52 143.51 0)
+			(at 96.52 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +6081,7 @@
 			)
 		)
 		(property "Value" "XT30PW-F"
-			(at 96.52 146.05 0)
+			(at 96.52 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +6089,7 @@
 			)
 		)
 		(property "Footprint" "XT30PWF:XT30PWF"
-			(at 102.87 246.05 0)
+			(at 102.87 233.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,7 +6099,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
-			(at 102.87 346.05 0)
+			(at 102.87 333.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5901,7 +6109,7 @@
 			)
 		)
 		(property "Description" "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow"
-			(at 86.36 151.13 0)
+			(at 86.36 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5910,7 +6118,7 @@
 			)
 		)
 		(property "Height" "5"
-			(at 102.87 546.05 0)
+			(at 102.87 533.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +6128,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amass"
-			(at 102.87 646.05 0)
+			(at 102.87 633.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,7 +6138,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XT30PW-F"
-			(at 102.87 746.05 0)
+			(at 102.87 733.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,7 +6148,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 102.87 846.05 0)
+			(at 102.87 833.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,7 +6158,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 102.87 946.05 0)
+			(at 102.87 933.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +6168,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 102.87 1046.05 0)
+			(at 102.87 1033.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +6178,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 102.87 1146.05 0)
+			(at 102.87 1133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6512,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 156.21 0)
+		(at 83.82 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6313,7 +6521,7 @@
 		(fields_autoplaced yes)
 		(uuid "aca026ee-72f6-417c-85f9-9658bede8e49")
 		(property "Reference" "#PWR03"
-			(at 83.82 162.56 0)
+			(at 83.82 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,7 +6530,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 161.29 0)
+			(at 83.82 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +6539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 156.21 0)
+			(at 83.82 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +6548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 156.21 0)
+			(at 83.82 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6349,7 +6557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 156.21 0)
+			(at 83.82 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,7 +6648,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 226.06 111.76 0)
+		(at 129.54 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6449,7 +6657,7 @@
 		(fields_autoplaced yes)
 		(uuid "b65cd3c8-d933-426d-8660-27848b991ea3")
 		(property "Reference" "#PWR034"
-			(at 226.06 115.57 0)
+			(at 129.54 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +6666,7 @@
 			)
 		)
 		(property "Value" "+BATT_FILT"
-			(at 226.06 106.68 0)
+			(at 129.54 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6466,7 +6674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 111.76 0)
+			(at 129.54 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,7 +6683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 111.76 0)
+			(at 129.54 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +6692,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 226.06 111.76 0)
+			(at 129.54 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6506,7 +6714,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 156.21 0)
+		(at 160.02 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6515,7 +6723,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3551e8e-7502-4f81-9523-dcfd84913faa")
 		(property "Reference" "#PWR030"
-			(at 160.02 162.56 0)
+			(at 160.02 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,7 +6732,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 161.29 0)
+			(at 160.02 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6533,7 +6741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 156.21 0)
+			(at 160.02 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6542,7 +6750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 156.21 0)
+			(at 160.02 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6759,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 156.21 0)
+			(at 160.02 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6902,7 +7110,7 @@
 	)
 	(symbol
 		(lib_id "XT30PW-F:XT30PW-F")
-		(at 228.6 114.3 0)
+		(at 132.08 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6911,7 +7119,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0fa5cd2-b50d-400c-9d47-6c87eecf23c3")
 		(property "Reference" "J202"
-			(at 238.76 106.68 0)
+			(at 142.24 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,7 +7127,7 @@
 			)
 		)
 		(property "Value" "XT30PW-F"
-			(at 238.76 109.22 0)
+			(at 142.24 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +7135,7 @@
 			)
 		)
 		(property "Footprint" "XT30PWF:XT30PWF"
-			(at 245.11 209.22 0)
+			(at 148.59 272.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,7 +7145,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
-			(at 245.11 309.22 0)
+			(at 148.59 372.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +7155,7 @@
 			)
 		)
 		(property "Description" "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow"
-			(at 228.6 114.3 0)
+			(at 132.08 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +7164,7 @@
 			)
 		)
 		(property "Height" "5"
-			(at 245.11 509.22 0)
+			(at 148.59 572.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6966,7 +7174,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amass"
-			(at 245.11 609.22 0)
+			(at 148.59 672.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +7184,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XT30PW-F"
-			(at 245.11 709.22 0)
+			(at 148.59 772.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +7194,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 245.11 809.22 0)
+			(at 148.59 872.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +7204,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 245.11 909.22 0)
+			(at 148.59 972.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +7214,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 245.11 1009.22 0)
+			(at 148.59 1072.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,7 +7224,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 245.11 1109.22 0)
+			(at 148.59 1172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7115,7 +7323,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 83.82 148.59 0)
+		(at 83.82 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7124,7 +7332,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecb567b5-1521-4532-b9ec-5ffe53852f62")
 		(property "Reference" "#PWR02"
-			(at 83.82 152.4 0)
+			(at 83.82 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,7 +7341,7 @@
 			)
 		)
 		(property "Value" "+BATT_FILT"
-			(at 83.82 143.51 0)
+			(at 83.82 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7141,7 +7349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 148.59 0)
+			(at 83.82 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7150,7 +7358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 148.59 0)
+			(at 83.82 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7159,7 +7367,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 83.82 148.59 0)
+			(at 83.82 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7323,7 +7531,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 156.21 0)
+		(at 109.22 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7332,7 +7540,7 @@
 		(fields_autoplaced yes)
 		(uuid "f458e9ed-2c7f-48b2-b22a-2cdaa9a9a2e2")
 		(property "Reference" "#PWR04"
-			(at 109.22 162.56 0)
+			(at 109.22 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7341,7 +7549,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 161.29 0)
+			(at 109.22 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +7558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 156.21 0)
+			(at 109.22 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,7 +7567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 156.21 0)
+			(at 109.22 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +7576,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 156.21 0)
+			(at 109.22 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)

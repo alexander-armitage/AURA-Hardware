@@ -54,26 +54,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -4.95 -7.187)
-		(end 4.95 -7.187)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "35271014-b16c-4b05-bff0-786ae1a5fbf2")
-	)
-	(fp_line
-		(start -4.95 -5.237)
-		(end -4.95 -7.187)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d60fe7a4-589d-4632-ad67-d72658143904")
-	)
-	(fp_line
 		(start -4.95 -2.737)
 		(end -4.95 6.762)
 		(stroke
@@ -102,16 +82,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "48dd7ee2-2a34-496d-8542-2ca2afa236f3")
-	)
-	(fp_line
-		(start 4.95 -7.187)
-		(end 4.95 -5.237)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b96db5d6-2fa5-4c07-ac32-f1eea187d6d3")
 	)
 	(fp_line
 		(start 4.95 6.762)
@@ -164,8 +134,8 @@
 		(uuid "7cb4cddb-2710-4999-81c9-ab3b60c3c7a0")
 	)
 	(fp_line
-		(start -4.95 -7.187)
-		(end 4.95 -7.187)
+		(start -4.95 -5.25)
+		(end 4.95 -5.25)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -175,7 +145,7 @@
 	)
 	(fp_line
 		(start -4.95 6.762)
-		(end -4.95 -7.187)
+		(end -4.95 -5.25)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -184,7 +154,7 @@
 		(uuid "f8ed6ec2-b1dc-421b-b3ba-656a03ab70a7")
 	)
 	(fp_line
-		(start 4.95 -7.187)
+		(start 4.95 -5.25)
 		(end 4.95 6.762)
 		(stroke
 			(width 0.2)
@@ -202,6 +172,19 @@
 		)
 		(layer "F.Fab")
 		(uuid "919df0b9-8ebe-4e81-a72b-81f0ee7f0c5a")
+	)
+	(fp_text user "PCB_EDGE"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "f6fe432e-47e0-4c75-a21c-ca8787e4da80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
