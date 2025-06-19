@@ -146,36 +146,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -4.15 -3)
-		(end -4.15 -5.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "6f3b4596-e3df-4fa2-a93c-a28ec0309ea5")
-	)
-	(fp_line
-		(start 9.15 -5.25)
-		(end 9.15 -3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "60ec13dd-07af-45ff-a78c-aa4619dfeaea")
-	)
-	(fp_line
-		(start 9.15 -3)
-		(end -4.15 -3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9772e051-fd4e-4f13-ba66-b64777f8b6c0")
-	)
-	(fp_line
 		(start -5.15 -16)
 		(end 10.15 -16)
 		(stroke
@@ -186,7 +156,7 @@
 		(uuid "e42f3e7a-5d05-4e44-ba76-4eac85285bd2")
 	)
 	(fp_line
-		(start -5.15 2.275)
+		(start -5.15 -2.25)
 		(end -5.15 -16)
 		(stroke
 			(width 0.1)
@@ -196,18 +166,38 @@
 		(uuid "70a4e666-2f1f-4914-aaa4-c1dcf53eb5bb")
 	)
 	(fp_line
-		(start 10.15 -16)
-		(end 10.15 2.275)
+		(start -5.15 -2.25)
+		(end -1.5 -2.25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "bac0ed78-2d10-4207-bd2f-3c0571308b73")
+		(uuid "7157e8bc-cae7-40ed-9a88-8249d398c9fe")
 	)
 	(fp_line
-		(start 10.15 2.275)
-		(end -5.15 2.275)
+		(start -1.5 1.5)
+		(end -1.5 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3637a76c-764e-4c59-be8f-695f44252f3a")
+	)
+	(fp_line
+		(start 6.5 -2.25)
+		(end 6.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dddbbd88-f6d9-44ef-be8f-d92a64c3a7fa")
+	)
+	(fp_line
+		(start 6.5 1.5)
+		(end -1.5 1.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -216,8 +206,28 @@
 		(uuid "627504a0-3ba0-4ebc-b95a-ba30c081bca4")
 	)
 	(fp_line
-		(start -4.15 -6.25)
-		(end 9.15 -6.25)
+		(start 10.15 -16)
+		(end 10.15 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bac0ed78-2d10-4207-bd2f-3c0571308b73")
+	)
+	(fp_line
+		(start 10.15 -2.25)
+		(end 6.5 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "23d85893-18e9-4e5a-b05d-b56da5b9995a")
+	)
+	(fp_line
+		(start -4.15 -8.25)
+		(end 9.15 -8.25)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -227,7 +237,7 @@
 	)
 	(fp_line
 		(start -4.15 -3)
-		(end -4.15 -6.25)
+		(end -4.15 -8.25)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -236,7 +246,7 @@
 		(uuid "2ce07d92-6f54-48f8-aa06-4e86c1f7579d")
 	)
 	(fp_line
-		(start 9.15 -6.25)
+		(start 9.15 -8.25)
 		(end 9.15 -3)
 		(stroke
 			(width 0.2)

@@ -716,8 +716,12 @@
       "100_Power"
     ],
     [
+      "fd9d4dc4-eb25-4137-a171-84ba4dc47284",
+      "200_Buck_Regulator"
+    ],
+    [
       "bf94e7c9-9821-4c41-aadb-9bb6d92f20f0",
-      "200_Connectors"
+      "300_Connectors"
     ]
   ],
   "text_variables": {}

@@ -26,4 +26,5 @@
   (lib (name "CSD18510Q5B")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/CSD18510Q5B.pretty")(options "")(descr ""))
   (lib (name "SOLDER_PAD")(type "KiCad")(uri "${KIPRJMOD}/SOLDER_PAD.pretty")(options "")(descr ""))
   (lib (name "125CDMCCDS-1R8MC")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/125CDMCCDS-1R8MC.pretty")(options "")(descr ""))
+  (lib (name "SBR3M30P17")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/SBR3M30P17.pretty")(options "")(descr ""))
 )
