@@ -10,12 +10,12 @@
 		(rev "0.0.1")
 	)
 	(lib_symbols
-		(symbol "532617010:532617010"
+		(symbol "532617012:532617012"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 7.62 7.874 0)
+				(at 3.81 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -23,8 +23,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "532617010"
-				(at 3.302 5.08 0)
+			(property "Value" "532617012"
+				(at 3.81 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -32,7 +32,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "532617010"
+			(property "Footprint" "532617012"
 				(at 19.05 -94.92 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Friction Lock, 10 Circuits, Tape and Reel"
+			(property "Description" "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Friction Lock, 12 Circuits, Tape and Reel"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,7 +81,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "532617010"
+			(property "Manufacturer_Part_Number" "532617012"
 				(at 19.05 -594.92 0)
 				(effects
 					(font
@@ -131,10 +131,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "532617010_1_1"
+			(symbol "532617012_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 11.43 -25.4)
+					(end 11.43 -30.48)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -316,6 +316,42 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2562,7 +2598,7 @@
 	)
 	(rectangle
 		(start 236.22 50.8)
-		(end 274.32 88.9)
+		(end 274.32 101.6)
 		(stroke
 			(width 0)
 			(type default)
@@ -2675,7 +2711,7 @@
 		(uuid "fbb62142-af75-48e2-ad6c-379ebd31fc72")
 	)
 	(junction
-		(at 251.46 60.96)
+		(at 251.46 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ca5ef1e-12db-4c30-8d14-e0318b6faad0")
@@ -2687,7 +2723,7 @@
 		(uuid "2d71fcfc-6b87-43a1-a648-8a11357c8397")
 	)
 	(junction
-		(at 241.3 83.82)
+		(at 241.3 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46f85637-5cb1-4ca1-921a-dd84cc9be11b")
@@ -2705,7 +2741,7 @@
 		(uuid "55247459-5715-4c78-a194-a13f2071d21d")
 	)
 	(junction
-		(at 241.3 81.28)
+		(at 241.3 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66d144af-a3b7-464a-9670-d4d8d315cf49")
@@ -2721,6 +2757,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73b1d83b-f87d-48bc-ad4e-876ceeb4fc54")
+	)
+	(junction
+		(at 241.3 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "878f180f-ddd1-427c-815d-7e74cbd137b6")
 	)
 	(junction
 		(at 195.58 50.8)
@@ -2770,9 +2812,15 @@
 		(color 0 0 0 0)
 		(uuid "e7d53592-1a07-4dba-ab53-5460c04487d1")
 	)
+	(junction
+		(at 251.46 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eab8f95c-b48d-411b-b060-b54d7b97cc85")
+	)
 	(wire
 		(pts
-			(xy 245.11 58.42) (xy 245.11 66.04)
+			(xy 245.11 60.96) (xy 245.11 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +2840,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 58.42) (xy 251.46 60.96)
+			(xy 251.46 63.5) (xy 251.46 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2852,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 78.74) (xy 255.27 78.74)
+			(xy 252.73 83.82) (xy 255.27 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2972,7 +3020,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 81.28) (xy 255.27 81.28)
+			(xy 241.3 86.36) (xy 255.27 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3022,6 +3070,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 91.44) (xy 255.27 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebed252-ea21-4d0b-9780-8edc831de996")
+	)
+	(wire
+		(pts
 			(xy 228.6 124.46) (xy 229.87 124.46)
 		)
 		(stroke
@@ -3052,7 +3110,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 83.82) (xy 255.27 83.82)
+			(xy 241.3 88.9) (xy 255.27 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3062,7 +3120,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 66.04) (xy 255.27 66.04)
+			(xy 245.11 71.12) (xy 255.27 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3152,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 60.96) (xy 251.46 63.5)
+			(xy 251.46 66.04) (xy 251.46 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3162,7 +3220,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 81.28) (xy 241.3 83.82)
+			(xy 241.3 86.36) (xy 241.3 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3182,7 +3240,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 73.66) (xy 255.27 73.66)
+			(xy 241.3 78.74) (xy 255.27 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3319,6 +3377,16 @@
 			(type default)
 		)
 		(uuid "76aed413-c288-4d3c-8aa6-c65f06c186a7")
+	)
+	(wire
+		(pts
+			(xy 251.46 60.96) (xy 251.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789555de-7264-4e93-af53-4ace1543e11e")
 	)
 	(wire
 		(pts
@@ -3472,7 +3540,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 68.58) (xy 255.27 68.58)
+			(xy 252.73 73.66) (xy 255.27 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3532,7 +3600,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 60.96) (xy 255.27 60.96)
+			(xy 251.46 66.04) (xy 255.27 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3662,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 73.66) (xy 241.3 81.28)
+			(xy 241.3 78.74) (xy 241.3 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3689,6 +3757,16 @@
 			(type default)
 		)
 		(uuid "bf1e5e5d-22c8-4d44-8718-0076820c9ba6")
+	)
+	(wire
+		(pts
+			(xy 251.46 63.5) (xy 255.27 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01daf41-528a-4ede-835f-8a50b66a5855")
 	)
 	(wire
 		(pts
@@ -3742,7 +3820,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 85.09) (xy 241.3 83.82)
+			(xy 241.3 93.98) (xy 241.3 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3792,7 +3870,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 71.12) (xy 255.27 71.12)
+			(xy 252.73 76.2) (xy 255.27 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3819,6 +3897,16 @@
 			(type default)
 		)
 		(uuid "d8f78873-005e-4a37-bd7f-7d4b0e9fc79f")
+	)
+	(wire
+		(pts
+			(xy 241.3 91.44) (xy 241.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbec2c76-0e46-4ea2-bbf5-f9bc76187e02")
 	)
 	(wire
 		(pts
@@ -3872,7 +3960,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 76.2) (xy 255.27 76.2)
+			(xy 252.73 81.28) (xy 255.27 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3942,7 +4030,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 63.5) (xy 255.27 63.5)
+			(xy 251.46 68.58) (xy 255.27 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4062,7 +4150,7 @@
 	)
 	(global_label "MSFT_2"
 		(shape output)
-		(at 252.73 78.74 180)
+		(at 252.73 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4072,7 +4160,7 @@
 		)
 		(uuid "2a3fede1-0007-42db-a207-b97aa7b3e815")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.8506 78.74 0)
+			(at 242.8506 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +4238,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 252.73 71.12 180)
+		(at 252.73 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4160,7 +4248,7 @@
 		)
 		(uuid "839fc624-2107-470d-823d-e803fa979f77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.0654 71.12 0)
+			(at 245.0654 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4172,7 +4260,7 @@
 	)
 	(global_label "MSFT_1"
 		(shape output)
-		(at 252.73 76.2 180)
+		(at 252.73 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4182,7 +4270,7 @@
 		)
 		(uuid "8afcde51-f774-4130-86b0-8e0608bbb621")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.8506 76.2 0)
+			(at 242.8506 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +4326,7 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 252.73 68.58 180)
+		(at 252.73 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4248,7 +4336,7 @@
 		)
 		(uuid "eea78cf9-93ba-42b6-ab6b-9646835922d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.1259 68.58 0)
+			(at 245.1259 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4413,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 251.46 58.42 0)
+		(at 251.46 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4334,7 +4422,7 @@
 		(fields_autoplaced yes)
 		(uuid "08e4cb57-8fc0-4eb8-808e-69cbbf126417")
 		(property "Reference" "#PWR021"
-			(at 251.46 62.23 0)
+			(at 251.46 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +4431,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 251.46 53.34 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 58.42 0)
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +4448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 58.42 0)
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4457,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 251.46 58.42 0)
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4813,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 245.11 58.42 0)
+		(at 245.11 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4734,7 +4822,7 @@
 		(fields_autoplaced yes)
 		(uuid "24a339ca-9363-49f7-abf4-2c6c6adb2b91")
 		(property "Reference" "#PWR022"
-			(at 245.11 62.23 0)
+			(at 245.11 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4831,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 245.11 53.34 0)
+			(at 245.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4751,7 +4839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 58.42 0)
+			(at 245.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4760,7 +4848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 58.42 0)
+			(at 245.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +4857,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 245.11 58.42 0)
+			(at 245.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5143,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 85.09 0)
+		(at 241.3 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5064,7 +5152,7 @@
 		(fields_autoplaced yes)
 		(uuid "406a7364-fd15-4e03-88a2-a84a058c7714")
 		(property "Reference" "#PWR024"
-			(at 241.3 91.44 0)
+			(at 241.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5161,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 90.17 0)
+			(at 241.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 85.09 0)
+			(at 241.3 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 85.09 0)
+			(at 241.3 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 85.09 0)
+			(at 241.3 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7470,6 +7558,179 @@
 		)
 	)
 	(symbol
+		(lib_id "532617012:532617012")
+		(at 255.27 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bf94f0a-db4f-4da8-952a-9b0650db47a7")
+		(property "Reference" "J302"
+			(at 267.97 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "532617012"
+			(at 267.97 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "532611271:53261-1271"
+			(at 274.32 158.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/532617002_sd.pdf"
+			(at 274.32 258.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Friction Lock, 12 Circuits, Tape and Reel"
+			(at 255.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3.4"
+			(at 274.32 458.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 274.32 558.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "532617012"
+			(at 274.32 658.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 274.32 758.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 274.32 858.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 274.32 958.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 274.32 1058.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1047d2be-7102-4220-8585-64c12650b312")
+		)
+		(pin "6"
+			(uuid "e5dceffc-327b-4893-ae6c-9eb2d46425c6")
+		)
+		(pin "8"
+			(uuid "2964c174-e5d3-414d-ab86-d3fc00bb5600")
+		)
+		(pin "10"
+			(uuid "69cbe2c5-5bf5-4351-ad92-631c580c5228")
+		)
+		(pin "12"
+			(uuid "a05913e3-b275-4ee0-8159-bf0bade87028")
+		)
+		(pin "3"
+			(uuid "0a2c4e9e-e2a2-43ae-9e4b-9541afeb984f")
+		)
+		(pin "2"
+			(uuid "81d86526-b677-465f-a319-60819d5b6683")
+		)
+		(pin "5"
+			(uuid "3e386162-ff54-4562-b3b9-a77647300b33")
+		)
+		(pin "7"
+			(uuid "3a8cabb5-fd28-4ade-a94f-f26a346b5e76")
+		)
+		(pin "9"
+			(uuid "d9c43ed9-aa60-4ef7-b418-dc2a2a6ca78e")
+		)
+		(pin "11"
+			(uuid "faa02b3c-f61b-4aec-a46e-f688690aa3ba")
+		)
+		(pin "4"
+			(uuid "3308394b-588f-46e2-9239-43001f9d9063")
+		)
+		(instances
+			(project ""
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
+					(reference "J302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 195.58 49.53 0)
 		(unit 1)
@@ -8903,169 +9164,6 @@
 			(project "PDB_AURA"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
 					(reference "Q301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "532617010:532617010")
-		(at 255.27 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfd3b8f2-f85d-4fb4-96b5-8d5f18252e3f")
-		(property "Reference" "J302"
-			(at 261.62 53.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "532617010"
-			(at 261.62 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "532617010:532617010"
-			(at 274.32 155.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/532617002_sd.pdf"
-			(at 274.32 255.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Friction Lock, 10 Circuits, Tape and Reel"
-			(at 255.27 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "3.4"
-			(at 274.32 455.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 274.32 555.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "532617010"
-			(at 274.32 655.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 274.32 755.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 274.32 855.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 274.32 955.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 274.32 1055.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6774b6b-61a7-447f-8e47-52d63776c7c4")
-		)
-		(pin "3"
-			(uuid "9007000d-e89a-4521-9021-e188164779b4")
-		)
-		(pin "8"
-			(uuid "0e8cd4c1-57d2-42e3-afa1-9b9d534e5a53")
-		)
-		(pin "5"
-			(uuid "80bb34db-9459-47ee-bad2-9e28eab38896")
-		)
-		(pin "6"
-			(uuid "f104a9fd-692d-4849-afbc-607db3c8bd0b")
-		)
-		(pin "2"
-			(uuid "ccf13632-6ca8-4da1-b259-049766d924e1")
-		)
-		(pin "9"
-			(uuid "e2b7f407-c4bc-414f-bcaf-ef543d4fc8e0")
-		)
-		(pin "4"
-			(uuid "fd0da9cf-626b-498c-a640-26dffc5e3afd")
-		)
-		(pin "7"
-			(uuid "64d15d35-05ee-405e-82a6-ad8bdf5d9e61")
-		)
-		(pin "10"
-			(uuid "f4305e7e-5b2f-488e-bd5c-5f4d44b2c610")
-		)
-		(instances
-			(project ""
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "J302")
 					(unit 1)
 				)
 			)

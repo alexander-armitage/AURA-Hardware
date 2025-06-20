@@ -2021,7 +2021,7 @@
 	)
 	(text "Shunt resistor:\n0m5 Ohms at 3W suitable for 60A continuous.\nMeasures a resolution of about 20mA.\nJumper incase this circuit does not work."
 		(exclude_from_sim no)
-		(at 107.95 125.984 0)
+		(at 106.68 125.984 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2067,10 +2067,10 @@
 		(uuid "8906ff85-1ef9-4d4f-b3db-109a1e8cb798")
 	)
 	(junction
-		(at 165.1 77.47)
+		(at 168.91 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "952bf1a3-49f5-42a8-acde-56b1a927ebe9")
+		(uuid "9674872c-c8aa-4c52-800d-9f45e09eea22")
 	)
 	(junction
 		(at 160.02 77.47)
@@ -2083,12 +2083,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbb7547d-ae7d-42cb-9211-4ee0f77f9a0b")
-	)
-	(junction
-		(at 175.26 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6ff1e5d-2f0e-49b8-a764-4eafd14e7678")
 	)
 	(junction
 		(at 52.07 93.98)
@@ -2180,7 +2174,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 86.36) (xy 165.1 87.63)
+			(xy 168.91 86.36) (xy 168.91 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2280,16 +2274,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 77.47) (xy 165.1 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58a0f29a-ec97-4f18-a09c-f4e9b8691ed4")
-	)
-	(wire
-		(pts
 			(xy 196.85 106.68) (xy 196.85 111.76)
 		)
 		(stroke
@@ -2360,16 +2344,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 86.36) (xy 175.26 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81b7c280-8885-4edf-b88c-fd6dd43b44e5")
-	)
-	(wire
-		(pts
 			(xy 50.8 86.36) (xy 53.34 86.36)
 		)
 		(stroke
@@ -2400,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 78.74) (xy 175.26 77.47)
+			(xy 168.91 78.74) (xy 168.91 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2420,17 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 78.74) (xy 165.1 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9535e763-1eab-48c1-ab1a-7ae49f1631d9")
-	)
-	(wire
-		(pts
-			(xy 165.1 77.47) (xy 162.56 77.47)
+			(xy 162.56 77.47) (xy 168.91 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2450,16 +2414,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 77.47) (xy 175.26 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a369891d-f678-4334-a6bf-f7b11785b262")
-	)
-	(wire
-		(pts
 			(xy 74.93 86.36) (xy 74.93 88.9)
 		)
 		(stroke
@@ -2467,6 +2421,16 @@
 			(type default)
 		)
 		(uuid "ac58fd0f-9966-4cd3-ae07-c3ceda0de2c8")
+	)
+	(wire
+		(pts
+			(xy 168.91 77.47) (xy 171.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b5bc9e-c248-42b2-9228-c300db860ffa")
 	)
 	(wire
 		(pts
@@ -2530,7 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 77.47) (xy 193.04 77.47)
+			(xy 179.07 77.47) (xy 185.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2550,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 193.04 77.47)
+			(xy 185.42 76.2) (xy 185.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2684,7 +2648,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 87.63 0)
+		(at 168.91 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2693,7 +2657,7 @@
 		(fields_autoplaced yes)
 		(uuid "143bbacc-64ef-4cf1-9f31-3e8f8edd617c")
 		(property "Reference" "#PWR049"
-			(at 165.1 93.98 0)
+			(at 168.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +2666,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 92.71 0)
+			(at 168.91 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +2675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 87.63 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 87.63 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2693,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 87.63 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,75 +2714,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 175.26 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2579a2c8-2f6e-4e72-a085-77fdefe2193d")
-		(property "Reference" "#PWR059"
-			(at 175.26 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.26 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e256638-8e6b-4198-89c2-2b5f5cd86561")
-		)
-		(instances
-			(project "PDB_AURA"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
-		(at 193.04 76.2 0)
+		(at 185.42 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2827,7 +2724,7 @@
 		(fields_autoplaced yes)
 		(uuid "27abe22a-3280-45ec-a2db-345e8a80a165")
 		(property "Reference" "#PWR052"
-			(at 193.04 80.01 0)
+			(at 185.42 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +2733,7 @@
 			)
 		)
 		(property "Value" "+BATT_FILT"
-			(at 193.04 71.12 0)
+			(at 185.42 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +2741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 76.2 0)
+			(at 185.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 76.2 0)
+			(at 185.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +2759,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 193.04 76.2 0)
+			(at 185.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4mm_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 234.95 82.55 0)
 			(effects
 				(font
@@ -3575,77 +3472,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 175.26 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c8b7fbd-47b2-4816-84bb-51f31f3bb279")
-		(property "Reference" "C103"
-			(at 177.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 177.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 176.2252 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 175.26 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40ef63e2-2bec-4e18-81c3-26cb295f15e7")
-		)
-		(pin "2"
-			(uuid "a90d5d6b-21f5-4649-92c6-ee2dc172f8b2")
-		)
-		(instances
-			(project "PDB_AURA"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
-					(reference "C103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 182.88 77.47 270)
+		(at 175.26 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3653,7 +3481,7 @@
 		(dnp no)
 		(uuid "703e02f9-ad7f-4630-9e5d-e1977a8ed732")
 		(property "Reference" "R100"
-			(at 182.88 72.644 90)
+			(at 175.26 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3489,7 @@
 			)
 		)
 		(property "Value" "0m5"
-			(at 182.88 75.184 90)
+			(at 175.26 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3497,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 182.88 75.692 90)
+			(at 175.26 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,7 +3506,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588935712268308480"
-			(at 182.88 77.47 0)
+			(at 175.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3515,7 @@
 			)
 		)
 		(property "Description" "LR2512D-3W-0.5mR-1%"
-			(at 182.88 77.47 0)
+			(at 175.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,7 +3564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4mm_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 234.95 92.71 0)
 			(effects
 				(font
@@ -4016,7 +3844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4mm_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 251.46 82.55 0)
 			(effects
 				(font
@@ -4192,75 +4020,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 114.3 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc92625c-c919-4c2f-a476-88dda69b756b")
-		(property "Reference" "C100"
-			(at 116.84 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 116.84 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 115.2652 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 114.3 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cde6d158-a460-4c9d-b5d8-39eb3dea1481")
-		)
-		(pin "2"
-			(uuid "804b460e-6049-464c-a2b6-79babef31b0d")
-		)
-		(instances
-			(project "PDB_AURA"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
-					(reference "C100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SOLDER_PAD:Power_Solder_Pad")
 		(at 44.45 93.98 0)
 		(unit 1)
@@ -4327,7 +4086,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 82.55 0)
+		(at 168.91 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4335,7 +4094,7 @@
 		(dnp no)
 		(uuid "c6cbc345-47ef-4cb3-9fea-b939668c12f5")
 		(property "Reference" "C102"
-			(at 167.64 81.28 0)
+			(at 171.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,8 +4102,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
-			(at 167.64 83.82 0)
+		(property "Value" "47u"
+			(at 171.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4112,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 166.0652 86.36 0)
+			(at 169.8752 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +4121,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 82.55 0)
+			(at 168.91 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4130,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 165.1 82.55 0)
+			(at 168.91 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,7 +4247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4mm_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 251.46 92.71 0)
 			(effects
 				(font
@@ -4589,6 +4348,75 @@
 			(project "PDB_AURA"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc713467-0940-4cc2-8443-af7795cf8a0e")
+		(property "Reference" "C104"
+			(at 116.84 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22n"
+			(at 116.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 115.2652 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bebe6736-8720-4306-afec-704ad388293a")
+		)
+		(pin "2"
+			(uuid "e6bfd47c-37ed-4fbb-828c-d6b41e410c00")
+		)
+		(instances
+			(project "PDB_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
+					(reference "C104")
 					(unit 1)
 				)
 			)
