@@ -2007,7 +2007,7 @@
 		)
 		(uuid "614ac25f-fd14-4828-b010-897bc3b92b55")
 	)
-	(text "Expected input 7V2 to 16V8"
+	(text "Expected input 7V2 to 24V2.\nPin 4 is +BATT to not interrupt copper pour."
 		(exclude_from_sim no)
 		(at 36.83 105.41 0)
 		(effects
@@ -2015,7 +2015,7 @@
 				(size 1.27 1.27)
 				(thickness 0.1588)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "76763bda-2d9c-4215-86cd-f6da9d027411")
 	)
@@ -2035,12 +2035,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "275c8cb4-d3bd-4558-9fab-564f0aac2c7b")
-	)
-	(junction
-		(at 74.93 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41324011-bb3c-463c-a8c4-2af20934c972")
 	)
 	(junction
 		(at 50.8 86.36)
@@ -2164,7 +2158,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 88.9) (xy 74.93 97.79)
+			(xy 74.93 88.9) (xy 74.93 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2414,16 +2408,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 86.36) (xy 74.93 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac58fd0f-9966-4cd3-ae07-c3ceda0de2c8")
-	)
-	(wire
-		(pts
 			(xy 168.91 77.47) (xy 171.45 77.47)
 		)
 		(stroke
@@ -2491,6 +2475,16 @@
 			(type default)
 		)
 		(uuid "c78db87f-c62d-47b8-9280-a6a85c62049c")
+	)
+	(wire
+		(pts
+			(xy 74.93 86.36) (xy 74.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8056b8-bda6-4560-8395-950196933b77")
 	)
 	(wire
 		(pts
@@ -2643,6 +2637,72 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 74.93 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bdca37f-ff5c-430b-8c03-69c166bfb218")
+		(property "Reference" "#PWR059"
+			(at 74.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 74.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 74.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97068ac7-d262-44af-a989-bdaab6ef986d")
+		)
+		(instances
+			(project "PDB_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
+					(reference "#PWR059")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3275,7 +3335,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 97.79 0)
+		(at 74.93 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3284,7 +3344,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bdc7da2-2ae6-4ffb-9a53-f0b16f91f0e3")
 		(property "Reference" "#PWR055"
-			(at 74.93 104.14 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,7 +3353,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 102.87 0)
+			(at 74.93 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +3362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 97.79 0)
+			(at 74.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +3371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 97.79 0)
+			(at 74.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,7 +3380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 97.79 0)
+			(at 74.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
