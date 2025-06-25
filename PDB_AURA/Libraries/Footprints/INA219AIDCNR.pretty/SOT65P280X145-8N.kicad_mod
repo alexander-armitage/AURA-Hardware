@@ -177,6 +177,7 @@
 		(size 1.21 0.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
+		(clearance 0.1)
 		(uuid "2653b3d8-8b2a-4907-9c8d-e2559a56be5c")
 	)
 	(pad "2" smd roundrect
@@ -184,6 +185,7 @@
 		(size 1.21 0.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
+		(clearance 0.1)
 		(uuid "9ea47f8a-f19e-48be-a7f8-307e44562e70")
 	)
 	(pad "3" smd roundrect
@@ -191,6 +193,7 @@
 		(size 1.21 0.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
+		(clearance 0.1)
 		(uuid "6d32bedf-c1d3-4f4c-b00c-f23786766e40")
 	)
 	(pad "4" smd roundrect
@@ -198,6 +201,7 @@
 		(size 1.21 0.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
+		(clearance 0.1)
 		(uuid "cb995592-18ec-494f-a11e-60d9f4e903a2")
 	)
 	(pad "5" smd roundrect
@@ -205,6 +209,7 @@
 		(size 1.21 0.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
+		(clearance 0.1)
 		(uuid "ec1e2932-48e7-4fe5-8381-d411799e5d31")
 	)
 	(pad "6" smd roundrect
@@ -212,6 +217,7 @@
 		(size 1.21 0.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
+		(clearance 0.1)
 		(uuid "481ab0bc-1d7c-480b-9a96-4d74c1b221c4")
 	)
 	(pad "7" smd roundrect
@@ -219,6 +225,7 @@
 		(size 1.21 0.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
+		(clearance 0.1)
 		(uuid "4d60fccd-5d32-4c03-89b6-6b8602bc8080")
 	)
 	(pad "8" smd roundrect
@@ -226,6 +233,7 @@
 		(size 1.21 0.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
+		(clearance 0.1)
 		(uuid "702551aa-4194-4d02-8aeb-ba779e947ecc")
 	)
 	(embedded_fonts no)

@@ -500,24 +500,6 @@
 			)
 			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
-					(at -7.62 -22.86 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
 					(name "GND"
@@ -3811,10 +3793,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db31e0a1-8575-4471-b780-2967b83fb2b6")
-	)
-	(no_connect
-		(at 34.29 80.01)
-		(uuid "07d5a0b0-0a4b-4720-9212-7852f2e047e4")
 	)
 	(no_connect
 		(at 57.15 69.85)
@@ -10280,9 +10258,6 @@
 		)
 		(pin "A7"
 			(uuid "70c76f18-06a5-4b88-8e5a-78b869f1888b")
-		)
-		(pin "S1"
-			(uuid "d34873da-b002-473e-b84e-300e6f988f72")
 		)
 		(pin "A1"
 			(uuid "f8ef7ed9-276e-488b-8001-f82c1681a6e3")
