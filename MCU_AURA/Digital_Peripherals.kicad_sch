@@ -2628,6 +2628,286 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "W25Q128JVSIQ:W25Q128JVSIQ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "W25Q128JVSIQ"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P790X216-8N"
+				(at 52.07 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q128JVSIQ&type=datasheet"
+				(at 52.07 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "128M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.16"
+				(at 52.07 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Winbond"
+				(at 52.07 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "W25Q128JVSIQ"
+				(at 52.07 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "454-W25Q128JVSIQ"
+				(at 52.07 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q128JVSIQ?qs=qSfuJ%252Bfl%2Fd6tLXvPR4fl9w%3D%3D"
+				(at 52.07 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "W25Q128JVSIQ"
+				(at 52.07 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/w25q128jvsiq/winbond-electronics?utm_currency=USD&region=nac"
+				(at 52.07 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "W25Q128JVSIQ_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "/WP_(IO2)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "/HOLD_(IO3)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "/CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "DI_(IO0)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "DO_(IO1)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 7.62 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -20.32 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_numbers
@@ -3155,6 +3435,12 @@
 		(uuid "26d74b11-cd39-4ef3-a9ac-febbf2eac85d")
 	)
 	(junction
+		(at 232.41 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26da344c-c6b5-4ae6-8cd7-e8a1a39f7e27")
+	)
+	(junction
 		(at 50.8 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3227,6 +3513,12 @@
 		(uuid "87f6a2c1-aad9-4205-8421-64fd9d61e653")
 	)
 	(junction
+		(at 257.81 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c56a620-ee78-4bf3-a323-32579d94b88b")
+	)
+	(junction
 		(at 34.29 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3243,6 +3535,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad059800-6980-4f5e-bdcb-8b7fd020eda7")
+	)
+	(junction
+		(at 224.79 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afa6dc5b-954c-48ac-945d-f63fa1ebdc5a")
 	)
 	(junction
 		(at 128.27 179.07)
@@ -3412,6 +3710,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 147.32) (xy 237.49 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc24f60-ce42-45c1-bc49-e13f7daa6d7e")
+	)
+	(wire
+		(pts
 			(xy 123.19 179.07) (xy 125.73 179.07)
 		)
 		(stroke
@@ -3429,6 +3737,16 @@
 			(type default)
 		)
 		(uuid "1a5e6dac-0a0c-4967-af4d-7cb799bf0354")
+	)
+	(wire
+		(pts
+			(xy 257.81 118.11) (xy 257.81 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9a0b7d-cf15-4796-99c8-fad36205a1e3")
 	)
 	(wire
 		(pts
@@ -3459,6 +3777,16 @@
 			(type default)
 		)
 		(uuid "2cde1761-47c5-406c-a640-f0fa3c4a57a7")
+	)
+	(wire
+		(pts
+			(xy 232.41 137.16) (xy 232.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33716cbb-6b8f-42d4-8548-2d2f4d56b9f8")
 	)
 	(wire
 		(pts
@@ -3592,6 +3920,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 118.11) (xy 261.62 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae4fdc1-7c2b-4b61-ac18-20677be65885")
+	)
+	(wire
+		(pts
 			(xy 120.65 41.91) (xy 132.08 41.91)
 		)
 		(stroke
@@ -3712,6 +4050,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 127) (xy 261.62 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65de0fd0-7f6d-4950-ae09-596fe39a5090")
+	)
+	(wire
+		(pts
 			(xy 101.6 162.56) (xy 110.49 162.56)
 		)
 		(stroke
@@ -3719,6 +4067,16 @@
 			(type default)
 		)
 		(uuid "665c23c1-06d1-46da-a99a-6b720c60b1eb")
+	)
+	(wire
+		(pts
+			(xy 257.81 116.84) (xy 257.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6833d775-17f6-46b7-96c1-3c292243cfb9")
 	)
 	(wire
 		(pts
@@ -3742,6 +4100,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 144.78) (xy 237.49 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd2747a-8466-4472-9c37-0ac5e06fe2e5")
+	)
+	(wire
+		(pts
 			(xy 52.07 55.88) (xy 52.07 57.15)
 		)
 		(stroke
@@ -3759,6 +4127,16 @@
 			(type default)
 		)
 		(uuid "6d6bd149-27f9-4608-8ead-00278bfd2a77")
+	)
+	(wire
+		(pts
+			(xy 257.81 118.11) (xy 261.62 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da897db-1c4e-44b4-96af-a2977cdc96a1")
 	)
 	(wire
 		(pts
@@ -3799,6 +4177,16 @@
 			(type default)
 		)
 		(uuid "7368d22f-a45d-4c50-8f36-eb29dc25a70a")
+	)
+	(wire
+		(pts
+			(xy 237.49 137.16) (xy 232.41 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744aab55-2dfa-46d7-b8b9-f699bf4b0ba1")
 	)
 	(wire
 		(pts
@@ -3869,6 +4257,16 @@
 			(type default)
 		)
 		(uuid "8263b46c-9264-4994-a9f8-87202b4768ad")
+	)
+	(wire
+		(pts
+			(xy 232.41 130.81) (xy 232.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a93a1f4-ec89-4afa-acb9-55635d17fdf8")
 	)
 	(wire
 		(pts
@@ -3992,6 +4390,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 135.89) (xy 224.79 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9936497b-d412-4d20-90e2-fa0d969065cb")
+	)
+	(wire
+		(pts
 			(xy 128.27 139.7) (xy 128.27 142.24)
 		)
 		(stroke
@@ -4039,6 +4447,16 @@
 			(type default)
 		)
 		(uuid "a11ad80b-ae37-420d-b8b8-010b1aa5c868")
+	)
+	(wire
+		(pts
+			(xy 224.79 127) (xy 224.79 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a180980f-eb83-4213-8a87-ca319c6488c7")
 	)
 	(wire
 		(pts
@@ -4202,6 +4620,36 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 156.21) (xy 257.81 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97ecf35-beb8-485b-843e-0b41d305ce98")
+	)
+	(wire
+		(pts
+			(xy 224.79 139.7) (xy 237.49 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb01804d-ed76-475b-a092-4752b4764d8b")
+	)
+	(wire
+		(pts
+			(xy 222.25 139.7) (xy 224.79 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb407c61-93aa-4a2e-9681-863b6ed42965")
+	)
+	(wire
+		(pts
 			(xy 251.46 59.69) (xy 251.46 68.58)
 		)
 		(stroke
@@ -4259,6 +4707,16 @@
 			(type default)
 		)
 		(uuid "c8a37ae2-2d58-49b8-9f82-bf3274ffdfca")
+	)
+	(wire
+		(pts
+			(xy 222.25 142.24) (xy 237.49 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca39a020-9dd8-4661-9d5b-7511832ece77")
 	)
 	(wire
 		(pts
@@ -4542,6 +5000,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 134.62) (xy 237.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf49081-e861-42d4-b2c5-60f4366d6f7e")
+	)
+	(wire
+		(pts
 			(xy 62.23 43.18) (xy 64.77 43.18)
 		)
 		(stroke
@@ -4642,6 +5110,28 @@
 			)
 		)
 	)
+	(global_label "SCK"
+		(shape input)
+		(at 222.25 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1007d7bd-a81a-464b-8a77-e999c2b15558")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.5153 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SERVO_9"
 		(shape passive)
 		(at 212.09 76.2 0)
@@ -4686,6 +5176,28 @@
 			)
 		)
 	)
+	(global_label "MISO"
+		(shape output)
+		(at 222.25 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24e06531-0ff9-46dc-99f3-2cde9bec74bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.6686 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SERVO_10"
 		(shape passive)
 		(at 212.09 78.74 0)
@@ -4704,6 +5216,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 222.25 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a49f36f-3580-4754-b71f-d3b0c3ce6c9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.6686 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5051,6 +5585,28 @@
 		(uuid "b3696b0c-c44a-456e-8d98-e95fdcd65d67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.9259 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FLASH_CS"
+		(shape passive)
+		(at 222.25 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d50cb7f6-a5be-4104-8c4e-4dec18b2d0e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.1837 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,6 +6463,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 257.81 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3af6645f-5d8b-450c-bd72-a4cc6a60fc52")
+		(property "Reference" "#PWR053"
+			(at 257.81 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "897c92c6-8586-4a05-831d-d7d0981a25bc")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 194.31 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5967,6 +6590,163 @@
 			(project "MCU_AURA"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "W25Q128JVSIQ:W25Q128JVSIQ")
+		(at 237.49 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "405c9b7f-14f8-4a6e-8404-389f08c227d5")
+		(property "Reference" "IC2"
+			(at 242.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W25Q128JVSIQ"
+			(at 242.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P790X216-8N"
+			(at 289.56 229.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q128JVSIQ&type=datasheet"
+			(at 289.56 329.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "128M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI"
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.16"
+			(at 289.56 529.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Winbond"
+			(at 289.56 629.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "W25Q128JVSIQ"
+			(at 289.56 729.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "454-W25Q128JVSIQ"
+			(at 289.56 829.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q128JVSIQ?qs=qSfuJ%252Bfl%2Fd6tLXvPR4fl9w%3D%3D"
+			(at 289.56 929.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "W25Q128JVSIQ"
+			(at 289.56 1029.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/w25q128jvsiq/winbond-electronics?utm_currency=USD&region=nac"
+			(at 289.56 1129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8528a8fe-8fa0-4ffc-a9a5-e9ea79cfcb8a")
+		)
+		(pin "1"
+			(uuid "a555ee8e-86de-4878-824e-f0a7e5abef26")
+		)
+		(pin "2"
+			(uuid "460360e4-60ba-44cb-878d-fcab2dd35d07")
+		)
+		(pin "8"
+			(uuid "21f36576-98e3-4d0e-98c4-2299ba775388")
+		)
+		(pin "6"
+			(uuid "45496c70-8431-459f-8f4b-56ebdc1d4d5d")
+		)
+		(pin "7"
+			(uuid "ffa8faf1-673d-406b-a8be-84f40d523582")
+		)
+		(pin "3"
+			(uuid "c48c0b0f-4730-4645-b7a2-f46c528da107")
+		)
+		(pin "5"
+			(uuid "9a5e9aba-6c45-42df-83bb-b818cf83186b")
+		)
+		(instances
+			(project ""
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -6121,6 +6901,73 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
 					(reference "U301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42c2f4f0-9ab5-49f8-8812-f34137906ab2")
+		(property "Reference" "#PWR055"
+			(at 261.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afd3909f-3c51-4025-93ca-b485b0a536b4")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6739,6 +7586,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 224.79 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "726676d2-dd10-4ef1-a50b-2f7e3b53167c")
+		(property "Reference" "#PWR060"
+			(at 224.79 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 224.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 224.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c114b9c9-4873-4555-a304-cbc523428fbd")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 78.74 0)
 		(unit 1)
@@ -6942,6 +7855,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 261.62 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78b2824b-1aa4-499a-840e-1f0718c90943")
+		(property "Reference" "C1"
+			(at 265.43 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 265.43 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 262.5852 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 261.62 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a89249eb-93c4-47a6-85ce-b922b31e7bff")
+		)
+		(pin "2"
+			(uuid "2d986de9-0c38-4f05-9af8-381184d38d31")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 71.12 78.74 180)
 		(unit 1)
@@ -7006,6 +7989,72 @@
 			(project "MCU_AURA"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
 					(reference "R303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 257.81 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7db6d521-bb27-495c-8685-3234db78eddf")
+		(property "Reference" "#PWR054"
+			(at 257.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 257.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 257.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d20fa585-a35f-4c89-91eb-91f6def13f24")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7549,6 +8598,72 @@
 			(project "Summer2025"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
 					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 232.41 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9a4fe25-84d4-4c18-85b4-273f79edc59f")
+		(property "Reference" "#PWR059"
+			(at 232.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 232.41 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddfde534-5062-4db1-b8c1-6140ca563635")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8854,6 +9969,76 @@
 			(project "MCU_AURA"
 				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
 					(reference "R302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 224.79 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9087a80-2f3f-4abd-b710-37a628c0c2cd")
+		(property "Reference" "R1"
+			(at 227.33 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 226.568 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a419822-a375-441a-a559-f49c6e63cd3b")
+		)
+		(pin "2"
+			(uuid "9ac28efe-f132-413f-b9f7-96292a5b4494")
+		)
+		(instances
+			(project "MCU_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/6e3c2630-2fcb-4f90-ad6a-c196891e487c"
+					(reference "R1")
 					(unit 1)
 				)
 			)
