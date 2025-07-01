@@ -2124,14 +2124,14 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "1"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2142,14 +2142,14 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "2"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2828,6 +2828,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 167.64) (xy 67.31 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d11e0d-3564-4773-aefd-93a4e21f959a")
+	)
+	(wire
+		(pts
 			(xy 252.73 63.5) (xy 252.73 66.04)
 		)
 		(stroke
@@ -2845,6 +2855,16 @@
 			(type default)
 		)
 		(uuid "0c6fc029-9454-4e8e-9c71-782a6acc8bcc")
+	)
+	(wire
+		(pts
+			(xy 69.85 160.02) (xy 69.85 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e75d911-f387-4725-89f0-81bd4085e221")
 	)
 	(wire
 		(pts
@@ -2885,16 +2905,6 @@
 			(type default)
 		)
 		(uuid "140325af-974f-4089-b744-6e1b9a525d27")
-	)
-	(wire
-		(pts
-			(xy 69.85 165.1) (xy 69.85 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1578bc60-dc3f-46c9-82d4-83d3e436e848")
 	)
 	(wire
 		(pts
@@ -3045,6 +3055,16 @@
 			(type default)
 		)
 		(uuid "2ee175e5-dbba-43ae-9490-1f427e57dd9a")
+	)
+	(wire
+		(pts
+			(xy 73.66 162.56) (xy 73.66 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33025a81-2946-4219-8f51-6c1ad9e3f705")
 	)
 	(wire
 		(pts
@@ -3418,16 +3438,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 165.1) (xy 69.85 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8409f20f-ecfb-424e-8688-87be6dce010d")
-	)
-	(wire
-		(pts
 			(xy 106.68 55.88) (xy 106.68 57.15)
 		)
 		(stroke
@@ -3658,7 +3668,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 170.18) (xy 69.85 167.64)
+			(xy 68.58 165.1) (xy 67.31 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3755,6 +3765,16 @@
 			(type default)
 		)
 		(uuid "bb20c1be-a93b-4d53-87b3-a43d7e4f0b4a")
+	)
+	(wire
+		(pts
+			(xy 69.85 162.56) (xy 73.66 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc523c19-5d21-4473-9d3b-79f7a6920b3d")
 	)
 	(wire
 		(pts
@@ -4055,16 +4075,6 @@
 			(type default)
 		)
 		(uuid "f89d7740-f834-42d0-8a8e-b73c1ceab4bf")
-	)
-	(wire
-		(pts
-			(xy 67.31 167.64) (xy 69.85 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd6e7725-c32a-4f49-a9c5-0e3972e21651")
 	)
 	(label "VGS_CH1"
 		(at 80.01 63.5 0)
@@ -5659,7 +5669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30PWF:XT30PWF"
+		(property "Footprint" "XT30PWF"
 			(at 135.89 185.09 0)
 			(effects
 				(font
@@ -6713,7 +6723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30PWF:XT30PWF"
+		(property "Footprint" "XT30PWF"
 			(at 135.89 144.45 0)
 			(effects
 				(font
@@ -8155,7 +8165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30PWF:XT30PWF"
+		(property "Footprint" "XT30PWF"
 			(at 115.57 258.75 0)
 			(effects
 				(font
@@ -8744,7 +8754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30PWF:XT30PWF"
+		(property "Footprint" "XT30PWF"
 			(at 63.5 260.02 0)
 			(effects
 				(font
@@ -10127,7 +10137,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 69.85 162.56 0)
+		(at 69.85 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10136,7 +10146,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccb58c42-6b11-479d-b8d2-46a9d1c04d0d")
 		(property "Reference" "#PWR032"
-			(at 69.85 166.37 0)
+			(at 69.85 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10145,7 +10155,7 @@
 			)
 		)
 		(property "Value" "+BATT_FILT"
-			(at 69.85 157.48 0)
+			(at 69.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,7 +10163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 162.56 0)
+			(at 69.85 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +10172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 162.56 0)
+			(at 69.85 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 69.85 162.56 0)
+			(at 69.85 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10949,7 +10959,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 170.18 0)
+		(at 68.58 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10958,7 +10968,7 @@
 		(fields_autoplaced yes)
 		(uuid "f458e9ed-2c7f-48b2-b22a-2cdaa9a9a2e2")
 		(property "Reference" "#PWR04"
-			(at 69.85 176.53 0)
+			(at 74.93 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10967,7 +10977,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 175.26 0)
+			(at 73.66 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10976,7 +10986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 170.18 0)
+			(at 68.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10985,7 +10995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 170.18 0)
+			(at 68.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10994,7 +11004,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 170.18 0)
+			(at 68.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
