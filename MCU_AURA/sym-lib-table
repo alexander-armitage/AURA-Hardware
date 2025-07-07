@@ -23,4 +23,5 @@
   (lib (name "ESDALC5_1BM2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/ESDALC5_1BM2.kicad_sym")(options "")(descr ""))
   (lib (name "532617003")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/532617003.kicad_sym")(options "")(descr ""))
   (lib (name "W25Q128JVSIQ")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/W25Q128JVSIQ.kicad_sym")(options "")(descr ""))
+  (lib (name "TCAN1042VDRBRQ1")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/TCAN1042VDRBRQ1.kicad_sym")(options "")(descr ""))
 )

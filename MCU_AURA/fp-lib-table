@@ -28,4 +28,5 @@
   (lib (name "532611271")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/532611271.pretty")(options "")(descr ""))
   (lib (name "W25Q128JVSIQ")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/W25Q128JVSIQ.pretty")(options "")(descr ""))
   (lib (name "USB-C")(type "KiCad")(uri "${KIPRJMOD}/USB-C.pretty")(options "")(descr ""))
+  (lib (name "TCAN1042VDRBRQ1")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/TCAN1042VDRBRQ1.pretty")(options "")(descr ""))
 )
