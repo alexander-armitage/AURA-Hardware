@@ -26,4 +26,5 @@
   (lib (name "SOLDER_PAD")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/SOLDER_PAD.kicad_sym")(options "")(descr ""))
   (lib (name "LM74700QDBVRQ1")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/LM74700QDBVRQ1.kicad_sym")(options "")(descr ""))
   (lib (name "532617012")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/532617012.kicad_sym")(options "")(descr ""))
+  (lib (name "SMBJ33CA")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/SMBJ33CA.kicad_sym")(options "")(descr ""))
 )
