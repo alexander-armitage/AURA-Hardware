@@ -516,8 +516,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/Alexander_Armitage/Desktop/Initial_Quote/",
-      "pos_files": "C:/Users/Alexander_Armitage/Desktop/Initial_Quote",
+      "plot": "Gerber/",
+      "pos_files": "Pick_n_Place/",
       "specctra_dsn": "",
       "step": "MCU_AURA.step",
       "svg": "",
@@ -527,7 +527,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "Pick_n_Place\\MCU_AURA.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
