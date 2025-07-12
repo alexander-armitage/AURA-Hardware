@@ -357,7 +357,7 @@
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 2.55 2.55)
-		(drill 1.7)
+		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -366,7 +366,7 @@
 	(pad "2" thru_hole circle
 		(at 5 0)
 		(size 2.55 2.55)
-		(drill 1.7)
+		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -375,7 +375,7 @@
 	(pad "3" thru_hole circle
 		(at -3 -5)
 		(size 1.5 1.5)
-		(drill 1)
+		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -384,22 +384,22 @@
 	(pad "4" thru_hole circle
 		(at 8 -5)
 		(size 1.5 1.5)
-		(drill 1)
+		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
 		(uuid "7ad7ac38-95f8-422f-8833-c4db8a94efff")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/Models/XT30PW-F.stp"
+	(model "${KIPRJMOD}/Libraries/Models/XT30PW-F--3DModel-STEP-269445.STEP"
 		(offset
-			(xyz 2.5 8 0)
+			(xyz 2.5 5 0.05)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -180)
+			(xyz -90 -0 -0)
 		)
 	)
 )

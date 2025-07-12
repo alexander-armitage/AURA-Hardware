@@ -1046,6 +1046,278 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SMBJ33CA:SMBJ33CA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SMBJ33CA"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DIONM5436X244N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88392/smbj.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMBJ33CA transient suppressor,33V 600W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.44"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SMBJ33CA"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "78-SMBJ33CA"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SMBJ33CA?qs=%252BA9HMDDz5KZn2RTSuF%252B9Fw%3D%3D"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 12.7 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 12.7 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SMBJ33CA_1_1"
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 7.62 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SOLDER_PAD:Power_Solder_Pad"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2138,6 +2410,12 @@
 		(uuid "d5c54933-f4ff-468e-8f27-e5903e340b1e")
 	)
 	(junction
+		(at 55.88 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2397ca62-96fe-416b-8186-90f40b2a44cc")
+	)
+	(junction
 		(at 114.3 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2148,12 +2426,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3521e625-647d-4abb-a887-4ef1601473ee")
-	)
-	(junction
-		(at 50.8 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ca2e332-3f7a-4de0-b6c3-16483072c7e6")
 	)
 	(junction
 		(at 185.42 77.47)
@@ -2174,6 +2446,12 @@
 		(uuid "6f076a86-a484-46cc-9172-aab5b1e7a0c5")
 	)
 	(junction
+		(at 40.64 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80a62353-fe14-4189-88fd-0d8b5cfb71b5")
+	)
+	(junction
 		(at 162.56 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2192,16 +2470,16 @@
 		(uuid "b096814a-3b74-4a3a-874f-2c87db03c17a")
 	)
 	(junction
-		(at 48.26 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbb7547d-ae7d-42cb-9211-4ee0f77f9a0b")
-	)
-	(junction
-		(at 52.07 93.98)
+		(at 59.69 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dabcff6c-67da-4c3d-b122-4bacd94d54d1")
+	)
+	(junction
+		(at 48.26 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e88e9841-4c0d-4705-92be-d075a9b12438")
 	)
 	(junction
 		(at 123.19 77.47)
@@ -2251,16 +2529,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 93.98) (xy 52.07 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09707fcb-c5af-48ca-bc8d-80b40ec4db79")
-	)
-	(wire
-		(pts
 			(xy 114.3 80.01) (xy 114.3 77.47)
 		)
 		(stroke
@@ -2268,6 +2536,16 @@
 			(type default)
 		)
 		(uuid "09b23860-9f9d-4529-8fdd-119fa80af289")
+	)
+	(wire
+		(pts
+			(xy 48.26 82.55) (xy 48.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf73c64-7ebf-4980-9165-11b5dee356c5")
 	)
 	(wire
 		(pts
@@ -2281,7 +2559,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 74.93 88.9)
+			(xy 81.28 86.36) (xy 82.55 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2291,7 +2569,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 88.9) (xy 74.93 90.17)
+			(xy 82.55 86.36) (xy 82.55 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2351,7 +2629,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 86.36) (xy 50.8 90.17)
+			(xy 55.88 83.82) (xy 55.88 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2381,7 +2659,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 88.9) (xy 52.07 88.9)
+			(xy 60.96 86.36) (xy 59.69 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2421,6 +2699,26 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 91.44) (xy 59.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599164c6-e882-4b5d-a037-6d963fe0e0a3")
+	)
+	(wire
+		(pts
+			(xy 55.88 83.82) (xy 60.96 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ceabc89-30d4-4cc7-b8d2-b000de1c53a9")
+	)
+	(wire
+		(pts
 			(xy 190.5 96.52) (xy 190.5 101.6)
 		)
 		(stroke
@@ -2431,6 +2729,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 95.25) (xy 40.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603ee1ba-1e06-4952-ae84-97f94fd89bae")
+	)
+	(wire
+		(pts
 			(xy 162.56 77.47) (xy 160.02 77.47)
 		)
 		(stroke
@@ -2438,16 +2746,6 @@
 			(type default)
 		)
 		(uuid "6290e988-1cda-46b2-9cf2-a4ce6a42c374")
-	)
-	(wire
-		(pts
-			(xy 49.53 90.17) (xy 50.8 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72533cfc-6c66-4721-a037-9fe0fd8dd653")
 	)
 	(wire
 		(pts
@@ -2498,16 +2796,6 @@
 			(type default)
 		)
 		(uuid "81514dd6-31d5-415a-9f96-6ed2a269925a")
-	)
-	(wire
-		(pts
-			(xy 50.8 86.36) (xy 53.34 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82c2f18c-ff4e-4444-baf0-339797579ef1")
 	)
 	(wire
 		(pts
@@ -2581,13 +2869,23 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 88.9) (xy 52.07 93.98)
+			(xy 59.69 86.36) (xy 59.69 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "987b6c72-3063-4445-9f4d-e6da216bd288")
+	)
+	(wire
+		(pts
+			(xy 40.64 85.09) (xy 40.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad475b90-2a48-4cc1-a9bc-0e1e5f6e3fe2")
 	)
 	(wire
 		(pts
@@ -2621,16 +2919,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 86.36) (xy 50.8 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0e6e0df-cde5-4ff2-9356-851d1155aa6c")
-	)
-	(wire
-		(pts
 			(xy 157.48 77.47) (xy 160.02 77.47)
 		)
 		(stroke
@@ -2641,7 +2929,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 86.36) (xy 74.93 86.36)
+			(xy 81.28 83.82) (xy 82.55 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2651,7 +2939,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 77.47) (xy 41.91 86.36)
+			(xy 40.64 76.2) (xy 40.64 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2681,7 +2969,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 86.36) (xy 74.93 83.82)
+			(xy 82.55 83.82) (xy 82.55 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2698,16 +2986,6 @@
 			(type default)
 		)
 		(uuid "d22df38d-6a38-41de-9e0c-afd349c2814a")
-	)
-	(wire
-		(pts
-			(xy 48.26 86.36) (xy 41.91 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2e3f5ad-a836-48da-ab7c-9380a34790df")
 	)
 	(wire
 		(pts
@@ -2741,7 +3019,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 93.98) (xy 52.07 95.25)
+			(xy 55.88 83.82) (xy 48.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30444ab-22d2-4b5f-8987-0e3bdf1992c3")
+	)
+	(wire
+		(pts
+			(xy 59.69 91.44) (xy 59.69 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2768,6 +3056,16 @@
 			(type default)
 		)
 		(uuid "f46c295b-05df-46d9-a883-1fd6cac25905")
+	)
+	(wire
+		(pts
+			(xy 48.26 83.82) (xy 40.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9452045-6b54-4e2e-a3ab-cbb4166a06b4")
 	)
 	(wire
 		(pts
@@ -2968,7 +3266,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 74.93 83.82 0)
+		(at 82.55 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2977,7 +3275,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bdca37f-ff5c-430b-8c03-69c166bfb218")
 		(property "Reference" "#PWR059"
-			(at 74.93 87.63 0)
+			(at 82.55 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +3284,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 74.93 78.74 0)
+			(at 82.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +3292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 83.82 0)
+			(at 82.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,7 +3301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 83.82 0)
+			(at 82.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,7 +3310,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 74.93 83.82 0)
+			(at 82.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +3713,7 @@
 	)
 	(symbol
 		(lib_id "XT30PW-M:XT30PW-M")
-		(at 53.34 86.36 0)
+		(at 60.96 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3424,7 +3722,7 @@
 		(fields_autoplaced yes)
 		(uuid "349b484d-eedf-4b26-a58f-44b6c33dfc02")
 		(property "Reference" "J100"
-			(at 63.5 78.74 0)
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,7 +3730,7 @@
 			)
 		)
 		(property "Value" "XT30PW-M"
-			(at 63.5 81.28 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3738,7 @@
 			)
 		)
 		(property "Footprint" "XT30PWM:XT30PWM"
-			(at 69.85 181.28 0)
+			(at 77.47 178.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,7 +3748,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
-			(at 69.85 281.28 0)
+			(at 77.47 278.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3758,7 @@
 			)
 		)
 		(property "Description" "30A Low Temperature Rise Fire Retardant Plug"
-			(at 53.34 86.36 0)
+			(at 60.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3767,7 @@
 			)
 		)
 		(property "Height" "5"
-			(at 69.85 481.28 0)
+			(at 77.47 478.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3777,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amass"
-			(at 69.85 581.28 0)
+			(at 77.47 578.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +3787,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XT30PW-M"
-			(at 69.85 681.28 0)
+			(at 77.47 678.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,7 +3797,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 69.85 781.28 0)
+			(at 77.47 778.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3807,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 69.85 881.28 0)
+			(at 77.47 878.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3817,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 69.85 981.28 0)
+			(at 77.47 978.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3827,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 69.85 1081.28 0)
+			(at 77.47 1078.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3837,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 53.34 86.36 0)
+			(at 60.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3846,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 53.34 86.36 0)
+			(at 60.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +3855,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 53.34 86.36 0)
+			(at 60.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +3864,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 53.34 86.36 0)
+			(at 60.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,7 +3873,7 @@
 			)
 		)
 		(property "Simulation Data" ""
-			(at 53.34 86.36 0)
+			(at 60.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,8 +4227,151 @@
 		)
 	)
 	(symbol
+		(lib_id "SMBJ33CA:SMBJ33CA")
+		(at 40.64 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5acae06b-b606-4a3b-95d5-4089e482ff46")
+		(property "Reference" "D101"
+			(at 43.18 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ33CA"
+			(at 43.18 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DIONM5436X244N"
+			(at 134.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88392/smbj.pdf"
+			(at 234.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMBJ33CA transient suppressor,33V 600W"
+			(at 40.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.44"
+			(at 434.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 534.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMBJ33CA"
+			(at 634.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SMBJ33CA"
+			(at 734.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SMBJ33CA?qs=%252BA9HMDDz5KZn2RTSuF%252B9Fw%3D%3D"
+			(at 834.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 934.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1034.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe514e7a-d83f-4bac-9ec7-4ffe178ed464")
+		)
+		(pin "2"
+			(uuid "32739e37-9581-430b-bf12-698c7c5d42b0")
+		)
+		(instances
+			(project ""
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
+					(reference "D101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 74.93 90.17 0)
+		(at 82.55 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3939,7 +4380,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bdc7da2-2ae6-4ffb-9a53-f0b16f91f0e3")
 		(property "Reference" "#PWR055"
-			(at 74.93 96.52 0)
+			(at 82.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +4389,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 95.25 0)
+			(at 82.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,7 +4398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 90.17 0)
+			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,7 +4407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 90.17 0)
+			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +4416,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 90.17 0)
+			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +5029,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 95.25 0)
+		(at 59.69 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4597,7 +5038,7 @@
 		(fields_autoplaced yes)
 		(uuid "82ed8aaa-5384-4f23-ad15-72b4e58b8285")
 		(property "Reference" "#PWR054"
-			(at 52.07 101.6 0)
+			(at 59.69 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +5047,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 100.33 0)
+			(at 59.69 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +5056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 95.25 0)
+			(at 59.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +5065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 95.25 0)
+			(at 59.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +5074,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 95.25 0)
+			(at 59.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,8 +5387,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 40.64 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fab0807-83c3-44c9-9223-947cf2498383")
+		(property "Reference" "#PWR090"
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff93b5e2-da27-4b82-9da2-8ff838cfdf47")
+		)
+		(instances
+			(project "PDB_AURA"
+				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/c5906580-2f17-4557-899f-eb3151fe9c9e"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 48.26 86.36 0)
+		(at 48.26 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4956,7 +5464,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2fe2e41-897f-47f0-b96c-ea8ac76b41d7")
 		(property "Reference" "#FLG05"
-			(at 48.26 84.455 0)
+			(at 48.26 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +5473,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 48.26 81.28 0)
+			(at 48.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,7 +5481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 86.36 0)
+			(at 48.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +5490,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 86.36 0)
+			(at 48.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +5499,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 48.26 86.36 0)
+			(at 48.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +5588,7 @@
 	)
 	(symbol
 		(lib_id "SOLDER_PAD:Power_Solder_Pad")
-		(at 44.45 93.98 0)
+		(at 66.04 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5088,7 +5596,7 @@
 		(dnp no)
 		(uuid "c42f3a4e-342d-4712-8cdf-26a3517eb481")
 		(property "Reference" "J102"
-			(at 41.656 93.98 0)
+			(at 68.834 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5605,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 44.45 91.44 0)
+			(at 66.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,7 +5613,7 @@
 			)
 		)
 		(property "Footprint" "SOLDER_PAD:BAT_SOLDER_PAD"
-			(at 44.45 93.98 0)
+			(at 66.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5114,7 +5622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 93.98 0)
+			(at 66.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +5631,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 93.98 0)
+			(at 66.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +5640,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 44.45 93.98 0)
+			(at 66.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,7 +5649,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 44.45 93.98 0)
+			(at 66.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,7 +5658,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 44.45 93.98 0)
+			(at 66.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,7 +5667,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 44.45 93.98 0)
+			(at 66.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,7 +5676,7 @@
 			)
 		)
 		(property "Simulation Data" ""
-			(at 44.45 93.98 0)
+			(at 66.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +6329,7 @@
 	)
 	(symbol
 		(lib_id "SOLDER_PAD:Power_Solder_Pad")
-		(at 44.45 90.17 0)
+		(at 55.88 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5829,7 +6337,7 @@
 		(dnp no)
 		(uuid "e02deeb1-0baa-46e5-bf62-3a51e6dee633")
 		(property "Reference" "J101"
-			(at 41.656 90.17 0)
+			(at 55.88 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,7 +6346,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 44.45 87.63 0)
+			(at 53.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +6354,7 @@
 			)
 		)
 		(property "Footprint" "SOLDER_PAD:BAT_SOLDER_PAD"
-			(at 44.45 90.17 0)
+			(at 55.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +6363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 90.17 0)
+			(at 55.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,7 +6372,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 90.17 0)
+			(at 55.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +6381,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 44.45 90.17 0)
+			(at 55.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,7 +6390,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 44.45 90.17 0)
+			(at 55.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,7 +6399,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 44.45 90.17 0)
+			(at 55.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5900,7 +6408,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 44.45 90.17 0)
+			(at 55.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +6417,7 @@
 			)
 		)
 		(property "Simulation Data" ""
-			(at 44.45 90.17 0)
+			(at 55.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,7 +6582,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 41.91 77.47 0)
+		(at 40.64 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6083,7 +6591,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6384c38-22a6-4e78-ba9c-07063402e064")
 		(property "Reference" "#PWR053"
-			(at 41.91 81.28 0)
+			(at 40.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +6600,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 41.91 72.39 0)
+			(at 40.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 77.47 0)
+			(at 40.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +6617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 77.47 0)
+			(at 40.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +6626,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 41.91 77.47 0)
+			(at 40.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
