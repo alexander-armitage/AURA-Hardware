@@ -4849,7 +4849,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7c42490-f108-4533-945b-6307a6d9f160")
+			(uuid "8f97d09b-f1fe-4b77-babc-e98a6b93cf24")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -4916,7 +4916,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "63302216-d625-4321-bf0c-dcb714b13132")
+			(uuid "a6744aaa-014b-4220-ac6d-db2510a52157")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -4982,7 +4982,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b971ffe5-846e-4cec-8799-58af80237e99")
+			(uuid "01006dd5-03f1-4b92-b442-6ce60a6eb6a2")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -5049,7 +5049,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6186e275-d206-4093-9b30-a36e80e1f86f")
+			(uuid "bf496aee-d89c-4828-8672-b98de1474936")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -5116,7 +5116,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "df7f214e-f26b-45a3-bc61-9e8d9754208f")
+			(uuid "65be2ab5-1be5-48a3-88a1-58da79a847e0")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -5182,7 +5182,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f934e343-198e-4069-8507-4cfa5b3848aa")
+			(uuid "bbf7ab13-80f3-447d-aaef-72918ba6236a")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -5249,7 +5249,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca4b94d6-0978-4fe7-bf2a-4f2dcd092b36")
+			(uuid "5be13b41-918e-4f03-9466-b5babeacf309")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -5315,7 +5315,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7518922b-6265-419e-999d-a66ccff3f4fb")
+			(uuid "84cf07c3-983d-4907-a8c7-a32bd4dcf265")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -5380,7 +5380,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "20cf6644-8b61-4d0e-8938-4d9dd8478c73")
+			(uuid "bc072702-fe5e-4cbf-8265-1f535c44a582")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -5446,7 +5446,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ae358c8-80a8-4f5b-ba9c-6a5272c906d6")
+			(uuid "0076cff2-050b-4e8b-a1a1-27a813b5ad5c")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -5513,7 +5513,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e1e3393-b6aa-4d55-9aa2-9c3355230d25")
+			(uuid "334359f8-bc56-4a08-a4f1-71fcbf996919")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -5644,10 +5644,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9196b1e5-3d9b-4aa1-bc6f-22e5b4ffabbd")
+			(uuid "b0e542d7-be81-489b-be56-eca18e4134b7")
 		)
 		(pin "2"
-			(uuid "5c32569f-612e-424d-8181-4187509f9805")
+			(uuid "4e5df18b-6790-4dc7-8241-51c58c724b8f")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -5713,7 +5713,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "65c4e817-dda9-4bf3-ae26-485f15e54f14")
+			(uuid "fcfe0267-773a-43d1-b69c-16bb85b2bf30")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -5733,7 +5733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ade4b89-ed34-4452-8ce7-049bbd9dc7f5")
-		(property "Reference" "R300"
+		(property "Reference" "R"
 			(at 39.116 71.374 0)
 			(effects
 				(font
@@ -5824,19 +5824,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e18387a0-bdd1-402e-b0d0-9746414c7ac5")
+			(uuid "c05de1d6-b14f-47b7-982c-93a4edf45110")
 		)
 		(pin "2"
-			(uuid "e9a2d13c-9002-4e8b-9932-ab781bfd7546")
+			(uuid "4f618ebe-871c-4833-a2bb-63df883c78cd")
 		)
-		(instances
-			(project "Summer2025"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "R300")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5894,7 +5887,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e2e5d7e-83d5-4ea1-b526-d1d5214d128d")
+			(uuid "be98116b-b311-45c5-ae67-4db8b819be4c")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -6076,16 +6069,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "d9c35d01-3236-4ad8-8211-bd2d53de94f3")
+			(uuid "30cf1faa-97bb-4c68-9192-33b4d49f2bed")
 		)
 		(pin "3"
-			(uuid "b0393143-7f5a-4d85-9bf3-1464e0ded96b")
+			(uuid "cdebb32c-d6d7-4149-aa5e-494fe960da4f")
 		)
 		(pin "4"
-			(uuid "2ade5f1d-ba9b-412e-81d1-4149f03cc07f")
+			(uuid "7a85cae2-7437-4fa3-bfed-968fa4c726c2")
 		)
 		(pin "1"
-			(uuid "c62aa735-4257-4bd3-bac3-5c97d9f547db")
+			(uuid "d320e0ad-d0e2-4b0b-88f2-0e95c65a1bb7")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -6195,7 +6188,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4baeab43-cae8-404f-8fe2-ffabc44ed015")
+			(uuid "fdd53345-7a06-42cc-9af3-dc7c031f33c0")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -6216,7 +6209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "537a3dd5-0500-4d5b-b25f-549bb077e6d0")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR"
 			(at 110.49 180.34 0)
 			(effects
 				(font
@@ -6262,16 +6255,9 @@
 			)
 		)
 		(pin "1"
-			(uuid "cec48255-7027-4c6f-9e60-61b4af72442f")
+			(uuid "ac15fb06-d9a0-45d2-8137-a3442a822642")
 		)
-		(instances
-			(project "MCU_AURA"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "SOLDER_PAD:Power_Solder_Pad")
@@ -6372,7 +6358,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "525ae7f2-6f30-4b5e-9d2e-e850772b51ca")
+			(uuid "682ccb5c-8fe6-44f1-b2e1-c1164b761a12")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -6481,10 +6467,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c518a7d4-ad6f-4e3a-b69c-d4e00b8b7553")
+			(uuid "09504b07-b3b2-4e39-84bf-c49314910a66")
 		)
 		(pin "2"
-			(uuid "a2f0d8cb-2985-4226-8ab8-822fe94c3020")
+			(uuid "21e2a2da-39f3-4590-bf40-e1fe8171e92d")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -6551,7 +6537,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "612656c3-5c73-4af0-90ec-6b39ea94b940")
+			(uuid "747fbeed-e242-486f-97e4-c75004be8680")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -6572,7 +6558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ec986aa-d992-4be0-9afa-ab3ddf13ce34")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR"
 			(at 41.91 83.82 0)
 			(effects
 				(font
@@ -6618,16 +6604,9 @@
 			)
 		)
 		(pin "1"
-			(uuid "0626cce6-ae56-4241-bd3d-3278f5619079")
+			(uuid "46a8ec27-a88c-4f5d-8000-904789d42d31")
 		)
-		(instances
-			(project "Summer2025"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "INA219AIDCNR:INA219AIDCNR")
@@ -6638,7 +6617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f80ad47-9b51-41e7-b65d-58d88dc7c3ae")
-		(property "Reference" "U302"
+		(property "Reference" "U"
 			(at 208.534 73.66 0)
 			(effects
 				(font
@@ -6728,37 +6707,30 @@
 			)
 		)
 		(pin "6"
-			(uuid "d8311e89-af42-4172-9d38-a42968f3a045")
+			(uuid "30e07db1-261c-419e-a6ab-a40e030f0008")
 		)
 		(pin "5"
-			(uuid "6ec82491-a329-488c-93c9-298d62e1f5df")
+			(uuid "c0b99051-b3b8-42fe-8ce5-5606b6209bba")
 		)
 		(pin "8"
-			(uuid "f19801c4-ef41-4bb5-b13a-b84bf72be3d9")
+			(uuid "bd35cd7f-9cc2-4322-9f2f-467b6e7f5ff1")
 		)
 		(pin "4"
-			(uuid "85f5b1c4-3dbe-4690-9fe0-a2182ea8fcc4")
+			(uuid "a6ad9eb7-fb24-449c-8d7d-3834708bba71")
 		)
 		(pin "3"
-			(uuid "dd49d507-1ab5-4f93-ac8d-cbaafc27946f")
+			(uuid "7fc57b0e-2606-4b1a-9ce6-4e57c06ce870")
 		)
 		(pin "7"
-			(uuid "a4cd4aa3-a0ce-4b9d-9639-e416cc3f9099")
+			(uuid "e4e76e4f-76ed-49b2-9dcb-81b83c261bcf")
 		)
 		(pin "2"
-			(uuid "cf210522-fa03-4617-8070-5e9f8a9ee607")
+			(uuid "c484624d-f229-4264-90aa-ba7755c21af3")
 		)
 		(pin "1"
-			(uuid "dec26a49-7f9b-468d-9542-f4a553e6532b")
+			(uuid "a82f95db-110f-4f26-ac0f-9a479e72a963")
 		)
-		(instances
-			(project ""
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "U302")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -6815,7 +6787,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8cacb92a-e897-4171-b3a7-0cb9450e26ed")
+			(uuid "ce6b4c67-3485-4864-9e27-1d966d1067ce")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -6836,7 +6808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "623ae774-d287-4c75-acd0-e903ef424de9")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR"
 			(at 115.57 49.53 0)
 			(effects
 				(font
@@ -6881,16 +6853,9 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a2d250c-1694-4396-9740-a24cf9b05af5")
+			(uuid "afa21a39-ebf7-4632-91e2-8ba00477e974")
 		)
-		(instances
-			(project "MCU_AURA"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6902,7 +6867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62ff5593-ac89-4cff-b552-a47ba39fe3a5")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR"
 			(at 142.24 62.23 0)
 			(effects
 				(font
@@ -6948,16 +6913,9 @@
 			)
 		)
 		(pin "1"
-			(uuid "deef6ba9-bc81-40e4-9f14-af05e8054164")
+			(uuid "08346f49-a06a-4f8a-844d-52be6ec3a6b3")
 		)
-		(instances
-			(project "MCU_AURA"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "XT30PW-F:XT30PW-F")
@@ -6969,7 +6927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "631b8f03-977f-4d18-af29-2e82a1a343ab")
-		(property "Reference" "J300"
+		(property "Reference" "J"
 			(at 129.54 43.18 0)
 			(effects
 				(font
@@ -7130,25 +7088,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "3a8dfa69-c6f3-430d-9011-8a9e2e603779")
+			(uuid "3d48a0b4-15cc-46b8-999f-bbff12ce2a56")
 		)
 		(pin "3"
-			(uuid "9a4a039d-cc17-4242-8f2e-30236e729c3b")
+			(uuid "1fbb5c2b-f0bc-4191-906a-301e928523c9")
 		)
 		(pin "4"
-			(uuid "7a10af37-5a6e-4746-a706-34fe2d79e526")
+			(uuid "4b771843-278c-4ff9-ac35-dfaf5226f9e3")
 		)
 		(pin "1"
-			(uuid "b60cfb2b-1434-4400-b532-53737e1ef34c")
+			(uuid "cb21d62d-4f25-4ff0-bc04-d4c7fb52cff0")
 		)
-		(instances
-			(project ""
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "J300")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -7160,7 +7111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66358738-12bb-4aa5-81e1-05cdc9f27714")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR"
 			(at 110.49 162.56 0)
 			(effects
 				(font
@@ -7205,16 +7156,9 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a142ef2-6ad0-484f-bf53-ac113e9c1cca")
+			(uuid "dac1bb2f-e212-4afb-ac84-814d6a881138")
 		)
-		(instances
-			(project "MCU_AURA"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "SOLDER_PAD:Power_Solder_Pad")
@@ -7315,7 +7259,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "31742f24-7d83-40f2-8648-75d78aa6f678")
+			(uuid "d317fdba-3e4b-4090-8070-9f02612c3eaa")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -7382,7 +7326,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ccc37bc-334b-4059-8e14-f9755fc44eec")
+			(uuid "c5a3c5b1-6c79-4a35-8028-31dc31830abb")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -7522,10 +7466,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "70ac7eec-7970-4e93-9f3f-624e0e75a196")
+			(uuid "65e9932f-aa6b-45ab-8abb-688e9dd65861")
 		)
 		(pin "2"
-			(uuid "f59ef7f2-638c-4437-9b21-e1945459371e")
+			(uuid "313f1b5a-324c-496f-b36a-e3f77b33d15e")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -7636,10 +7580,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "95ac484e-5825-4eac-85af-60f1a49a3401")
+			(uuid "6d2dc110-6953-4815-8a64-2be4949845d1")
 		)
 		(pin "2"
-			(uuid "4721d548-4b94-47a4-8c19-5ebee8758088")
+			(uuid "df221447-6391-480a-9518-b59739089904")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -7706,7 +7650,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a454c978-4dd3-4c6c-acb0-68466ff4df37")
+			(uuid "ede9ed5f-fbd4-4e9d-be8f-e951329285c1")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -7726,7 +7670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70f706c4-9296-44c3-aca4-2ae68bdc13ec")
-		(property "Reference" "U300"
+		(property "Reference" "U"
 			(at 72.898 55.118 0)
 			(effects
 				(font
@@ -7815,25 +7759,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "709b3630-971c-4f68-b633-5ba9377b2a28")
+			(uuid "3cfbfa4a-b66b-4cfe-ad3a-df348919cfdb")
 		)
 		(pin "1"
-			(uuid "f436fdd0-5583-4ce5-a467-77804ae869eb")
+			(uuid "39a29b1d-93cc-40ed-a0d1-b3e18e6cde8c")
 		)
 		(pin "4"
-			(uuid "e5adda67-e3b3-40ee-a112-e5821ea3e8d4")
+			(uuid "384bb34d-d5c8-4489-9c14-c12cfa80d82d")
 		)
 		(pin "3"
-			(uuid "40949ebf-5173-4378-9f59-1952414c2cf9")
+			(uuid "6a466afb-e964-4075-b178-f62ecb027b9b")
 		)
-		(instances
-			(project ""
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "U300")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -7933,10 +7870,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "49b4c3e3-88b8-4a87-a6d3-546a2e3cb39f")
+			(uuid "7d05f741-8a94-41db-bfc9-1f5a4271afc7")
 		)
 		(pin "2"
-			(uuid "ff7e0e19-a407-41b3-bc3d-c9ea55866b14")
+			(uuid "114861bb-406a-4598-b73c-9b7d3d87c260")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -7956,7 +7893,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7258fc13-9319-48b0-9834-34895c26e920")
-		(property "Reference" "J305"
+		(property "Reference" "J"
 			(at 202.946 124.46 0)
 			(effects
 				(font
@@ -8046,16 +7983,9 @@
 			)
 		)
 		(pin "1"
-			(uuid "552e9976-26b7-47a5-b58f-45c5ce123c48")
+			(uuid "0a03a40f-cc7e-4806-8eac-610df9284276")
 		)
-		(instances
-			(project ""
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "J305")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -8112,7 +8042,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bdf529d0-8438-4c69-a1e7-9ca7493b83cc")
+			(uuid "0c9f1b6d-5242-4965-8484-2cb143788d24")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -8222,7 +8152,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0445b29-2878-4270-bd59-131081b02cf4")
+			(uuid "b5af1a3e-efa7-47d5-b48f-a19122ecfbc9")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -8288,7 +8218,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa64c6af-8aca-4fd3-aaa1-8b08de010d6a")
+			(uuid "1abec966-0ee9-45be-a9d6-68ba6d93fd9e")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -8397,10 +8327,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e9a3c71-68f5-47fc-b645-42d6828217d1")
+			(uuid "4aef0b06-3cd8-4623-bef8-03776aacc608")
 		)
 		(pin "2"
-			(uuid "c37aec05-c2a0-41b0-b83a-aabae8cf3d80")
+			(uuid "d38d44b6-8dcd-40b9-a47e-89d512cf053f")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -8466,7 +8396,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f8723ec-efc9-44eb-8342-58df17b901f3")
+			(uuid "256e84e7-8fd7-46fa-a229-7d523b5d6a14")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -8487,7 +8417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8917569c-9327-48a8-a914-01e40d1a57f8")
-		(property "Reference" "J304"
+		(property "Reference" "J"
 			(at 123.19 156.21 0)
 			(effects
 				(font
@@ -8648,25 +8578,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "f1e2ad7a-b60b-4ae2-9a3d-d14d1ed84a6d")
+			(uuid "82770a14-483a-4dde-8814-3a2733836c0b")
 		)
 		(pin "3"
-			(uuid "4c561010-bba9-4fe8-b4c5-11cd161d2f8c")
+			(uuid "4eb0ced9-80d1-46f8-b7ef-2e4ccfb344bd")
 		)
 		(pin "4"
-			(uuid "0d031dc2-5b74-4b34-b190-e19938c14938")
+			(uuid "92a26470-d3e9-4d43-8022-179576b11316")
 		)
 		(pin "1"
-			(uuid "523b58d2-17aa-46b4-9f1a-6ff18030e895")
+			(uuid "b2258758-9e8c-4244-b25b-d834d4db6071")
 		)
-		(instances
-			(project "MCU_AURA"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "J304")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "532617012:532617012")
@@ -8678,7 +8601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf94f0a-db4f-4da8-952a-9b0650db47a7")
-		(property "Reference" "J302"
+		(property "Reference" "J"
 			(at 269.24 77.4699 0)
 			(effects
 				(font
@@ -8842,49 +8765,42 @@
 			)
 		)
 		(pin "1"
-			(uuid "1047d2be-7102-4220-8585-64c12650b312")
+			(uuid "066813ca-5d10-46d2-98bc-d2bb3f5e37b0")
 		)
 		(pin "6"
-			(uuid "e5dceffc-327b-4893-ae6c-9eb2d46425c6")
+			(uuid "55744695-1b5e-42a0-9913-eb2f4cf4508a")
 		)
 		(pin "8"
-			(uuid "2964c174-e5d3-414d-ab86-d3fc00bb5600")
+			(uuid "68611897-c713-4644-b571-872fe11cd3f8")
 		)
 		(pin "10"
-			(uuid "69cbe2c5-5bf5-4351-ad92-631c580c5228")
+			(uuid "69333bef-f43c-4ff4-88f9-11b44a34e6a4")
 		)
 		(pin "12"
-			(uuid "a05913e3-b275-4ee0-8159-bf0bade87028")
+			(uuid "79fa78de-c911-4ff0-9d91-8be3a1dfdf56")
 		)
 		(pin "3"
-			(uuid "0a2c4e9e-e2a2-43ae-9e4b-9541afeb984f")
+			(uuid "e071f64d-b78e-4169-ace9-b331781ae46a")
 		)
 		(pin "2"
-			(uuid "81d86526-b677-465f-a319-60819d5b6683")
+			(uuid "7da0d082-a1cc-47d0-875d-355fa69eee11")
 		)
 		(pin "5"
-			(uuid "3e386162-ff54-4562-b3b9-a77647300b33")
+			(uuid "691cb8ba-ce20-410e-afc0-00886a5b59d7")
 		)
 		(pin "7"
-			(uuid "3a8cabb5-fd28-4ade-a94f-f26a346b5e76")
+			(uuid "d74569de-c416-49ac-9e0c-6b0b9ea5178c")
 		)
 		(pin "9"
-			(uuid "d9c43ed9-aa60-4ef7-b418-dc2a2a6ca78e")
+			(uuid "598c2207-5059-4b46-b2c4-28e989c1502b")
 		)
 		(pin "11"
-			(uuid "faa02b3c-f61b-4aec-a46e-f688690aa3ba")
+			(uuid "aa3af64c-5d19-4c95-b451-e10ad9cdabaf")
 		)
 		(pin "4"
-			(uuid "3308394b-588f-46e2-9239-43001f9d9063")
+			(uuid "ebec7c4d-9581-40f4-ae5c-fd13fa8f3010")
 		)
-		(instances
-			(project ""
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "J302")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -8941,7 +8857,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b10642d7-ae04-416a-b902-9429bd3275a8")
+			(uuid "d0ba19e2-bcd6-4513-878d-c1a7e994a62c")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -9052,10 +8968,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "103486a5-a6c2-4ee9-92a8-5ecc3bf4f1ba")
+			(uuid "cc6119ac-0b94-4c81-85a7-e994cb4463b4")
 		)
 		(pin "2"
-			(uuid "59b8cd12-cad2-43c5-8889-0d8313e42908")
+			(uuid "93063d90-e51f-46a4-889c-4be137688809")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -9237,16 +9153,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "f59c433e-e6b9-452c-9d2c-ba0ed4082b2f")
+			(uuid "3b80dbe2-c7e3-429a-b37b-287fbe142579")
 		)
 		(pin "3"
-			(uuid "0a331c04-0a21-4405-99c6-33966c4357e6")
+			(uuid "99e0a298-3175-467b-8d7b-e4abe671bde2")
 		)
 		(pin "4"
-			(uuid "e54947fb-48b0-43ee-ab43-2fa5d2ba0750")
+			(uuid "51d3abfa-b210-4a66-92fc-d795014408a9")
 		)
 		(pin "1"
-			(uuid "09cfca1d-e351-4f97-80e4-3e20c3e7fbe7")
+			(uuid "44fd2cc2-96d3-40da-a52d-be4b767268d0")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -9313,7 +9229,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c2358be4-7d20-42eb-a7a0-24e2a342e584")
+			(uuid "e023d148-4ce5-4ade-a803-02782e942ef0")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -9380,7 +9296,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "87dd52c2-7200-4959-a666-812a0125bcc2")
+			(uuid "f5c6d80a-f00f-4bd8-a6f7-179c11c9520c")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -9520,13 +9436,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "4225900e-3151-404c-b17f-d05e29e8307d")
+			(uuid "af58bd1d-9cff-44c7-aca5-bfe633489e70")
 		)
 		(pin "3"
-			(uuid "17064821-354d-4af5-b32b-39f0f411e834")
+			(uuid "2cdca0a8-2157-4fd0-baa7-41be67475283")
 		)
 		(pin "2"
-			(uuid "a57fbbf8-82ae-4322-8978-1e5da98261d1")
+			(uuid "c3bd662c-f25b-4fc5-8817-7e14a7b3ea4d")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -9593,7 +9509,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "594ee46b-8222-49d3-b79a-455f83e63e37")
+			(uuid "90f582d3-0106-4ba3-a108-90bed72050d1")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -9660,7 +9576,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d4c066d-5a31-4b97-a696-c5d381969989")
+			(uuid "f1e374d6-66c2-4fba-a164-aa1460e11fc5")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -9727,7 +9643,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0786d2c-aa9b-4ec5-b71a-2fa6648df1f8")
+			(uuid "4decaa59-8793-4581-a6fe-fca66ec094e8")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -9794,7 +9710,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9dd60787-13ae-49c2-b171-c93335c76136")
+			(uuid "6edcab4d-873e-495d-bac4-6dd8fff1db21")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -9861,7 +9777,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "89313661-31fd-4577-b428-148d2a12c988")
+			(uuid "927fa831-c298-4212-b08f-b0474cca913e")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -9972,10 +9888,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "83664a23-5d62-4a9c-9810-993d9b62fbcd")
+			(uuid "d94e3dee-dab9-47b7-8bf8-ed10daf33076")
 		)
 		(pin "2"
-			(uuid "6913e823-1a5b-40a7-92e5-1c12577a465a")
+			(uuid "1f1ba58d-737f-4dd8-8e80-2aefd036ec39")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -10042,7 +9958,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5aa01b2-dbe9-485b-a860-8eaad24957d4")
+			(uuid "ef148131-f79b-473c-846c-9f017a97dd9d")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -10152,7 +10068,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5bf7e264-814e-40b6-8eba-b34b7667fbc7")
+			(uuid "bf0bbc31-6b5f-46b5-9cd9-46518b430884")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -10262,7 +10178,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e865663e-4e98-4491-a014-312971fae38f")
+			(uuid "aa417b55-35c2-4c80-93d0-1af829017d79")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -10283,7 +10199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3551e8e-7502-4f81-9523-dcfd84913faa")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR"
 			(at 135.89 175.26 0)
 			(effects
 				(font
@@ -10329,16 +10245,9 @@
 			)
 		)
 		(pin "1"
-			(uuid "31cee5c5-80dc-490e-ae3b-acfe67f62d55")
+			(uuid "d70b9cec-e732-46c2-b826-b5f7f5100d73")
 		)
-		(instances
-			(project "MCU_AURA"
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -10395,7 +10304,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f769157e-05ea-468c-862c-f7052407f347")
+			(uuid "80648a9b-6fa9-4981-86ad-f876118446e9")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -10461,7 +10370,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "05cacad2-857f-40d3-8d4e-c7c3565e477d")
+			(uuid "54ce5994-f9c0-46e1-8439-3bd1b3444f70")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -10482,7 +10391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce279ed4-1307-43f9-bcc9-fd06bfb7bd28")
-		(property "Reference" "D300"
+		(property "Reference" "D"
 			(at 109.22 53.3399 90)
 			(effects
 				(font
@@ -10592,19 +10501,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a6da954-d22a-4bd9-a67a-aeeb91d9711f")
+			(uuid "8d82114b-6e84-49a9-9e2f-ad1c208c37b9")
 		)
 		(pin "2"
-			(uuid "340a3415-b4e1-48c5-87d5-0684f56dc2c6")
+			(uuid "db93d08f-aabe-41ed-93eb-b762514ee4ae")
 		)
-		(instances
-			(project ""
-				(path "/c0b09de1-c640-438f-9ef5-dda14a6aac71/bf94e7c9-9821-4c41-aadb-9bb6d92f20f0"
-					(reference "D300")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
@@ -10734,13 +10636,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "344a3474-fd40-48f7-8f58-a9845845e1ec")
+			(uuid "eaf66b09-eb6a-40cd-a89c-cf38a968d29d")
 		)
 		(pin "3"
-			(uuid "b6847112-e1af-48e9-aec8-75cc32b6ce18")
+			(uuid "2b22dc48-07c8-4c6a-bf76-b0f815e9af41")
 		)
 		(pin "2"
-			(uuid "950579ca-5d3a-4e98-895c-861c7d0bab1b")
+			(uuid "748af0a0-e387-4299-91c6-6d63f7b1a274")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -10880,10 +10782,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "83d36a00-5fc1-4262-a5c8-9bbe3220b0ec")
+			(uuid "ef89affd-a399-4ac6-a814-8e9d48944419")
 		)
 		(pin "2"
-			(uuid "c6649496-cd2c-4453-965c-ee7f8e420e67")
+			(uuid "8853b860-662e-43ee-ac13-2cf76182ee92")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -10950,7 +10852,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "74a47510-0978-49e4-8092-165e4c092af2")
+			(uuid "4ab01f2d-64a0-4deb-aa2c-13891b3afed8")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -11059,10 +10961,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc832915-c360-4dee-8d2f-9485b468cab5")
+			(uuid "4666c96d-dd25-4220-9644-4491d1f5bb31")
 		)
 		(pin "2"
-			(uuid "6c98f309-6028-435e-94bf-0f0d3fb8127c")
+			(uuid "7d35e082-8fe1-453d-b5aa-792e78300eb0")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -11128,7 +11030,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8f95437f-68e3-4447-8417-223c677054d3")
+			(uuid "7afc31b9-49fd-4d23-bb0a-161dea4e44fe")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -11237,16 +11139,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "8da509ce-95c8-4c3b-bd71-10f4e1e9b68b")
+			(uuid "cd2c172e-3f1b-4d5e-bdda-1a311e5202ea")
 		)
 		(pin "1"
-			(uuid "a389953c-c24b-4aee-9460-a9ffdf1b9edd")
+			(uuid "5b28bd30-e161-4b99-a0b4-d6aa52a9b3f6")
 		)
 		(pin "4"
-			(uuid "82f2fe79-aff7-4beb-bd8b-8ef53406f68d")
+			(uuid "af28cb0b-018d-48df-8610-a8dc855a8aa6")
 		)
 		(pin "3"
-			(uuid "4e724418-de9a-49fd-98ac-10c88b0b971d")
+			(uuid "b8208393-e22a-453e-bbe7-1776a024dffc")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -11357,10 +11259,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d20dbef-0e71-4fef-9e88-cf356db02f93")
+			(uuid "54785c4d-02e5-413c-91a2-00b3cfc1dcec")
 		)
 		(pin "2"
-			(uuid "963e177b-66b2-4cdc-8b31-e3febfe6cbdd")
+			(uuid "dd42826b-6c5a-4dd4-9bac-97ef190e633f")
 		)
 		(instances
 			(project "PDB_AURA"
@@ -11427,7 +11329,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f83c73c5-32b0-45ef-a73d-4ac32ac8fa65")
+			(uuid "4bad9ad4-9a2e-485b-899a-ba5a207f850b")
 		)
 		(instances
 			(project "PDB_AURA"
