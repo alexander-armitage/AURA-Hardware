@@ -40,6 +40,7 @@ The software framework to run on this hardware can be seen in another repository
 - 1x 5V 20A continuous output
 - 2x high-current (10A) output channels
 - 2S-6S LiPo battery input support
+- Reverse polarity protection
 - Power, Current, and Voltage sensing
 - ESD protection
 
