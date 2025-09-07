@@ -58,7 +58,7 @@ my-project/
 │ ├── Gerber/             # Manufacturing files (JLCPCB)
 │ ├── Libraries/          # Local project libraries
 | ├── Pick_n_Place/       # Files to generate pick and place (JLCPCB)
-│ └── MCU_AURA.kicad_pro  # Project file for KiCad
+│ └── PDB_AURA.kicad_pro  # Project file for KiCad
 ├── docs/                 # Schematics for the PCB projects
 ├── .gitignore            # Git ignore file
 ├── README.md             # Project overview
