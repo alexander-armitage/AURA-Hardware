@@ -46,4 +46,24 @@ The software framework to run on this hardware can be seen in another repository
 
 ## Repository Structure
 
+```
+my-project/
+├── .github/              # Images for README
+├── MCU_AURA/             # ESP32S3 based PCB project
+│ ├── Gerber/             # Manufacturing files (JLCPCB)
+│ ├── Libraries/          # Local project libraries
+| ├── Pick_n_Place/       # Files to generate pick and place (JLCPCB)
+│ └── MCU_AURA.kicad_pro  # Project file for KiCad
+├── PDB_AURA/             # Power distribution board PCB project
+│ ├── Gerber/             # Manufacturing files (JLCPCB)
+│ ├── Libraries/          # Local project libraries
+| ├── Pick_n_Place/       # Files to generate pick and place (JLCPCB)
+│ └── MCU_AURA.kicad_pro  # Project file for KiCad
+├── docs/                 # Schematics for the PCB projects
+├── .gitignore            # Git ignore file
+├── README.md             # Project overview
+└── LICENSE               # License file
+```
+
 ## License
+See the [LICENSE](./LICENSE) file for more details.
