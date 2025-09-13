@@ -47,7 +47,7 @@ The software framework to run on this hardware can be seen in another repository
 ## Repository Structure
 
 ```
-my-project/
+AURA-Hardware/
 ├── .github/              # Images for README
 ├── MCU_AURA/             # ESP32S3 based PCB project
 │ ├── Gerber/             # Manufacturing files (JLCPCB)
