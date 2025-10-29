@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "XC7A35T-2FTG256C")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/XC7A35T-2FTG256C.pretty")(options "")(descr ""))
+)
