@@ -5,8 +5,64 @@
 	(uuid "3d83cb23-9528-4d06-8969-599520e9eb23")
 	(paper "A4")
 	(lib_symbols)
+	(text "Project Goals:\n\nRun ML/MPC/LQR on an FPGA\nUse DDR3 to load weights/matrices from an SD card\n"
+		(exclude_from_sim no)
+		(at 63.754 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0447b600-271b-4b70-a484-7e4d4529177c")
+	)
 	(sheet
-		(at 139.7 114.3)
+		(at 203.2 88.9)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13b0138f-baaf-4548-88e5-002745ed3ff2")
+		(property "Sheetname" "200_Power_Regulation"
+			(at 203.2 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "200_Power_Regulation.kicad_sch"
+			(at 203.2 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 88.9)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21,8 +77,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2d3446c8-405c-4eaf-9ac6-0e0b69b3b124")
-		(property "Sheetname" "Artix_7_GPIO"
-			(at 139.7 113.5884 0)
+		(property "Sheetname" "400_FPGA_Banks_34_35"
+			(at 144.78 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,25 +86,26 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Artix_7_GPIO.kicad_sch"
-			(at 139.7 127.5846 0)
+		(property "Sheetfile" "400_FPGA_Banks_34_35.kicad_sch"
+			(at 144.78 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 139.7 88.9)
+		(at 144.78 63.5)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -63,8 +120,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "49fa5711-315f-4731-8075-f443e3d2a01c")
-		(property "Sheetname" "Artix_7_Config"
-			(at 139.7 88.1884 0)
+		(property "Sheetname" "300_FPGA_Banks_14_15"
+			(at 144.78 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,19 +129,106 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Artix_7_Config.kicad_sch"
-			(at 139.7 102.1846 0)
+		(property "Sheetfile" "300_FPGA_Banks_14_15.kicad_sch"
+			(at 144.78 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 63.5)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c613221-464e-4cff-8867-bf431546a544")
+		(property "Sheetname" "200_FPGA_Config"
+			(at 177.8 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "200_FPGA_Config.kicad_sch"
+			(at 177.8 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 88.9)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce047a46-50f2-4465-991d-ae0222187798")
+		(property "Sheetname" "100_Power_Switching"
+			(at 177.8 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "100_Power_Switching.kicad_sch"
+			(at 177.8 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
+					(page "1")
 				)
 			)
 		)

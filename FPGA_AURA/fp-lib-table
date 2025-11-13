@@ -1,4 +1,8 @@
 (fp_lib_table
   (version 7)
   (lib (name "XC7A35T-2FTG256C")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/XC7A35T-2FTG256C.pretty")(options "")(descr ""))
+  (lib (name "W25Q256JVEIQ")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/W25Q256JVEIQ.pretty")(options "")(descr ""))
+  (lib (name "FT232HQ-REEL")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/FT232HQ-REEL.pretty")(options "")(descr ""))
+  (lib (name "ADP5014ACPZ-R7")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/ADP5014ACPZ-R7.pretty")(options "")(descr ""))
+  (lib (name "NCP51200MNTXG")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/NCP51200MNTXG.pretty")(options "")(descr ""))
 )

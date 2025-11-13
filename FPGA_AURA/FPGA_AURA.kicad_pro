@@ -614,12 +614,24 @@
       "Root"
     ],
     [
+      "ce047a46-50f2-4465-991d-ae0222187798",
+      "100_Power_Switching"
+    ],
+    [
+      "4c613221-464e-4cff-8867-bf431546a544",
+      "200_FPGA_Config"
+    ],
+    [
+      "13b0138f-baaf-4548-88e5-002745ed3ff2",
+      "200_Power_Regulation"
+    ],
+    [
       "49fa5711-315f-4731-8075-f443e3d2a01c",
-      "Artix_7_Config"
+      "300_FPGA_Banks_14_15"
     ],
     [
       "2d3446c8-405c-4eaf-9ac6-0e0b69b3b124",
-      "Artix_7_GPIO"
+      "400_FPGA_Banks_34_35"
     ]
   ],
   "text_variables": {}

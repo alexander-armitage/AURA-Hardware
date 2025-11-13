@@ -10,19 +10,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U1"
-			(at -30.48 -43.18 0)
+			(at -22.86 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "XC7A35T-2FTG256C"
-			(at -30.48 -45.72 0)
+			(at 0 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "XC7A35T-2FTG256C:BGA256C100P16X16_1700X1700X155"
