@@ -105,6 +105,48 @@
 		)
 	)
 	(sheet
+		(at 203.2 114.3)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "408cdb2b-d0b6-4bb9-b687-a733abb79467")
+		(property "Sheetname" "500_DDR3L"
+			(at 203.2 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "500_DDR3L.kicad_sch"
+			(at 203.2 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 144.78 63.5)
 		(size 12.7 12.7)
 		(exclude_from_sim no)

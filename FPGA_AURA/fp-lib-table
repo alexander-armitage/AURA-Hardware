@@ -5,4 +5,7 @@
   (lib (name "FT232HQ-REEL")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/FT232HQ-REEL.pretty")(options "")(descr ""))
   (lib (name "ADP5014ACPZ-R7")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/ADP5014ACPZ-R7.pretty")(options "")(descr ""))
   (lib (name "NCP51200MNTXG")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/NCP51200MNTXG.pretty")(options "")(descr ""))
+  (lib (name "532617010")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/532617010.pretty")(options "")(descr ""))
+  (lib (name "XT30PWM")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/XT30PWM.pretty")(options "")(descr ""))
+  (lib (name "MT41K128M16JT-125_IT_K")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/MT41K128M16JT-125_IT_K.pretty")(options "")(descr ""))
 )
