@@ -8,4 +8,7 @@
   (lib (name "532617010")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbol/532617010.kicad_sym")(options "")(descr ""))
   (lib (name "XT30PW-M")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbol/XT30PW-M.kicad_sym")(options "")(descr ""))
   (lib (name "MT41K128M16JT-125_IT_K")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbol/MT41K128M16JT-125_IT_K.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2121RUXR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbol/TPS2121RUXR.kicad_sym")(options "")(descr ""))
+  (lib (name "STUSB4500QTR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbol/STUSB4500QTR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS51200DRCR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbol/TPS51200DRCR.kicad_sym")(options "")(descr ""))
 )

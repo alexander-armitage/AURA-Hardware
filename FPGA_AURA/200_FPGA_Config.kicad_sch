@@ -7159,7 +7159,7 @@
 		(dnp no)
 		(uuid "4dfa8501-5e3e-4b58-832d-fc5cd29e4346")
 		(property "Reference" "U3"
-			(at 93.726 49.022 0)
+			(at 71.12 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7167,7 @@
 			)
 		)
 		(property "Value" "FT232HQ-REEL"
-			(at 93.726 51.562 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

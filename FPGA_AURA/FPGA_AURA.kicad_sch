@@ -5,9 +5,9 @@
 	(uuid "3d83cb23-9528-4d06-8969-599520e9eb23")
 	(paper "A4")
 	(lib_symbols)
-	(text "Project Goals:\n\nRun ML/MPC/LQR on an FPGA\nUse DDR3 to load weights/matrices from an SD card\n"
+	(text "Project Goals:\n\nRun ML/MPC/LQR on an FPGA\nUse DDR3 to load weights/matrices from an SD card\n\nProject References:\n\nhttps://digilent.com/reference/programmable-logic/arty-a7/reference-manual\nhttps://digilent.com/reference/_media/programmable-logic/arty-a7/arty-a7-e2-sch.pdf?srsltid=AfmBOoqMg7o7y6b265-ECX5KrBpNABIHgvgwkSd9z3ccQ8Ru-w-2zK3W\n"
 		(exclude_from_sim no)
-		(at 63.754 88.9 0)
+		(at 24.892 43.942 0)
 		(effects
 			(font
 				(size 1.27 1.27)
