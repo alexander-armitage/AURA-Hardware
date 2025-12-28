@@ -1967,19 +1967,20 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "300_FPGA_Power.kicad_sch"
+		(property "Sheetfile" "FPGA_Power.kicad_sch"
 			(at 241.3 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "6")
+					(page "4")
 				)
 			)
 		)
@@ -2009,7 +2010,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "200_Power_Regulation.kicad_sch"
+		(property "Sheetfile" "Power_Regulation.kicad_sch"
 			(at 215.9 38.6846 0)
 			(effects
 				(font
@@ -2028,7 +2029,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 76.2)
+		(at 215.9 76.2)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2044,7 +2045,7 @@
 		)
 		(uuid "2d3446c8-405c-4eaf-9ac6-0e0b69b3b124")
 		(property "Sheetname" "700_FPGA_Banks_34_35"
-			(at 190.5 75.4884 0)
+			(at 215.9 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,8 +2053,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "400_FPGA_Banks_34_35.kicad_sch"
-			(at 190.5 89.4846 0)
+		(property "Sheetfile" "FPGA_Banks_34_35.kicad_sch"
+			(at 215.9 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,48 +2067,6 @@
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 50.8)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "408cdb2b-d0b6-4bb9-b687-a733abb79467")
-		(property "Sheetname" "500_DDR3L"
-			(at 215.9 50.0884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "500_DDR3L.kicad_sch"
-			(at 215.9 64.0846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA_AURA"
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "5")
 				)
 			)
 		)
@@ -2127,8 +2086,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "49fa5711-315f-4731-8075-f443e3d2a01c")
-		(property "Sheetname" "600_FPGA_Banks_14_15"
+		(uuid "408cdb2b-d0b6-4bb9-b687-a733abb79467")
+		(property "Sheetname" "500_DDR3L"
 			(at 241.3 50.0884 0)
 			(effects
 				(font
@@ -2137,8 +2096,51 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "300_FPGA_Banks_14_15.kicad_sch"
+		(property "Sheetfile" "DDR3L.kicad_sch"
 			(at 241.3 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 76.2)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49fa5711-315f-4731-8075-f443e3d2a01c")
+		(property "Sheetname" "600_FPGA_Banks_14_15"
+			(at 190.5 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_Banks_14_15.kicad_sch"
+			(at 190.5 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2182,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "200_FPGA_Config.kicad_sch"
+		(property "Sheetfile" "FPGA_Config.kicad_sch"
 			(at 190.5 64.0846 0)
 			(effects
 				(font
@@ -2193,7 +2195,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
@@ -2223,13 +2225,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "800_Connectors.kicad_sch"
+		(property "Sheetfile" "Connectors.kicad_sch"
 			(at 241.3 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -2265,7 +2268,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "100_Power_Switching.kicad_sch"
+		(property "Sheetfile" "Power_Switching.kicad_sch"
 			(at 190.5 38.6846 0)
 			(effects
 				(font

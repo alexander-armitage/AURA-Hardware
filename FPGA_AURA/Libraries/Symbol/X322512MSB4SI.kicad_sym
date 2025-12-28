@@ -126,30 +126,6 @@
 		(symbol "X322512MSB4SI_0_1"
 			(polyline
 				(pts
-					(xy -3.81 5.08) (xy -3.81 6.35) (xy 3.81 6.35) (xy 3.81 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 0) (xy -3.81 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -2.54 5.08) (xy -2.54 0)
 				)
 				(stroke
@@ -174,42 +150,6 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy -3.81 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -1.27) (xy 3.81 -1.27) (xy 3.81 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 2.54 5.08) (xy 2.54 0)
 				)
 				(stroke
@@ -222,6 +162,17 @@
 			)
 		)
 		(symbol "X322512MSB4SI_1_1"
+			(rectangle
+				(start -3.81 6.35)
+				(end 3.81 -1.27)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -7.62 2.54 0)
 				(length 5.08)

@@ -12032,7 +12032,7 @@
 			(uuid "486ff842-cbe6-42cb-b6b5-fc861174f8b9")
 		)
 		(instances
-			(project ""
+			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
 					(reference "U2")
 					(unit 1)
@@ -12921,7 +12921,7 @@
 			(uuid "3411e77b-d5bc-4fa8-82c1-e88edbb69113")
 		)
 		(instances
-			(project ""
+			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
 					(reference "U5")
 					(unit 1)
@@ -12988,7 +12988,7 @@
 			(uuid "9c612076-e6f0-430d-bdc1-616b119f2515")
 		)
 		(instances
-			(project ""
+			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
 					(reference "FB1")
 					(unit 1)
@@ -14753,7 +14753,7 @@
 			(uuid "40195c21-59f3-40bb-98c5-57cacf2f2641")
 		)
 		(instances
-			(project ""
+			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
 					(reference "U6")
 					(unit 1)
@@ -14898,7 +14898,7 @@
 			(uuid "083cb749-6bcb-4550-9b1b-6c9b8a0ed31f")
 		)
 		(instances
-			(project ""
+			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
 					(reference "Y1")
 					(unit 1)
@@ -15312,7 +15312,7 @@
 			(uuid "f0006974-b41f-4583-9fe3-284b5bffc1df")
 		)
 		(instances
-			(project ""
+			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
 					(reference "U3")
 					(unit 1)
@@ -16232,7 +16232,7 @@
 			(uuid "35827f42-bfa8-4e4c-abc9-81f921e3b6c9")
 		)
 		(instances
-			(project ""
+			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
 					(reference "U1")
 					(unit 1)

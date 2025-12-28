@@ -663,16 +663,16 @@
       "200_Power_Regulation"
     ],
     [
+      "0a20a675-d4c7-4854-8ed1-df16c4f02d86",
+      "300_FPGA_Power"
+    ],
+    [
       "4c613221-464e-4cff-8867-bf431546a544",
       "400_FPGA_Config"
     ],
     [
       "408cdb2b-d0b6-4bb9-b687-a733abb79467",
       "500_DDR3L"
-    ],
-    [
-      "0a20a675-d4c7-4854-8ed1-df16c4f02d86",
-      "300_FPGA_Power"
     ],
     [
       "2d3446c8-405c-4eaf-9ac6-0e0b69b3b124",
