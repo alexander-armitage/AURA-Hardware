@@ -5,7 +5,7 @@
 	(uuid "3d83cb23-9528-4d06-8969-599520e9eb23")
 	(paper "A4")
 	(lib_symbols)
-	(text "Project Goals:\n\nRun ML/MPC/LQR on an FPGA\nUse DDR3 to load weights/matrices from an SD card\n\nProject References:\n\nhttps://digilent.com/reference/programmable-logic/arty-a7/reference-manual\nhttps://digilent.com/reference/_media/programmable-logic/arty-a7/arty-a7-e2-sch.pdf?srsltid=AfmBOoqMg7o7y6b265-ECX5KrBpNABIHgvgwkSd9z3ccQ8Ru-w-2zK3W\n"
+	(text "Project Goals:\n\nRun ML/MPC/LQR on an FPGA\nUse DDR3 to load weights/matrices from an SD card\n\nProject References:\nhttps://digilent.com/reference/programmable-logic/arty-a7/reference-manual\nhttps://digilent.com/reference/_media/programmable-logic/arty-a7/arty-a7-e2-sch.pdf?srsltid=AfmBOoqMg7o7y6b265-ECX5KrBpNABIHgvgwkSd9z3ccQ8Ru-w-2zK3W\n\nAMD Documentation:\nhttps://docs.amd.com/v/u/en-US/ug470_7Series_Config\nhttps://docs.amd.com/v/u/en-US/ds181_Artix_7_Data_Sheet\nhttps://docs.amd.com/r/en-US/ug908-vivado-programming-debugging/JTAG-Cables-and-Devices-Supported-by-hw_server\n"
 		(exclude_from_sim no)
 		(at 20.828 133.35 0)
 		(effects
@@ -1943,7 +1943,49 @@
 		)
 	)
 	(sheet
-		(at 135.89 54.61)
+		(at 241.3 25.4)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a20a675-d4c7-4854-8ed1-df16c4f02d86")
+		(property "Sheetname" "300_FPGA_Power"
+			(at 241.3 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "300_FPGA_Power.kicad_sch"
+			(at 241.3 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 25.4)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1959,7 +2001,7 @@
 		)
 		(uuid "13b0138f-baaf-4548-88e5-002745ed3ff2")
 		(property "Sheetname" "200_Power_Regulation"
-			(at 135.89 53.8984 0)
+			(at 215.9 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,135 +2010,7 @@
 			)
 		)
 		(property "Sheetfile" "200_Power_Regulation.kicad_sch"
-			(at 135.89 67.8946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "FPGA_AURA"
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 77.47 54.61)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2d3446c8-405c-4eaf-9ac6-0e0b69b3b124")
-		(property "Sheetname" "400_FPGA_Banks_34_35"
-			(at 77.47 53.8984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "400_FPGA_Banks_34_35.kicad_sch"
-			(at 77.47 67.8946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "FPGA_AURA"
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 135.89 80.01)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "408cdb2b-d0b6-4bb9-b687-a733abb79467")
-		(property "Sheetname" "500_DDR3L"
-			(at 135.89 79.2984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "500_DDR3L.kicad_sch"
-			(at 135.89 93.2946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA_AURA"
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 77.47 29.21)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "49fa5711-315f-4731-8075-f443e3d2a01c")
-		(property "Sheetname" "300_FPGA_Banks_14_15"
-			(at 77.47 28.4984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "300_FPGA_Banks_14_15.kicad_sch"
-			(at 77.47 42.4946 0)
+			(at 215.9 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2028,135 @@
 		)
 	)
 	(sheet
-		(at 110.49 29.21)
+		(at 190.5 76.2)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2d3446c8-405c-4eaf-9ac6-0e0b69b3b124")
+		(property "Sheetname" "700_FPGA_Banks_34_35"
+			(at 190.5 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "400_FPGA_Banks_34_35.kicad_sch"
+			(at 190.5 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 50.8)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "408cdb2b-d0b6-4bb9-b687-a733abb79467")
+		(property "Sheetname" "500_DDR3L"
+			(at 215.9 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "500_DDR3L.kicad_sch"
+			(at 215.9 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 50.8)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49fa5711-315f-4731-8075-f443e3d2a01c")
+		(property "Sheetname" "600_FPGA_Banks_14_15"
+			(at 241.3 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "300_FPGA_Banks_14_15.kicad_sch"
+			(at 241.3 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 50.8)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2129,8 +2171,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4c613221-464e-4cff-8867-bf431546a544")
-		(property "Sheetname" "200_FPGA_Config"
-			(at 110.49 28.4984 0)
+		(property "Sheetname" "400_FPGA_Config"
+			(at 190.5 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2181,7 @@
 			)
 		)
 		(property "Sheetfile" "200_FPGA_Config.kicad_sch"
-			(at 110.49 42.4946 0)
+			(at 190.5 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,13 +2193,55 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "2")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 110.49 54.61)
+		(at 241.3 76.2)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5c459e2-37f2-44a6-9b9b-e3ab2715c2c9")
+		(property "Sheetname" "800_Connectors"
+			(at 241.3 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "800_Connectors.kicad_sch"
+			(at 241.3 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 25.4)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2173,7 +2257,7 @@
 		)
 		(uuid "ce047a46-50f2-4465-991d-ae0222187798")
 		(property "Sheetname" "100_Power_Switching"
-			(at 110.49 53.8984 0)
+			(at 190.5 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2182,7 +2266,7 @@
 			)
 		)
 		(property "Sheetfile" "100_Power_Switching.kicad_sch"
-			(at 110.49 67.8946 0)
+			(at 190.5 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2278,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "1")
+					(page "2")
 				)
 			)
 		)

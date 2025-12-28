@@ -659,24 +659,32 @@
       "100_Power_Switching"
     ],
     [
-      "4c613221-464e-4cff-8867-bf431546a544",
-      "200_FPGA_Config"
-    ],
-    [
       "13b0138f-baaf-4548-88e5-002745ed3ff2",
       "200_Power_Regulation"
     ],
     [
-      "49fa5711-315f-4731-8075-f443e3d2a01c",
-      "300_FPGA_Banks_14_15"
-    ],
-    [
-      "2d3446c8-405c-4eaf-9ac6-0e0b69b3b124",
-      "400_FPGA_Banks_34_35"
+      "4c613221-464e-4cff-8867-bf431546a544",
+      "400_FPGA_Config"
     ],
     [
       "408cdb2b-d0b6-4bb9-b687-a733abb79467",
       "500_DDR3L"
+    ],
+    [
+      "0a20a675-d4c7-4854-8ed1-df16c4f02d86",
+      "300_FPGA_Power"
+    ],
+    [
+      "2d3446c8-405c-4eaf-9ac6-0e0b69b3b124",
+      "700_FPGA_Banks_34_35"
+    ],
+    [
+      "49fa5711-315f-4731-8075-f443e3d2a01c",
+      "600_FPGA_Banks_14_15"
+    ],
+    [
+      "c5c459e2-37f2-44a6-9b9b-e3ab2715c2c9",
+      "800_Connectors"
     ]
   ],
   "text_variables": {}
