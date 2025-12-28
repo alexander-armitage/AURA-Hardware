@@ -595,4 +595,15 @@
 		(uuid "34c688c4-5e09-4a68-bb9f-dfd9a6f06681")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Models/TPS51200DRCR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

@@ -2,31 +2,33 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "W25Q256JVEIQ"
+	(symbol "93LC56BT-I_SN"
 		(pin_names
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U?"
-			(at 30.48 7.62 0)
+		(property "Reference" "U"
+			(at -3.302 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Value" "W25Q256JVEIQ"
-			(at 30.48 5.08 0)
+		(property "Value" "93LC56BT-I_SN"
+			(at -3.302 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Footprint" "W25Q256JVEIQ:SON127P800X600X80-9N"
-			(at 0 6.35 0)
+		(property "Footprint" "93LC56BT-I_SN:SOIC127P600X175-8N"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,8 +46,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "256M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI"
-			(at 0 6.35 0)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Microchip Technology"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,8 +65,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Winbond"
-			(at 0 6.35 0)
+		(property "Description_1" "2K, 128 X 16, SERIAL EE, IND8 SOIC 3.90mm(.150in) T/R | Microchip Technology Inc. 93LC56BT-I/SN"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64,8 +75,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Winbond Electronics"
-			(at 0 6.35 0)
+		(property "PACKAGE" "SOIC-8"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,18 +85,8 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q256JVEIQ?qs=qSfuJ%252Bfl%2Fd4o%2FNFUf7yCgA%3D%3D"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "454-W25Q256JVEIQ"
-			(at 0 6.35 0)
+		(property "MPN" "93LC56BT-I/SN"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95,7 +96,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 6.35 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104,8 +105,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "WDFN-8 Winbond Electronics"
-			(at 0 6.35 0)
+		(property "Package" "SO-8 Microchip"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -114,8 +115,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/W25Q256JVEIQ/Winbond/view-part/?ref=eda"
-			(at 0 6.35 0)
+		(property "OC_FARNELL" "9758240"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -124,8 +125,8 @@
 				(hide yes)
 			)
 		)
-		(property "HEIGHT" "0.8mm"
-			(at 0 6.35 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/93LC56BT-I/SN/Microchip+Technology/view-part/?ref=snap"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -134,8 +135,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "W25Q256JVEIQ"
-			(at 0 6.35 0)
+		(property "MP" "93LC56BT-I/SN"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,8 +145,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/W25Q256JVEIQ/Winbond/view-part/?ref=snap"
-			(at 0 6.35 0)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5509585&manufacturer=Microchip Technology&part_name=93LC56BT-I/SN&search_term=93lc56bt-i/sn"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154,8 +155,8 @@
 				(hide yes)
 			)
 		)
-		(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/w25q256jveiq/winbond-electronics?region=nac"
-			(at 0 6.35 0)
+		(property "SUPPLIER" "MICROCHIP"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164,18 +165,8 @@
 				(hide yes)
 			)
 		)
-		(property "ARROW_PART_NUMBER" "W25Q256JVEIQ"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "FLASH - NOR Memory IC 256Mb (32M x 8) SPI - Quad I/O 133 MHz 8-WSON (8x6)"
-			(at 0 6.35 0)
+		(property "OC_NEWARK" "96K4109"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185,7 +176,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 0 6.35 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,8 +185,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "W25Q256JVEIQ"
-			(at 0 6.35 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/93LC56BT-I/SN/Microchip+Technology/view-part/?ref=eda"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -204,74 +195,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "W25Q256JVEIQ_0_0"
-			(rectangle
-				(start 5.08 2.54)
-				(end 20.32 -20.32)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -1.27 0)
-				(length 5.08)
-				(name "/CS"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -16.51 0)
-				(length 5.08)
-				(name "CLK"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 13.97 -25.4 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 7.62 270)
+		(symbol "93LC56BT-I_SN_0_0"
+			(pin power_in line
+				(at 8.89 16.51 270)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -288,12 +214,10 @@
 					)
 				)
 			)
-		)
-		(symbol "W25Q256JVEIQ_1_0"
-			(pin bidirectional line
-				(at 0 -5.08 0)
+			(pin passive line
+				(at 8.89 -15.24 90)
 				(length 5.08)
-				(name "DI_IO0"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -308,17 +232,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 0 -7.62 0)
+			(pin output line
+				(at 20.32 8.89 180)
 				(length 5.08)
-				(name "DO_IO1"
+				(name "DO"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "2"
+				(number "4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -326,10 +250,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 0 -10.16 0)
+			(pin input line
+				(at 20.32 -2.54 180)
 				(length 5.08)
-				(name "/WP_IO2"
+				(name "DI"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -344,10 +268,66 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 0 -12.7 0)
+			(pin input line
+				(at 20.32 -5.08 180)
 				(length 5.08)
-				(name "/HOLD_IO3"
+				(name "CS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20.32 -7.62 180)
+				(length 5.08)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "93LC56BT-I_SN_1_0"
+			(pin unspecified line
+				(at 0 0 0)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -362,22 +342,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 16.51 -25.4 90)
-				(length 5.08)
-				(name "EXP"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
+		)
+		(symbol "93LC56BT-I_SN_1_1"
+			(rectangle
+				(start 5.08 11.43)
+				(end 15.24 -10.16)
+				(stroke
+					(width 0)
+					(type solid)
 				)
-				(number "9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
+				(fill
+					(type background)
 				)
 			)
 		)
