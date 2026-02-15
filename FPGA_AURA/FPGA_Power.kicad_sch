@@ -5277,7 +5277,7 @@
 	)
 	(text "Power on sequency VCCINT -> VCCBRAM -> VCCAUX -> VCCO.\nIf VCCAUX and VCCO are the same, they can be powered on simultaneously."
 		(exclude_from_sim no)
-		(at 25.654 151.384 0)
+		(at 31.496 158.496 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5407,6 +5407,12 @@
 		(uuid "74c3a2ee-fc5d-422f-b95f-d698864ba93a")
 	)
 	(junction
+		(at 88.9 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8568c12e-48a6-44f1-958b-e5d91ee858bf")
+	)
+	(junction
 		(at 38.1 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5447,6 +5453,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a30bd89c-cbae-4af2-bc40-e1d2764db4ca")
+	)
+	(junction
+		(at 88.9 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3c6fe26-a176-4712-ad3e-c7826c614b4a")
 	)
 	(junction
 		(at 88.9 93.98)
@@ -5812,6 +5824,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 143.51) (xy 88.9 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499f6469-b8b7-48fa-b799-58f80a356450")
+	)
+	(wire
+		(pts
 			(xy 38.1 121.92) (xy 39.37 121.92)
 		)
 		(stroke
@@ -5892,6 +5914,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 124.46) (xy 87.63 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68dd46e0-20ef-4c10-814a-5849a7bb0004")
+	)
+	(wire
+		(pts
 			(xy 38.1 96.52) (xy 39.37 96.52)
 		)
 		(stroke
@@ -5899,6 +5931,16 @@
 			(type default)
 		)
 		(uuid "695ab070-4716-45f4-85e5-34d7f60a46dd")
+	)
+	(wire
+		(pts
+			(xy 88.9 129.54) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e6867f1-a409-43a9-98ac-841b7d578904")
 	)
 	(wire
 		(pts
@@ -5949,6 +5991,26 @@
 			(type default)
 		)
 		(uuid "7aa3bc3a-de9d-4834-921e-015bc4660647")
+	)
+	(wire
+		(pts
+			(xy 88.9 127) (xy 88.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5b2cca-7002-420b-b2ba-8e6bbeee3d5d")
+	)
+	(wire
+		(pts
+			(xy 87.63 139.7) (xy 93.98 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da01103-fcff-475f-95c7-416dcb50c827")
 	)
 	(wire
 		(pts
@@ -6009,6 +6071,16 @@
 			(type default)
 		)
 		(uuid "891e6792-6032-4259-9ced-5fbddb97c45b")
+	)
+	(wire
+		(pts
+			(xy 87.63 127) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4d3834-ae9f-4579-ae3e-1a48c06640a4")
 	)
 	(wire
 		(pts
@@ -6079,6 +6151,16 @@
 			(type default)
 		)
 		(uuid "a32ba978-ef28-496b-a926-2010d597e6d6")
+	)
+	(wire
+		(pts
+			(xy 88.9 142.24) (xy 87.63 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4593e39-09bb-47c2-b4a2-7b633061c5cf")
 	)
 	(wire
 		(pts
@@ -6182,6 +6264,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 129.54) (xy 88.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8fb72b-4b3f-452e-bfa4-65d3d9c205a5")
+	)
+	(wire
+		(pts
 			(xy 38.1 116.84) (xy 38.1 114.3)
 		)
 		(stroke
@@ -6209,6 +6301,16 @@
 			(type default)
 		)
 		(uuid "c6123291-8f33-406c-ae90-686e3bfa8b03")
+	)
+	(wire
+		(pts
+			(xy 93.98 139.7) (xy 93.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33ab4b2-6996-40cd-a195-9b828a0f9c9c")
 	)
 	(wire
 		(pts
@@ -6299,6 +6401,16 @@
 			(type default)
 		)
 		(uuid "e3402080-4db8-49b2-bc25-e62675890cc7")
+	)
+	(wire
+		(pts
+			(xy 88.9 132.08) (xy 88.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ab939d-c237-4fe2-b762-3097fdffb027")
 	)
 	(wire
 		(pts
@@ -6399,6 +6511,72 @@
 			(type default)
 		)
 		(uuid "fced93de-b1b4-4507-86ab-f7fce7bb0661")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bb8294e-11e7-47c1-a3ca-64aceba93d9f")
+		(property "Reference" "#PWR0130"
+			(at 88.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2e392ec-f63b-4256-aa77-a6bc54e799fb")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/0a20a675-d4c7-4854-8ed1-df16c4f02d86"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+1V0")
@@ -6527,6 +6705,138 @@
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/0a20a675-d4c7-4854-8ed1-df16c4f02d86"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42ae21f0-cc64-48ca-9b02-bade5f8f1aa6")
+		(property "Reference" "#PWR0131"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bc6eef9-805b-46d5-b0e8-86937719a5c7")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/0a20a675-d4c7-4854-8ed1-df16c4f02d86"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 93.98 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7be42b95-63f0-49d0-8c59-9f3ba8e1199a")
+		(property "Reference" "#PWR0129"
+			(at 93.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 93.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 93.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea4781d5-cb6a-4b3c-adbd-ebf5c8070eff")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/0a20a675-d4c7-4854-8ed1-df16c4f02d86"
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)

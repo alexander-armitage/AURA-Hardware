@@ -17,4 +17,5 @@
   (lib (name "TF-CARD_H1_8")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/TF-CARD_H1_8.pretty")(options "")(descr ""))
   (lib (name "532617004")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/532617004.pretty")(options "")(descr ""))
   (lib (name "532617007")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/532617007.pretty")(options "")(descr ""))
+  (lib (name "YC124-FR-0740R2L")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/YC124-FR-0740R2L.pretty")(options "")(descr ""))
 )

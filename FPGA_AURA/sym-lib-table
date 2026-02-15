@@ -17,4 +17,5 @@
   (lib (name "TF-CARD_H1_8")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbol/TF-CARD_H1_8.kicad_sym")(options "")(descr ""))
   (lib (name "532617004")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbol/532617004.kicad_sym")(options "")(descr ""))
   (lib (name "532617007")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbol/532617007.kicad_sym")(options "")(descr ""))
+  (lib (name "YC124-FR-0740R2L")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbol/YC124-FR-0740R2L.kicad_sym")(options "")(descr ""))
 )

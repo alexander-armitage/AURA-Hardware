@@ -11144,10 +11144,6 @@
 					(reference "U1")
 					(unit 5)
 				)
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
-					(reference "U1")
-					(unit 5)
-				)
 			)
 		)
 	)
@@ -12066,10 +12062,6 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "U1")
-					(unit 6)
-				)
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
 					(reference "U1")
 					(unit 6)
 				)
