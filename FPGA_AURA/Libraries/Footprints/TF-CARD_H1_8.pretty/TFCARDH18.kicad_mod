@@ -268,7 +268,7 @@
 	)
 	(fp_line
 		(start -9.35 -9.05)
-		(end 9.35 -9.05)
+		(end 3 -9.05)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -287,7 +287,27 @@
 		(uuid "53ee41c7-3697-42fa-85c4-07b2b4fd485e")
 	)
 	(fp_line
-		(start 9.35 -9.05)
+		(start 3 -9)
+		(end 3 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1dfb23f4-363b-420c-8ed9-48cea569e662")
+	)
+	(fp_line
+		(start 3 -8)
+		(end 9.35 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34d98645-bce6-4914-8e1a-c224d3a6a8be")
+	)
+	(fp_line
+		(start 9.35 -8)
 		(end 9.35 8.25)
 		(stroke
 			(width 0.1)
