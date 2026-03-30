@@ -1,0 +1,26 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a35tftg256-2",
+      "gen_directory": "../../../../Memory_Pin_Assignments.gen/sources_1/bd/Memory_Pin_Out",
+      "name": "Memory_Pin_Out",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2025.1"
+    },
+    "design_tree": {
+      "DDR3L": ""
+    },
+    "components": {
+      "DDR3L": {
+        "vlnv": "xilinx.com:ip:mig_7series:4.2",
+        "ip_revision": "2",
+        "xci_name": "Memory_Pin_Out_mig_7series_0_1",
+        "xci_path": "ip\\Memory_Pin_Out_mig_7series_0_1\\Memory_Pin_Out_mig_7series_0_1.xci",
+        "inst_hier_path": "DDR3L",
+        "has_run_ip_tcl": "true"
+      }
+    }
+  }
+}
