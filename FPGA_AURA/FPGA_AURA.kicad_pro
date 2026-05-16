@@ -543,7 +543,7 @@
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1161,
-        "tuning_profile": "",
+        "tuning_profile": "DDR_ADDR_CMD",
         "via_diameter": 0.48,
         "via_drill": 0.25
       },
@@ -555,7 +555,7 @@
         "pcb_color": "rgb(255, 0, 0)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
+        "tuning_profile": "DDR_CLK",
         "via_diameter": 0.48,
         "via_drill": 0.25
       },
@@ -566,7 +566,7 @@
         "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1161,
-        "tuning_profile": "",
+        "tuning_profile": "DDR_ADDR_CMD",
         "via_diameter": 0.48,
         "via_drill": 0.25
       },
@@ -577,7 +577,7 @@
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1161,
-        "tuning_profile": "",
+        "tuning_profile": "DDR_DQ_0_1",
         "via_diameter": 0.48,
         "via_drill": 0.25
       },
@@ -588,7 +588,7 @@
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1161,
-        "tuning_profile": "",
+        "tuning_profile": "DDR_DQ_0_1",
         "via_diameter": 0.48,
         "via_drill": 0.25
       },
@@ -600,7 +600,8 @@
         "pcb_color": "rgb(255, 0, 0)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
+        "track_width": 0.1026,
+        "tuning_profile": "DDR_DQS_0_1",
         "via_diameter": 0.48,
         "via_drill": 0.25
       },
@@ -612,7 +613,8 @@
         "pcb_color": "rgb(255, 0, 0)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
+        "track_width": 0.1026,
+        "tuning_profile": "DDR_DQS_0_1",
         "via_diameter": 0.48,
         "via_drill": 0.25
       },
@@ -638,24 +640,12 @@
         "pattern": "DDR3_A(0|1|2|3|4|5|6|7|8|9|10|11|12|13)"
       },
       {
-        "netclass": "DDR_CLK",
-        "pattern": "DDR3_CK(+|-)"
-      },
-      {
         "netclass": "DDR_DQ0",
         "pattern": "DDR3_D(M0|Q0|Q1|Q2|Q3|Q4|Q5|Q6|Q7)"
       },
       {
         "netclass": "DDR_DQ1",
         "pattern": "DDR3_D(M1|Q8|Q9|Q10|Q11|Q12|Q13|Q14|Q15)"
-      },
-      {
-        "netclass": "DDR_DQS0",
-        "pattern": "DDR3_DQS0(+|-)"
-      },
-      {
-        "netclass": "DDR_DQS1",
-        "pattern": "DDR3_DQS1(+|-)"
       },
       {
         "netclass": "DDR_CMD",
@@ -676,6 +666,22 @@
       {
         "netclass": "DDR_CLK",
         "pattern": "DDR3_CK-"
+      },
+      {
+        "netclass": "DDR_DQS0",
+        "pattern": "DDR3_DQS0+"
+      },
+      {
+        "netclass": "DDR_DQS0",
+        "pattern": "DDR3_DQS0-"
+      },
+      {
+        "netclass": "DDR_DQS1",
+        "pattern": "DDR3_DQS1+"
+      },
+      {
+        "netclass": "DDR_DQS1",
+        "pattern": "DDR3_DQS1-"
       }
     ]
   },
