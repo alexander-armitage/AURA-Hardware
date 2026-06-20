@@ -5,6 +5,161 @@
 	(uuid "d7ff79c2-f666-4818-a74c-253316c5bf27")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "XC7A35T-2FTG256C:XC7A35T-2FTG256C"
 			(pin_names
 				(offset 1.016)
@@ -10016,18 +10171,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 71.12 69.85)
+		(at 127 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "095c976e-1dbd-48b8-9807-55cad28a229d")
+	)
+	(junction
+		(at 120.65 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13a93218-78d0-4cec-ab07-ca685c4a8bc2")
 	)
 	(junction
-		(at 71.12 72.39)
+		(at 130.81 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23f445ee-defe-4494-b636-71bb13983a2e")
+	)
+	(junction
+		(at 120.65 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33320417-30fb-4417-9064-7a9bdea29bf8")
+	)
+	(junction
+		(at 130.81 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4913e06c-4bae-49e3-b0ab-b3afa029f20f")
+	)
+	(junction
+		(at 90.17 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4edc559b-1d46-448d-92de-6b4f7551f078")
 	)
 	(junction
 		(at 176.53 41.91)
@@ -10042,10 +10336,34 @@
 		(uuid "7941cb61-dadf-4c3d-87b8-638588bbc0b8")
 	)
 	(junction
+		(at 165.1 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8862bfde-2f59-4136-92bc-2c22d5dedcb1")
+	)
+	(junction
+		(at 154.94 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9711b4dc-0bae-46ea-a4a8-319afb708dbb")
+	)
+	(junction
 		(at 176.53 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a84480a-4043-42e7-bf59-c7d0e25772ad")
+	)
+	(junction
+		(at 176.53 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a031df91-3c9e-4a04-beb0-6ae1bf0c2d75")
+	)
+	(junction
+		(at 143.51 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9650b7b-85b0-4a6a-9032-ebdb6710a6ec")
 	)
 	(junction
 		(at 176.53 34.29)
@@ -10054,10 +10372,56 @@
 		(uuid "b2d1bdb6-67f5-4bb7-9a03-e3685a5ca2fd")
 	)
 	(junction
-		(at 176.53 31.75)
+		(at 142.24 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f27d66e3-6a10-49ac-b898-fd0799d1883b")
+		(uuid "d1250d0d-5e78-438e-bb04-e19c9a96c100")
+	)
+	(junction
+		(at 139.7 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3859b53-299e-46e3-81de-e3740e65c2c3")
+	)
+	(junction
+		(at 102.87 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d471b11c-f641-470e-b12c-b8d277859ca4")
+	)
+	(junction
+		(at 120.65 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e43740b9-4f23-4af9-b792-8f30cae2ed27")
+	)
+	(junction
+		(at 152.4 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee312a52-d984-41ca-8bab-973dd749fb12")
+	)
+	(junction
+		(at 115.57 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef4d4a5c-58b4-4509-a661-f85035bdd55a")
+	)
+	(junction
+		(at 167.64 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb34e6fb-2f73-4b69-b873-97c6cd0fd085")
+	)
+	(wire
+		(pts
+			(xy 142.24 81.28) (xy 142.24 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0151d883-30e6-4dd2-8675-110f63f7baef")
 	)
 	(wire
 		(pts
@@ -10081,13 +10445,73 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 68.58) (xy 71.12 69.85)
+			(xy 115.57 40.64) (xy 115.57 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0607134b-4351-4f74-ab48-dc33394e0aa9")
+	)
+	(wire
+		(pts
+			(xy 120.65 78.74) (xy 120.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072bef37-2410-452f-868d-68aa572f3b92")
+	)
+	(wire
+		(pts
+			(xy 139.7 31.75) (xy 152.4 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19140e0c-14b1-4867-b8e8-2d2d8fa4fc30")
+	)
+	(wire
+		(pts
+			(xy 165.1 40.64) (xy 165.1 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a8d888-7c35-481e-b8de-4e282e253fc1")
+	)
+	(wire
+		(pts
+			(xy 143.51 92.71) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b727a3c-58f2-4c59-912e-95574bf7b636")
+	)
+	(wire
+		(pts
+			(xy 120.65 72.39) (xy 120.65 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2c6233d9-47d6-4729-983f-2e7185a4a901")
+	)
+	(wire
+		(pts
+			(xy 102.87 31.75) (xy 102.87 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32208796-3c8e-484b-b1ad-3f6a1a45d006")
 	)
 	(wire
 		(pts
@@ -10101,13 +10525,143 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 30.48) (xy 176.53 31.75)
+			(xy 152.4 40.64) (xy 152.4 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e85f9b-1c44-4b6a-9133-c3449a149f6e")
+	)
+	(wire
+		(pts
+			(xy 127 31.75) (xy 127 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3b79db-fcca-44ea-b81e-1cc4ec2107ea")
+	)
+	(wire
+		(pts
+			(xy 127 40.64) (xy 127 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4233645d-048e-4d47-b587-1c96c8d7be6a")
+	)
+	(wire
+		(pts
+			(xy 120.65 92.71) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4259c262-7fb7-4937-96ec-2ce4ab5ba7dc")
+	)
+	(wire
+		(pts
+			(xy 156.21 92.71) (xy 143.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43bf6bef-bb96-4454-a2b2-bf294e61b4af")
+	)
+	(wire
+		(pts
+			(xy 167.64 72.39) (xy 167.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441e7003-81cc-4a6b-9307-ec2a87dfbd61")
+	)
+	(wire
+		(pts
+			(xy 90.17 31.75) (xy 102.87 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ad182b-d9a9-4855-bd71-4f62f51448a0")
+	)
+	(wire
+		(pts
+			(xy 143.51 92.71) (xy 143.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4904f7cd-399f-4f13-8688-eda059f6453d")
+	)
+	(wire
+		(pts
+			(xy 152.4 31.75) (xy 152.4 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ebacd8c-6dbc-4579-9756-1857883d94fe")
+	)
+	(wire
+		(pts
+			(xy 139.7 40.64) (xy 139.7 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5079080d-7837-4abf-a842-661d749ac43c")
+	)
+	(wire
+		(pts
+			(xy 154.94 72.39) (xy 142.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592a0eaf-72a7-440e-9f1e-73190bb9e74e")
+	)
+	(wire
+		(pts
+			(xy 142.24 72.39) (xy 142.24 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5baf9f90-0d08-430b-8e87-a0f3b6316095")
+	)
+	(wire
+		(pts
+			(xy 90.17 30.48) (xy 90.17 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5fa2a521-0766-4cad-98d7-a8a239b3ef00")
+	)
+	(wire
+		(pts
+			(xy 102.87 40.64) (xy 102.87 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611ccbfe-884c-4a6c-8c37-c9aedddbf4e1")
 	)
 	(wire
 		(pts
@@ -10131,7 +10685,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 72.39) (xy 71.12 74.93)
+			(xy 130.81 72.39) (xy 130.81 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d41397d-58b1-4b18-ae68-3b62403f7e30")
+	)
+	(wire
+		(pts
+			(xy 120.65 76.2) (xy 120.65 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10151,6 +10715,46 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 81.28) (xy 167.64 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aac4f26-580b-4e48-b7f0-9b9f35970dc3")
+	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 130.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e52dc25-dd3c-4b33-bfa7-2dfba4b97762")
+	)
+	(wire
+		(pts
+			(xy 130.81 72.39) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea93fe6-3be5-4a4a-a96b-7cfc1d8172fc")
+	)
+	(wire
+		(pts
+			(xy 130.81 81.28) (xy 130.81 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809e54e3-2e42-4fb5-83d2-eb0cece2b521")
+	)
+	(wire
+		(pts
 			(xy 176.53 31.75) (xy 177.8 31.75)
 		)
 		(stroke
@@ -10161,7 +10765,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 69.85) (xy 72.39 69.85)
+			(xy 120.65 73.66) (xy 119.38 73.66)
 		)
 		(stroke
 			(width 0)
@@ -10171,13 +10775,63 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 69.85) (xy 71.12 72.39)
+			(xy 130.81 92.71) (xy 130.81 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5f520a-a73b-4d3d-b7e8-06a2452b3f06")
+	)
+	(wire
+		(pts
+			(xy 165.1 31.75) (xy 176.53 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9b612f-4888-4966-ade0-311147b8c81f")
+	)
+	(wire
+		(pts
+			(xy 167.64 71.12) (xy 167.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc6f50e-1837-4298-af5d-ccb5413798fe")
+	)
+	(wire
+		(pts
+			(xy 115.57 31.75) (xy 127 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ecd5836-bc14-48cf-ba1e-94aaeb99bb9a")
+	)
+	(wire
+		(pts
+			(xy 120.65 73.66) (xy 120.65 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "995d947a-cbe1-4724-a2d0-53ede075220e")
+	)
+	(wire
+		(pts
+			(xy 143.51 101.6) (xy 143.51 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a70cf88-1f0f-4238-8a4e-59306c392789")
 	)
 	(wire
 		(pts
@@ -10191,6 +10845,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 101.6) (xy 156.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d800187-b46f-42e0-8148-af4594e05de5")
+	)
+	(wire
+		(pts
+			(xy 90.17 40.64) (xy 90.17 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cd91ba-da3c-430c-b005-9bea811f047b")
+	)
+	(wire
+		(pts
 			(xy 176.53 34.29) (xy 176.53 36.83)
 		)
 		(stroke
@@ -10201,13 +10875,63 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 74.93) (xy 72.39 74.93)
+			(xy 120.65 78.74) (xy 119.38 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ae992dd1-f816-4814-8405-7a3c55f612cd")
+	)
+	(wire
+		(pts
+			(xy 142.24 72.39) (xy 130.81 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b310580c-f39f-48ed-b709-89ac7ac78e88")
+	)
+	(wire
+		(pts
+			(xy 154.94 81.28) (xy 154.94 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bedee545-3ce9-4897-a47b-65e1de30b25c")
+	)
+	(wire
+		(pts
+			(xy 152.4 31.75) (xy 165.1 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0dc2173-7b1d-40ec-beb0-c050dad4aa9d")
+	)
+	(wire
+		(pts
+			(xy 154.94 72.39) (xy 154.94 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1cad873-552f-4516-87aa-0bdcd151fc2a")
+	)
+	(wire
+		(pts
+			(xy 156.21 92.71) (xy 156.21 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2529cc9-672f-444e-9c93-85eb0bfaa066")
 	)
 	(wire
 		(pts
@@ -10221,6 +10945,36 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 31.75) (xy 115.57 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6cfcfc0-f7fd-4e5b-91f2-1c62c6577787")
+	)
+	(wire
+		(pts
+			(xy 127 31.75) (xy 139.7 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d208f561-11e1-4c0a-b8dd-4ecabe0f6dca")
+	)
+	(wire
+		(pts
+			(xy 139.7 31.75) (xy 139.7 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da294adc-3064-4f79-b3a2-f89376c544a3")
+	)
+	(wire
+		(pts
 			(xy 177.8 41.91) (xy 176.53 41.91)
 		)
 		(stroke
@@ -10231,7 +10985,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 72.39) (xy 72.39 72.39)
+			(xy 167.64 72.39) (xy 154.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13f7168-1c1c-4330-9bd1-0617ec13c5ad")
+	)
+	(wire
+		(pts
+			(xy 120.65 76.2) (xy 119.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -10239,9 +11003,39 @@
 		)
 		(uuid "e7965e4d-1247-4b35-a354-9f1f56c78e70")
 	)
+	(wire
+		(pts
+			(xy 90.17 31.75) (xy 90.17 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0940772-feb9-486f-9167-efda0d5b5523")
+	)
+	(wire
+		(pts
+			(xy 115.57 31.75) (xy 115.57 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b5ad70-c354-42fa-80dc-75be963cff20")
+	)
+	(wire
+		(pts
+			(xy 165.1 31.75) (xy 165.1 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8fbd65b-5ca3-4b00-8898-c2aecd1de409")
+	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 176.53 30.48 0)
+		(lib_id "Device:C")
+		(at 165.1 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10249,30 +11043,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3ae0f234-076b-4aac-a196-d40bf232d0be")
-		(property "Reference" "#PWR021"
-			(at 176.53 34.29 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "0304aecf-b2f4-411c-84ff-ca52cfdb6cfb")
+		(property "Reference" "C39"
+			(at 168.91 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 176.53 25.908 0)
+		(property "Value" "470n"
+			(at 168.91 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 176.53 30.48 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 166.0652 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10283,7 +11079,324 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 30.48 0)
+			(at 165.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd2f0da1-d635-427b-a102-aedc5326abeb")
+		)
+		(pin "2"
+			(uuid "5032ffea-5066-4d46-9d14-77a2bdc9c6e4")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03ac1c9b-f1d2-456f-9c5c-85d647ec627a")
+		(property "Reference" "#PWR0174"
+			(at 156.21 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d6c6a4b-9c27-43a9-9a0f-280cfc47cc3f")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12ec6f2d-8798-4a09-b9b8-1a085dd96e42")
+		(property "Reference" "#PWR0153"
+			(at 165.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21c7bdbc-5cf1-4790-ad72-c0bee27b9722")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 82.55 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b81feae-a2f0-47cf-bcfc-4a7c6f0a2ac2")
+		(property "Reference" "#PWR0172"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7080476-5d00-4a73-944b-7db28af1f4da")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 167.64 71.12 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27f94067-73e5-4b8c-a673-bfd767322731")
+		(property "Reference" "#PWR0169"
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 167.64 66.548 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10294,7 +11407,328 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 176.53 30.48 0)
+			(at 167.64 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de609935-eb1e-4863-8e22-954fe8e4500a")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 156.21 97.79 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ac6b7e2-c5e2-424c-8094-7b7f94d457e5")
+		(property "Reference" "C58"
+			(at 152.4 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470n"
+			(at 152.4 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 155.2448 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e485cc3-00d9-4bd4-b1ed-c633f7b4a6a7")
+		)
+		(pin "2"
+			(uuid "3fc91943-e2e8-4a60-94e2-d124c5edebc4")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "371cb144-d1df-44c1-922f-efd2e85d06bf")
+		(property "Reference" "C36"
+			(at 130.81 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470n"
+			(at 130.81 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 127.9652 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b1ee85b-ca89-4d02-9fd9-f66b3f5d7720")
+		)
+		(pin "2"
+			(uuid "2d81fa5b-7aed-4422-b690-7a5c6fcc3e69")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37c54d43-0ea7-4134-977a-4970105aa053")
+		(property "Reference" "#PWR0175"
+			(at 143.51 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33635d4a-c3ed-46b6-94a9-3967d2cac587")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 90.17 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ae0f234-076b-4aac-a196-d40bf232d0be")
+		(property "Reference" "#PWR021"
+			(at 90.17 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 90.17 25.908 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 90.17 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10317,9 +11751,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 139.7 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45959409-2bf1-4652-9788-95d68d4a4a42")
+		(property "Reference" "C37"
+			(at 143.51 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470n"
+			(at 143.51 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 140.6652 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a597bcad-4d38-4cd1-a094-7d827253736e")
+		)
+		(pin "2"
+			(uuid "059c8153-62db-485b-b269-62ce50b34f6b")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "502d0432-e9f2-495b-9db5-e4a30b3be269")
+		(property "Reference" "#PWR0151"
+			(at 139.7 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db79168d-e19a-4935-92c5-83f0521ecbf2")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "XC7A35T-2FTG256C_1")
 		(lib_id "XC7A35T-2FTG256C:XC7A35T-2FTG256C")
-		(at 90.17 92.71 0)
+		(at 101.6 96.52 0)
+		(mirror y)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10329,7 +11924,7 @@
 		(dnp no)
 		(uuid "5ad32f14-6330-45b9-ad1f-ca936423a3b2")
 		(property "Reference" "U1"
-			(at 90.17 62.992 0)
+			(at 101.6 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10339,7 +11934,7 @@
 			)
 		)
 		(property "Value" "XC7A35T-2FTG256C"
-			(at 90.17 65.532 0)
+			(at 101.6 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10349,7 +11944,7 @@
 			)
 		)
 		(property "Footprint" "XC7A35T-2FTG256C:BGA256C100P16X16_1700X1700X155"
-			(at 90.17 85.09 0)
+			(at 101.6 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10361,7 +11956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 92.71 0)
+			(at 101.6 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10372,7 +11967,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 92.71 0)
+			(at 101.6 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10383,7 +11978,7 @@
 			)
 		)
 		(property "MF" "Xilinx Inc."
-			(at 90.17 92.71 0)
+			(at 101.6 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10395,7 +11990,7 @@
 			)
 		)
 		(property "Description_1" "Artix-7 Field Programmable Gate Array (FPGA) IC 170 1843200 33280 256-LBGA"
-			(at 90.17 82.55 0)
+			(at 101.6 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10407,7 +12002,7 @@
 			)
 		)
 		(property "Package" "LBGA-256 Xilinx"
-			(at 90.17 87.63 0)
+			(at 101.6 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10419,7 +12014,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 90.17 100.33 0)
+			(at 101.6 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10431,7 +12026,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XC7A35T-2FTG256C/Xilinx/view-part/?ref=eda"
-			(at 90.17 77.47 0)
+			(at 101.6 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10443,7 +12038,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XC7A35T-2FTG256C/Xilinx/view-part/?ref=snap"
-			(at 90.17 80.01 0)
+			(at 101.6 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10455,7 +12050,7 @@
 			)
 		)
 		(property "MP" "XC7A35T-2FTG256C"
-			(at 90.17 90.17 0)
+			(at 101.6 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10467,7 +12062,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 90.17 97.79 0)
+			(at 101.6 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10479,7 +12074,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Xilinx"
-			(at 90.17 95.25 0)
+			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12219,8 +13814,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 71.12 68.58 0)
+		(lib_id "power:GND")
+		(at 115.57 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12229,9 +13824,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6cf24f77-6d66-4a7b-b663-7c540403e51a")
-		(property "Reference" "#PWR020"
-			(at 71.12 72.39 0)
+		(uuid "61a3e2b5-3269-4a56-a4eb-57da41104ed4")
+		(property "Reference" "#PWR0149"
+			(at 115.57 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12241,8 +13836,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 71.12 63.5 0)
+		(property "Value" "GND"
+			(at 115.57 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12252,7 +13847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 68.58 0)
+			(at 115.57 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12263,7 +13858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 68.58 0)
+			(at 115.57 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12273,8 +13868,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 71.12 68.58 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12285,12 +13880,1466 @@
 			)
 		)
 		(pin "1"
-			(uuid "a083d14e-28e7-49fb-afeb-02267e3c40b8")
+			(uuid "281a892a-811d-4103-8828-f8454716b615")
 		)
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "#PWR020")
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "657bc84c-e4e0-48a7-ab80-2331d04539ca")
+		(property "Reference" "#PWR0148"
+			(at 102.87 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5cb51b0-8bcc-49a3-b814-12633c6ff809")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65cd3dbb-d632-4acd-ae94-b28f911e3e2e")
+		(property "Reference" "C34"
+			(at 106.68 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 106.68 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 103.8352 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b1fc936-c1b9-40a9-910e-6dd19379b850")
+		)
+		(pin "2"
+			(uuid "2adfc112-51cc-4c38-b786-1a22fd0fc33a")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 82.55 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "801c8b84-36b7-4c79-af09-f3729cef705f")
+		(property "Reference" "#PWR0170"
+			(at 167.64 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d4405d5-2ce3-4dcf-8ee9-12ad895b0a2f")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fee4c3f-eea1-4af0-949b-de8ac15218d8")
+		(property "Reference" "#PWR0176"
+			(at 130.81 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba16ef62-a695-4b97-831e-edbb0b788f15")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 115.57 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "963c40d7-ace1-44c9-ad26-67259c89c3e1")
+		(property "Reference" "C35"
+			(at 119.38 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 119.38 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 116.5352 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 115.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9961364-661c-418a-bc15-02287378772d")
+		)
+		(pin "2"
+			(uuid "b9ae487d-8ff4-4b14-94df-48a81947fa88")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 90.17 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bebb035-25b6-4dd7-8e52-24b87c7972eb")
+		(property "Reference" "C33"
+			(at 93.98 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47"
+			(at 93.98 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 91.1352 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 90.17 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "157511a0-1032-4e8c-b19c-4bfe4da508ce")
+		)
+		(pin "2"
+			(uuid "11f64464-add6-4c20-83b0-f5efabf92719")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 130.81 97.79 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2baac0c-be15-4358-8901-c911cdbeb407")
+		(property "Reference" "C60"
+			(at 127 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470n"
+			(at 127 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 129.8448 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 130.81 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "983b4335-258a-49f4-9b3b-41cd048331b8")
+		)
+		(pin "2"
+			(uuid "4a40a9b0-2f68-4fa6-82a7-6fcc4a27984e")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 77.47 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6f1cbc1-99e4-414b-8530-e8da6d7658d9")
+		(property "Reference" "C55"
+			(at 151.13 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 151.13 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 153.9748 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e0bb8b8-9d39-4d34-8145-244bb1c15948")
+		)
+		(pin "2"
+			(uuid "55be1f45-b2f9-445f-a1cd-8d1898a393db")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 130.81 77.47 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd40c4dd-a076-456e-a736-c41d04e6e04f")
+		(property "Reference" "C57"
+			(at 127 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470n"
+			(at 127 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 129.8448 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 130.81 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd0fd2e1-cd93-46ed-a1b5-48382f604c02")
+		)
+		(pin "2"
+			(uuid "b65e75ba-8b1a-4b94-b580-99e1a0591a75")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.24 77.47 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d02ee75b-778b-46bf-969f-255524865fe0")
+		(property "Reference" "C56"
+			(at 138.43 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 138.43 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 141.2748 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2157a8a9-d57a-4c40-98ea-64c4f9102853")
+		)
+		(pin "2"
+			(uuid "dcc9e45e-c039-4877-972a-497d621ef1d6")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d17f3c75-8314-41f6-8ea0-0bdfb13525df")
+		(property "Reference" "#PWR0147"
+			(at 90.17 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13639a18-e70d-436c-8cc4-ac3decd2bed4")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 143.51 97.79 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2313084-7aa5-41f0-b381-554af2d044d6")
+		(property "Reference" "C59"
+			(at 139.7 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470n"
+			(at 139.7 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 142.5448 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 143.51 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4416f243-ccf5-4897-b5de-18a799b72d65")
+		)
+		(pin "2"
+			(uuid "6751e8e9-77c1-4565-acf2-7ee2ef762bef")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 77.47 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2931d53-1882-4fcf-a7dc-1000fe05d225")
+		(property "Reference" "C54"
+			(at 163.83 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47"
+			(at 163.83 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 166.6748 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad093401-12e0-4849-a8a0-4aa598a8948e")
+		)
+		(pin "2"
+			(uuid "35a8b1ab-6788-4f57-be7b-8d75d6a99258")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d44f324b-43a9-48ae-9427-775dae305f03")
+		(property "Reference" "#PWR0152"
+			(at 152.4 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfdca9d3-6249-4d1d-b5cb-3cff71428ef1")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 82.55 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da3cf9f3-1e3a-4f26-ba2b-5ea86d7810dd")
+		(property "Reference" "#PWR0171"
+			(at 154.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d4fb58a-1a01-41e0-96bc-fece656a4d4b")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df801e52-974a-4a41-a378-858138404e39")
+		(property "Reference" "#PWR0150"
+			(at 127 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed98e1c2-03ba-45b8-9b25-50951f63423b")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 82.55 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e964e628-4460-483e-8c35-6d3e7b073de0")
+		(property "Reference" "#PWR0173"
+			(at 130.81 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "acf69dac-f2b1-48b2-8a39-89f9df9d2bb9")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f21c6239-2dab-456c-9f66-f3a858047b3f")
+		(property "Reference" "C38"
+			(at 156.21 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470n"
+			(at 156.21 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 153.3652 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "848f4fdc-07be-46a1-a0a4-a3104b52c8e6")
+		)
+		(pin "2"
+			(uuid "2811e7db-b768-492e-ab70-71408182b1be")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
+					(reference "C38")
 					(unit 1)
 				)
 			)
