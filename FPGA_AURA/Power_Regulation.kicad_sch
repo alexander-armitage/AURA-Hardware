@@ -2324,15 +2324,6 @@
 		)
 		(uuid "8df147ff-f890-4ecb-9430-8019fe017280")
 	)
-	(bus_entry
-		(at 158.75 154.94)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2ac2afa-9958-4a5f-afbe-42fcb9f660d4")
-	)
 	(wire
 		(pts
 			(xy 49.53 137.16) (xy 49.53 140.97)
